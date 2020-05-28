@@ -9,7 +9,7 @@ use App\Http\Resources\Article as ArticleResource;
 class ArticleController extends Controller
 {
     public function index(){
-        $articles=Article::paginate(6);
+        $articles=Article::orderBy('id', 'DESC')->paginate(6);
         return ArticleResource::collection($articles);
     }
     public function show($id)
