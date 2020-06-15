@@ -11,7 +11,7 @@
 
       <div class="form-group">
         <label for="text">النص</label>
-          <textarea class="form-control" id="text" name="text" ></textarea>
+          <textarea class="form-control" id="text" name="text"></textarea>
       </div>
         <div class="form-group">
             <label for="date">التاريخ</label>
@@ -25,4 +25,13 @@
         <a href="{{route('article.index')}}" class="btn btn-sm btn-secondary px-4">الغاء</a>
     </form>
   </div>
+@endsection
+@section('js')
+<script src="https://cdn.ckeditor.com/4.14.0/basic/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace('text', {
+        language: 'ar',
+        removeButtons:'About',
+    });
+</script>
 @endsection
