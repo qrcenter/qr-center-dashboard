@@ -26,12 +26,3 @@
     </form>
   </div>
 @endsection
-@section('js')
-<script src="https://cdn.ckeditor.com/4.14.0/basic/ckeditor.js"></script>
-<script>
-    CKEDITOR.replace('text', {
-        language: 'ar',
-        removeButtons:'About',
-    });
-</script>
-@endsection

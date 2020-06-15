@@ -13,7 +13,7 @@
 
       <div class="form-group">
         <label for="text">النص</label>
-        <textarea class="form-control" id="description" name="text">{{$article->text}}</textarea>
+        <textarea class="form-control" id="description" name="text" rows="15">{{$article->text}}</textarea>
       </div>
 
           <div class="form-group">
@@ -33,13 +33,4 @@
           <a href="{{route('article.index')}}" class="btn btn-sm btn-secondary  px-4">رجوع</a>
     </form>
   </div>
-@endsection
-@section('js')
-    <script src="https://cdn.ckeditor.com/4.14.0/basic/ckeditor.js"></script>
-    <script>
-        CKEDITOR.replace('text', {
-            language: 'ar',
-            removeButtons:'About',
-        });
-    </script>
 @endsection
