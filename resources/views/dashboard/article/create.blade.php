@@ -11,7 +11,7 @@
 
       <div class="form-group">
         <label for="text">النص</label>
-          <textarea class="form-control" id="text" name="text"></textarea>
+          <textarea class="form-control" id="text" name="text" rows="15"></textarea>
       </div>
         <div class="form-group">
             <label for="date">التاريخ</label>
