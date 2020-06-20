@@ -18,10 +18,10 @@ class ArticleController extends Controller
         $article = Article::find($id);
         return new ArticleResource($article);
     }
-    public function search(Request $request)
+    public function search($query)
     {
-        if($request['query']){
-        $articles = Article::search($request['query'])->paginate(11);
+        if($query){
+        $articles = Article::search($query)->paginate(11);
         return ArticleResource::collection($articles);}
             $articles=Article::orderBy('id', 'DESC')->paginate(11);
             return ArticleResource::collection($articles);
