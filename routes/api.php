@@ -19,5 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group(['middleware' => 'cors'], function () {
 Route::get('/articles','ArticleController@index');
 Route::get('/article/{id}','ArticleController@show');
-Route::get('/search//{query}','ArticleController@search');
+Route::get('/search/{query}','ArticleController@search');
 });
