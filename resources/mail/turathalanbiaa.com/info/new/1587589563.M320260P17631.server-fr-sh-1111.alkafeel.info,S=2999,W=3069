@@ -1,0 +1,70 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id ex4DE7uxoF7fRAAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Thu, 23 Apr 2020 00:06:03 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Thu, 23 Apr 2020 00:06:03 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jRMZH-0004a9-9B
+	for info@turathalanbiaa.com; Thu, 23 Apr 2020 00:06:03 +0300
+X-Failed-Recipients: amanwer46@gmal.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1587589563-eximdsn-1447205875
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jRMZH-0004a9-9B@server-fr-sh-1111.alkafeel.info>
+Date: Thu, 23 Apr 2020 00:06:03 +0300
+
+--1587589563-eximdsn-1447205875
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  amanwer46@gmal.com
+    The mail server could not deliver mail to amanwer46@gmal.com.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+--1587589563-eximdsn-1447205875
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;amanwer46@gmal.com
+Status: 5.0.0
+
+--1587589563-eximdsn-1447205875
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jRMZH-0004a0-6k
+	for amanwer46@gmal.com; Thu, 23 Apr 2020 00:06:03 +0300
+To: amanwer46@gmal.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 149.255.226.21
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Wed, 22 Apr 2020 21:06:03 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <f46e7491e7127bf84783a7d8fd30417f@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/6503/32201406faace0ede3669df9a7a48349" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1587589563-eximdsn-1447205875--

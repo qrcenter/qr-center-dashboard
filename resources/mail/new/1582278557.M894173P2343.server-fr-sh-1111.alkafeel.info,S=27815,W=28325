@@ -1,0 +1,510 @@
+Return-Path: <>
+Delivered-To: turathal@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id S2P0NJ2nT14nCQAAzyXPIA
+	(envelope-from <>)
+	for <turathal@server-fr-sh-1111.alkafeel.info>; Fri, 21 Feb 2020 12:49:17 +0300
+Return-path: <>
+Envelope-to: smala.globalis@turathalanbiaa.com
+Delivery-date: Fri, 21 Feb 2020 12:49:17 +0300
+Received: from fsmsg0327.sp.f-secure.com ([46.228.131.21]:59160)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	id 1j54vs-0000Qh-1u
+	for smala.globalis@turathalanbiaa.com; Fri, 21 Feb 2020 12:49:17 +0300
+Received: from pps.filterd (FSMSG0327.sp.f-secure.com [127.0.0.1])
+	by FSMSG0327.sp.f-secure.com (8.16.0.27/8.16.0.27) with SMTP id 01L8ZUJa014601
+	for <smala.globalis@turathalanbiaa.com>; Fri, 21 Feb 2020 09:36:47 +0100
+Authentication-Results: sp.f-secure.com;
+	spf=none smtp.mailfrom=postmaster@mailhost.groupesimon.fr
+Received: from mailhost.groupesimon.fr ([195.50.127.14])
+	by FSMSG0327.sp.f-secure.com with ESMTP id 2yaapxg0s4-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA256 bits=128 verify=NOT)
+	for <smala.globalis@turathalanbiaa.com>; Fri, 21 Feb 2020 09:36:46 +0100
+MIME-Version: 1.0
+From: <postmaster@groupesimon.fr>
+To: <smala.globalis@turathalanbiaa.com>
+Date: Fri, 21 Feb 2020 09:36:45 +0100
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="c76cc496-05f0-41bf-b393-41996f5eef43"
+X-MS-Exchange-Message-Is-Ndr: 
+Content-Language: fr-FR
+Message-ID: <5e9284b5-7db5-4438-b783-6ea0ce168614@SIMONEXCH04.simon-local.fr>
+In-Reply-To: <996a81db-cb08-4af8-95c6-ea74ff9a07e5@smtp-relay.sendinblue.com>
+References: <996a81db-cb08-4af8-95c6-ea74ff9a07e5@smtp-relay.sendinblue.com>
+Subject: Non remis : alunir ghcoad
+Auto-Submitted: auto-replied
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:,, definitions=2020-02-21_02:,,
+ signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 ndrscore=0 suspectscore=14
+ malwarescore=0 phishscore=0 bulkscore=0 spamscore=0 mlxscore=0
+ mlxlogscore=443 adjustscore=0 adultscore=0 classifier=spam adjust=0
+ reason=mlx scancount=1 engine=8.0.1-2002050000 definitions=main-2002210064
+X-Spam-Status: No, score=2.3
+X-Spam-Score: 23
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Échec de la remise pour ces destinataires ou groupes : Ghcoad
+    (ghcoad@groupesimon.fr)<mailto:ghcoad@groupesimon.fr> Nous n’avons pas trouvé
+    l’adresse de courrier que vous avez entrée. Vérifiez l’adresse de courrier
+    du destinataire et essayez de renvoyer l [...] 
+ Content analysis details:   (2.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: bv43.com]
+ -2.3 RCVD_IN_DNSWL_MED      RBL: Sender listed at https://www.dnswl.org/,
+                             medium trust
+                             [46.228.131.21 listed in list.dnswl.org]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 URIBL_SBL_A            Contains URL's A record listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: kv.bv43.com]
+X-Spam-Flag: NO
+
+--c76cc496-05f0-41bf-b393-41996f5eef43
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="2d47c57e-cf6d-4375-8b24-67e57db61702"
+
+--2d47c57e-cf6d-4375-8b24-67e57db61702
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+=C9chec de la remise pour ces destinataires ou groupes :
+
+Ghcoad (ghcoad@groupesimon.fr)<mailto:ghcoad@groupesimon.fr>
+Nous n=92avons pas trouv=E9 l=92adresse de courrier que vous avez entr=E9e.=
+ V=E9rifiez l=92adresse de courrier du destinataire et essayez de renvoyer =
+le message. Si le probl=E8me persiste, contactez l=92administrateur de votr=
+e courrier.
+
+
+
+
+
+
+
+
+Informations de diagnostic pour les administrateurs :
+
+Serveur de g=E9n=E9ration : SIMONEXCH04.simon-local.fr
+
+ghcoad@groupesimon.fr
+Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipien=
+t not found by SMTP address lookup'
+
+En-t=EAtes de message d'origine :
+
+Received: from SIMONEXCH04.simon-local.fr (10.88.2.12) by
+ SIMONEXCH04.simon-local.fr (10.88.2.12) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1779.2; Fri, 21 Feb 2020 09:36:45 +0100
+Received: from FSMSG0328.sp.f-secure.com (46.228.131.22) by
+ SIMONEXCH04.simon-local.fr (10.88.2.12) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1779.2 via Frontend Transport; Fri, 21 Feb 2020 09:36:45 +0100
+Received: from pps.filterd (FSMSG0328.sp.f-secure.com [127.0.0.1])
+        by FSMSG0328.sp.f-secure.com (8.16.0.27/8.16.0.27) with SMTP id 01L=
+8ZXJ0026425
+        for <ghcoad@groupesimon.fr>; Fri, 21 Feb 2020 10:36:45 +0200
+Authentication-Results: sp.f-secure.com;
+        spf=3Dsoftfail smtp.mailfrom=3Dsmala.globalis@turathalanbiaa.com
+Received: from turathalanbiaa.com ([223.68.210.195])
+        by FSMSG0328.sp.f-secure.com with ESMTP id 2ya5sc8570-1
+        for <ghcoad@groupesimon.fr>; Fri, 21 Feb 2020 10:36:44 +0200
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:mime-version:date:list-unsubscribe:message-i=
+d
+         :subject:from:to;
+        bh=3DldVszpdWPmX16bWn2sCcnUBP6ZnSw1xProeX0+YzQmI=3D;
+        b=3DcgXveC7L4Yn1ewRsHNEeUv6HuXvp8N8qu4h8z1XLKVCs4WYPMvoQWAVhUHc/oyb=
+LEZ
+         bt/2tIC4BQNejiRkoxcbtNNaq5rNu7JywQAgVnYBql/KgIFuG4Q72URvIkptZyqzEb=
+1u
+         mRp3F7HmpMDkVQwh8jadbKJmAdnK3iGBk+CdxJHBRZ7b/vY0B9+SVDzNukcyQcesiS=
+03
+         2pnSVFXL2x6DRdKmdCcL/e/Yplj2LdfNaPFxU32DfTKZtpdd9nHSjKmmRrme8BuN1D=
+9J
+         7kxdGGl7NTzb/nomU5svb2DutOpSTSYLsSx9+uvQ2yR0VHXjzScq+suda28M0Rt9/G=
+Ct
+         fSvA=3D=3D
+X-Gm-Message-State: APt69E20TrEoOaFy8PR5EMT436Po+PiYqn0b8Hfscu4uASFUw8SDhEu=
+1
+        2dmhM4pP7c//wo2lycVHMSSG+q8aKEY=3D
+X-Google-Smtp-Source: ADUXVKIppuq4NHxo1/xv4vi6wToQBI68V0+O/whhs9k2tg76yS/TR=
+LB5+ZQ5SrqgsUYln3LAKd3pEIQoYkNAJePaojpFfpo=3D
+MIME-Version: 1.0
+X-Received: by 2002:a81:98f:: with SMTP id 137-v6mr5712745ywj.206.153045380=
+5108;
+ Sun, 01 Jul 2018 07:03:25 -0700 (PDT)
+Date: Fri, 21 Feb 2020 11:22:36 +0300
+List-Unsubscribe: <mailto:yt-mailto@google.com?subject=3Dhttp%3A%2F%2Fwww.t=
+urathalanbiaa.com%2Fchannel_updates_unsubscribe%3Fuid%3DXdLGt5HbIeOv8Cb_axq=
+vTA%26channel_id%3DUCSse-lNI1DQ4w-8lh7vfPUw%26token%3DcKNPf6i8IZtP1I5fPCb8j=
+yYHQrx8MTUzMDQ1MzgwNEAxNTMwNDUzODA0%26feature%3Dem-uploademail>,
+ <http://www.turathalanbiaa.com/channel_updates_unsubscribe?uid=3DXdLGt5HbI=
+eOv8Cb_axqvTA&channel_id=3DUCSse-lNI1DQ4w-8lh7vfPUw&token=3DcKNPf6i8IZtP1I5=
+fPCb8jyYHQrx8MTUzMDQ1MzgwNEAxNTMwNDUzODA0&feature=3Dem-uploademail>
+X-No-Auto-Attachment: 1
+Message-ID: <996a81db-cb08-4af8-95c6-ea74ff9a07e5@smtp-relay.sendinblue.com=
+>
+Subject: alunir ghcoad
+From: Sebastiona Mastin <condamnnRETROIIIe@turathalanbiaa.com>
+To: Ghcoad <ghcoad@groupesimon.fr>
+Content-Type: multipart/mixed; boundary=3D"141004ZL4688618414602G19"
+X-Proofpoint-SPF-Result: softfail
+X-Proofpoint-SPF-Record: v=3Dspf1 ip4:54.37.87.7 +a +mx +ip4:92.222.213.214=
+ ~all
+X-Proofpoint-Virus-Version: vendor=3Dfsecure engine=3D2.50.10434:,, definit=
+ions=3D2020-02-21_02:,,
+ signatures=3D0
+X-Proofpoint-Spam-Details: rule=3Dnotspam policy=3Ddefault score=3D0 suspec=
+tscore=3D5 malwarescore=3D0
+ phishscore=3D0 bulkscore=3D0 spamscore=3D0 mlxscore=3D0 mlxlogscore=3D232
+ adultscore=3D0 classifier=3Dspam adjust=3D0 reason=3Dmlx scancount=3D1
+ engine=3D8.0.1-2002050000 definitions=3Dmain-2002210064
+Return-Path: smala.globalis@turathalanbiaa.com
+
+
+--2d47c57e-cf6d-4375-8b24-67e57db61702
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">=C9chec de la remis=
+e pour ces destinataires ou groupes=A0:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:ghc=
+oad@groupesimon.fr">Ghcoad (ghcoad@groupesimon.fr)</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">Nous n=92avons pas trouv=
+=E9 l=92adresse de courrier que vous avez entr=E9e. V=E9rifiez l=92adresse =
+de courrier du destinataire et essayez de renvoyer le message. Si le probl=
+=E8me persiste, contactez l=92administrateur de votre courrier.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Informations de di=
+agnostic pour les administrateurs :</b></p>
+<p>Serveur de g=E9n=E9ration : SIMONEXCH04.simon-local.fr<br>
+</p>
+<p>ghcoad@groupesimon.fr<br>
+Remote Server  returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipie=
+nt not found by SMTP address lookup'<br>
+</p>
+<p>En-t=EAtes de message d'origine :</p>
+<pre>Received: from SIMONEXCH04.simon-local.fr (10.88.2.12) by
+ SIMONEXCH04.simon-local.fr (10.88.2.12) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1779.2; Fri, 21 Feb 2020 09:36:45 +0100
+Received: from FSMSG0328.sp.f-secure.com (46.228.131.22) by
+ SIMONEXCH04.simon-local.fr (10.88.2.12) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1779.2 via Frontend Transport; Fri, 21 Feb 2020 09:36:45 +0100
+Received: from pps.filterd (FSMSG0328.sp.f-secure.com [127.0.0.1])
+	by FSMSG0328.sp.f-secure.com (8.16.0.27/8.16.0.27) with SMTP id 01L8ZXJ002=
+6425
+	for &lt;ghcoad@groupesimon.fr&gt;; Fri, 21 Feb 2020 10:36:45 +0200
+Authentication-Results: sp.f-secure.com;
+	spf=3Dsoftfail smtp.mailfrom=3Dsmala.globalis@turathalanbiaa.com
+Received: from turathalanbiaa.com ([223.68.210.195])
+	by FSMSG0328.sp.f-secure.com with ESMTP id 2ya5sc8570-1
+	for &lt;ghcoad@groupesimon.fr&gt;; Fri, 21 Feb 2020 10:36:44 +0200
+X-Google-DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed;
+        d=3D1e100.net; s=3D20161025;
+        h=3Dx-gm-message-state:mime-version:date:list-unsubscribe:message-i=
+d
+         :subject:from:to;
+        bh=3DldVszpdWPmX16bWn2sCcnUBP6ZnSw1xProeX0+YzQmI=3D;
+        b=3DcgXveC7L4Yn1ewRsHNEeUv6HuXvp8N8qu4h8z1XLKVCs4WYPMvoQWAVhUHc/oyb=
+LEZ
+         bt/2tIC4BQNejiRkoxcbtNNaq5rNu7JywQAgVnYBql/KgIFuG4Q72URvIkptZyqzEb=
+1u
+         mRp3F7HmpMDkVQwh8jadbKJmAdnK3iGBk+CdxJHBRZ7b/vY0B9+SVDzNukcyQcesiS=
+03
+         2pnSVFXL2x6DRdKmdCcL/e/Yplj2LdfNaPFxU32DfTKZtpdd9nHSjKmmRrme8BuN1D=
+9J
+         7kxdGGl7NTzb/nomU5svb2DutOpSTSYLsSx9+uvQ2yR0VHXjzScq+suda28M0Rt9/G=
+Ct
+         fSvA=3D=3D
+X-Gm-Message-State: APt69E20TrEoOaFy8PR5EMT436Po+PiYqn0b8Hfscu4uASFUw8SDhEu=
+1
+	2dmhM4pP7c//wo2lycVHMSSG+q8aKEY=3D
+X-Google-Smtp-Source: ADUXVKIppuq4NHxo1/xv4vi6wToQBI68V0+O/whhs9k2tg76yS/TR=
+LB5+ZQ5SrqgsUYln3LAKd3pEIQoYkNAJePaojpFfpo=3D
+MIME-Version: 1.0
+X-Received: by 2002:a81:98f:: with SMTP id 137-v6mr5712745ywj.206.153045380=
+5108;
+ Sun, 01 Jul 2018 07:03:25 -0700 (PDT)
+Date: Fri, 21 Feb 2020 11:22:36 +0300
+List-Unsubscribe: &lt;mailto:yt-mailto@google.com?subject=3Dhttp%3A%2F%2Fww=
+w.turathalanbiaa.com%2Fchannel_updates_unsubscribe%3Fuid%3DXdLGt5HbIeOv8Cb_=
+axqvTA%26channel_id%3DUCSse-lNI1DQ4w-8lh7vfPUw%26token%3DcKNPf6i8IZtP1I5fPC=
+b8jyYHQrx8MTUzMDQ1MzgwNEAxNTMwNDUzODA0%26feature%3Dem-uploademail&gt;,
+ &lt;http://www.turathalanbiaa.com/channel_updates_unsubscribe?uid=3DXdLGt5=
+HbIeOv8Cb_axqvTA&amp;channel_id=3DUCSse-lNI1DQ4w-8lh7vfPUw&amp;token=3DcKNP=
+f6i8IZtP1I5fPCb8jyYHQrx8MTUzMDQ1MzgwNEAxNTMwNDUzODA0&amp;feature=3Dem-uploa=
+demail&gt;
+X-No-Auto-Attachment: 1
+Message-ID: &lt;996a81db-cb08-4af8-95c6-ea74ff9a07e5@smtp-relay.sendinblue.=
+com&gt;
+Subject: alunir ghcoad
+From: Sebastiona Mastin &lt;condamnnRETROIIIe@turathalanbiaa.com&gt;
+To: Ghcoad &lt;ghcoad@groupesimon.fr&gt;
+Content-Type: multipart/mixed; boundary=3D&quot;141004ZL4688618414602G19&qu=
+ot;
+X-Proofpoint-SPF-Result: softfail
+X-Proofpoint-SPF-Record: v=3Dspf1 ip4:54.37.87.7 +a +mx +ip4:92.222.213.214=
+ ~all
+X-Proofpoint-Virus-Version: vendor=3Dfsecure engine=3D2.50.10434:,, definit=
+ions=3D2020-02-21_02:,,
+ signatures=3D0
+X-Proofpoint-Spam-Details: rule=3Dnotspam policy=3Ddefault score=3D0 suspec=
+tscore=3D5 malwarescore=3D0
+ phishscore=3D0 bulkscore=3D0 spamscore=3D0 mlxscore=3D0 mlxlogscore=3D232
+ adultscore=3D0 classifier=3Dspam adjust=3D0 reason=3Dmlx scancount=3D1
+ engine=3D8.0.1-2002050000 definitions=3Dmain-2002210064
+Return-Path: smala.globalis@turathalanbiaa.com
+</pre>
+</font>
+</body>
+</html>=
+
+--2d47c57e-cf6d-4375-8b24-67e57db61702--
+
+--c76cc496-05f0-41bf-b393-41996f5eef43
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;SIMONEXCH04.simon-local.fr
+Received-From-MTA: dns;FSMSG0328.sp.f-secure.com
+Arrival-Date: Fri, 21 Feb 2020 08:36:45 +0000
+
+Final-Recipient: rfc822;ghcoad@groupesimon.fr
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+X-Display-Name: Ghcoad
+
+
+--c76cc496-05f0-41bf-b393-41996f5eef43
+Content-Type: message/rfc822
+
+Received: from SIMONEXCH04.simon-local.fr (10.88.2.12) by
+ SIMONEXCH04.simon-local.fr (10.88.2.12) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1779.2; Fri, 21 Feb 2020 09:36:45 +0100
+Received: from FSMSG0328.sp.f-secure.com (46.228.131.22) by
+ SIMONEXCH04.simon-local.fr (10.88.2.12) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1779.2 via Frontend Transport; Fri, 21 Feb 2020 09:36:45 +0100
+Received: from pps.filterd (FSMSG0328.sp.f-secure.com [127.0.0.1])
+	by FSMSG0328.sp.f-secure.com (8.16.0.27/8.16.0.27) with SMTP id 01L8ZXJ0026425
+	for <ghcoad@groupesimon.fr>; Fri, 21 Feb 2020 10:36:45 +0200
+Authentication-Results: sp.f-secure.com;
+	spf=softfail smtp.mailfrom=smala.globalis@turathalanbiaa.com
+Received: from turathalanbiaa.com ([223.68.210.195])
+	by FSMSG0328.sp.f-secure.com with ESMTP id 2ya5sc8570-1
+	for <ghcoad@groupesimon.fr>; Fri, 21 Feb 2020 10:36:44 +0200
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:date:list-unsubscribe:message-id
+         :subject:from:to;
+        bh=ldVszpdWPmX16bWn2sCcnUBP6ZnSw1xProeX0+YzQmI=;
+        b=cgXveC7L4Yn1ewRsHNEeUv6HuXvp8N8qu4h8z1XLKVCs4WYPMvoQWAVhUHc/oybLEZ
+         bt/2tIC4BQNejiRkoxcbtNNaq5rNu7JywQAgVnYBql/KgIFuG4Q72URvIkptZyqzEb1u
+         mRp3F7HmpMDkVQwh8jadbKJmAdnK3iGBk+CdxJHBRZ7b/vY0B9+SVDzNukcyQcesiS03
+         2pnSVFXL2x6DRdKmdCcL/e/Yplj2LdfNaPFxU32DfTKZtpdd9nHSjKmmRrme8BuN1D9J
+         7kxdGGl7NTzb/nomU5svb2DutOpSTSYLsSx9+uvQ2yR0VHXjzScq+suda28M0Rt9/GCt
+         fSvA==
+X-Gm-Message-State: APt69E20TrEoOaFy8PR5EMT436Po+PiYqn0b8Hfscu4uASFUw8SDhEu1
+	2dmhM4pP7c//wo2lycVHMSSG+q8aKEY=
+X-Google-Smtp-Source: ADUXVKIppuq4NHxo1/xv4vi6wToQBI68V0+O/whhs9k2tg76yS/TRLB5+ZQ5SrqgsUYln3LAKd3pEIQoYkNAJePaojpFfpo=
+MIME-Version: 1.0
+X-Received: by 2002:a81:98f:: with SMTP id 137-v6mr5712745ywj.206.1530453805108;
+ Sun, 01 Jul 2018 07:03:25 -0700 (PDT)
+Date: Fri, 21 Feb 2020 11:22:36 +0300
+List-Unsubscribe: <mailto:yt-mailto@google.com?subject=http%3A%2F%2Fwww.turathalanbiaa.com%2Fchannel_updates_unsubscribe%3Fuid%3DXdLGt5HbIeOv8Cb_axqvTA%26channel_id%3DUCSse-lNI1DQ4w-8lh7vfPUw%26token%3DcKNPf6i8IZtP1I5fPCb8jyYHQrx8MTUzMDQ1MzgwNEAxNTMwNDUzODA0%26feature%3Dem-uploademail>,
+ <http://www.turathalanbiaa.com/channel_updates_unsubscribe?uid=XdLGt5HbIeOv8Cb_axqvTA&channel_id=UCSse-lNI1DQ4w-8lh7vfPUw&token=cKNPf6i8IZtP1I5fPCb8jyYHQrx8MTUzMDQ1MzgwNEAxNTMwNDUzODA0&feature=em-uploademail>
+X-No-Auto-Attachment: 1
+Message-ID: <996a81db-cb08-4af8-95c6-ea74ff9a07e5@smtp-relay.sendinblue.com>
+Subject: alunir ghcoad
+From: Sebastiona Mastin <condamnnRETROIIIe@turathalanbiaa.com>
+To: Ghcoad <ghcoad@groupesimon.fr>
+Content-Type: multipart/mixed; boundary="141004ZL4688618414602G19"
+X-Proofpoint-SPF-Result: softfail
+X-Proofpoint-SPF-Record: v=spf1 ip4:54.37.87.7 +a +mx +ip4:92.222.213.214 ~all
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:,, definitions=2020-02-21_02:,,
+ signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 suspectscore=5 malwarescore=0
+ phishscore=0 bulkscore=0 spamscore=0 mlxscore=0 mlxlogscore=232
+ adultscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.0.1-2002050000 definitions=main-2002210064
+Return-Path: smala.globalis@turathalanbiaa.com
+
+--141004ZL4688618414602G19
+Content-Type: multipart/mixed;
+	boundary="b1_48ff9cefac3c9ff0b056ac9b07ea289c"
+
+--b1_48ff9cefac3c9ff0b056ac9b07ea289c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+DQo8IURPQ1RZUEUgaHRtbCBQVUJMSUMgIi0vL1czQy8vRFREIFhIVE1MIDEuMCBUcmFuc2l0
+aW9uYWwgLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXRy
+YW5zaXRpb25hbC5kdGQiPjxodG1sIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3ho
+dG1sIiB4bWxuczp2PSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOnZtbCIgeG1sbnM6bz0i
+dXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTpvZmZpY2U6b2ZmaWNlIj48aGVhZD4NCjwhLS1b
+aWYgZ3RlIG1zbyA5XT4gPHhtbD4gPG86T2ZmaWNlRG9jdW1lbnRTZXR0aW5ncz4gPG86QWxs
+b3dQTkcvPiA8bzpQaXhlbHNQZXJJbmNoPjk2PC9vOlBpeGVsc1BlckluY2g+IDwvbzpPZmZp
+Y2VEb2N1bWVudFNldHRpbmdzPiA8L3htbD4gPCFbZW5kaWZdLS0+DQo8bWV0YSBodHRwLWVx
+dWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD1VVEYtOCIv
+Pg0KPG1ldGEgaHR0cC1lcXVpdj0iWC1VQS1Db21wYXRpYmxlIiBjb250ZW50PSJJRT05OyBJ
+RT04OyBJRT03OyBJRT1FREdFIi8+DQo8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0i
+d2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCIvPg0KDQo8c3R5bGUgdHlw
+ZT0idGV4dC9jc3MiPg0KI291dGxvb2sgYXtwYWRkaW5nOjB9c3Bhbi5Nc29IeXBlcmxpbmt7
+bXNvLXN0eWxlLXByaW9yaXR5OjE7Y29sb3I6aW5oZXJpdH1zcGFuLk1zb0h5cGVybGlua0Zv
+bGxvd2Vke21zby1zdHlsZS1wcmlvcml0eToxO2NvbG9yOmluaGVyaXR9Ym9keXstd2Via2l0
+LXRleHQtc2l6ZS1hZGp1c3Q6MTAwJTstbXMtdGV4dC1zaXplLWFkanVzdDoxMDAlO3BhZGRp
+bmc6MDtjb2xvcjojMDAwMDAwO21hcmdpbjowIGF1dG99dGR7bGluZS1oZWlnaHQ6MTAwJX1k
+aXZbc3R5bGUqPSJtYXJnaW46MTZweCAwIl17bWFyZ2luOjAhaW1wb3J0YW50fS5FeHRlcm5h
+bENsYXNze3dpZHRoOjEwMCU7ZGlzcGxheTpibG9jayFpbXBvcnRhbnR9LkV4dGVybmFsQ2xh
+c3MsLkV4dGVybmFsQ2xhc3MgKiwuRXh0ZXJuYWxDbGFzcyBwLC5FeHRlcm5hbENsYXNzIHNw
+YW4sLkV4dGVybmFsQ2xhc3MgZm9udCwuRXh0ZXJuYWxDbGFzcyB0ZCwuRXh0ZXJuYWxDbGFz
+cyBkaXZ7bGluZS1oZWlnaHQ6MTAwJX1pbWd7b3V0bGluZTpub25lO3RleHQtZGVjb3JhdGlv
+bjpub25lOy1tcy1pbnRlcnBvbGF0aW9uLW1vZGU6YmljdWJpY31hIGltZ3tib3JkZXI6bm9u
+ZX11ICsgKiBpbWcgKyBkaXZ7ZGlzcGxheTpub25lfXRhYmxlIHRke2JvcmRlci1jb2xsYXBz
+ZTpjb2xsYXBzZTttc28tbGluZS1oZWlnaHQtcnVsZTpleGFjdGx5fXRhYmxle2JvcmRlci1j
+b2xsYXBzZTpjb2xsYXBzZTttc28tdGFibGUtbHNwYWNlOjBwdDttc28tdGFibGUtcnNwYWNl
+OjBwdH1he2NvbG9yOmluaGVyaXQ7dGV4dC1kZWNvcmF0aW9uOm5vbmU7bXNvLWxpbmUtaGVp
+Z2h0LXJ1bGU6ZXhhY3RseX0uYXBwbGVMaW5rcywuYXBwbGVMaW5rc1doaXRle3RleHQtZGVj
+b3JhdGlvbjpub25lIWltcG9ydGFudH1hW3gtYXBwbGUtZGF0YS1kZXRlY3RvcnNde2NvbG9y
+OmluaGVyaXQhaW1wb3J0YW50O3RleHQtZGVjb3JhdGlvbjpub25lIWltcG9ydGFudDtmb250
+LXNpemU6aW5oZXJpdCFpbXBvcnRhbnQ7Zm9udC1mYW1pbHk6aW5oZXJpdCFpbXBvcnRhbnQ7
+Zm9udC13ZWlnaHQ6aW5oZXJpdCFpbXBvcnRhbnQ7bGluZS1oZWlnaHQ6aW5oZXJpdCFpbXBv
+cnRhbnR9c3Vwe2ZvbnQtc2l6ZTowLjhlbTt2ZXJ0aWNhbC1hbGlnbjp0ZXh0LXRvcDtsaW5l
+LWhlaWdodDoxO2hlaWdodDowO21zby10ZXh0LXJhaXNlOjI0JX0NCkBtZWRpYSBzY3JlZW4g
+YW5kIChtaW4td2lkdGg6NDUxcHgpIGFuZCAobWF4LXdpZHRoOjY0MHB4KSxzY3JlZW4gYW5k
+IChtaW4tZGV2aWNlLXdpZHRoOjQ1MXB4KSBhbmQgKG1heC1kZXZpY2Utd2lkdGg6NjQwcHgp
+ey50X3cxMDBwe3dpZHRoOjEwMCUhaW1wb3J0YW50fS50X3czMDBweHt3aWR0aDozMDBweCFp
+bXBvcnRhbnR9LnRfdzkwcHt3aWR0aDo5MCUhaW1wb3J0YW50fS50X2JncG1pbjQwcHhtaW45
+cHh7YmFja2dyb3VuZC1wb3NpdGlvbjotNDBweCAtOXB4IWltcG9ydGFudH0udF9iZ3N6MTc5
+cGF1dG97YmFja2dyb3VuZC1zaXplOjE3OSUgYXV0byFpbXBvcnRhbnR9LnRfcHQ1MHB7cGFk
+ZGluZy10b3A6NTAlIWltcG9ydGFudH0udF9wbDBweHtwYWRkaW5nLWxlZnQ6MHB4IWltcG9y
+dGFudH0udF9wYjBweHtwYWRkaW5nLWJvdHRvbTowcHghaW1wb3J0YW50fS50X2hhdXRve2hl
+aWdodDphdXRvIWltcG9ydGFudH0udF9iZHQxcHhzb2xpZGUzZTNlM3tib3JkZXItdG9wOjFw
+eCBzb2xpZCAjZTNlM2UzIWltcG9ydGFudH0udF9iZHIxcHhzb2xpZGUzZTNlM3tib3JkZXIt
+cmlnaHQ6MXB4IHNvbGlkICNlM2UzZTMhaW1wb3J0YW50fS50X2JkYjFweHNvbGlkZTNlM2Uz
+e2JvcmRlci1ib3R0b206MXB4IHNvbGlkICNlM2UzZTMhaW1wb3J0YW50fS50X2JkbDFweHNv
+bGlkZTNlM2Uze2JvcmRlci1sZWZ0OjFweCBzb2xpZCAjZTNlM2UzIWltcG9ydGFudH0udF9i
+ZGIwe2JvcmRlci1ib3R0b206MCFpbXBvcnRhbnR9LnRfdzE4MHB4e3dpZHRoOjE4MHB4IWlt
+cG9ydGFudH0udF9wdDIwcHh7cGFkZGluZy10b3A6MjBweCFpbXBvcnRhbnR9LnRfcHQxOHB4
+e3BhZGRpbmctdG9wOjE4cHghaW1wb3J0YW50fS50X3BiMThweHtwYWRkaW5nLWJvdHRvbTox
+OHB4IWltcG9ydGFudH0udF9mejE2cHh7Zm9udC1zaXplOjE2cHghaW1wb3J0YW50fS50X3B0
+MTVweHtwYWRkaW5nLXRvcDoxNXB4IWltcG9ydGFudH0udF9wdDVweHtwYWRkaW5nLXRvcDo1
+cHghaW1wb3J0YW50fS50X3BiMTVweHtwYWRkaW5nLWJvdHRvbToxNXB4IWltcG9ydGFudH0u
+dF93e3dpZHRoOnVuZGVmaW5lZCFpbXBvcnRhbnR9LnRfcHQxMHB4e3BhZGRpbmctdG9wOjEw
+cHghaW1wb3J0YW50fS50X3czM2QzM3B7d2lkdGg6MzMuMzMlIWltcG9ydGFudH0udF93NjBw
+eHt3aWR0aDo2MHB4IWltcG9ydGFudH0udF9wdDZweHtwYWRkaW5nLXRvcDo2cHghaW1wb3J0
+YW50fS50X3B0MjJweHtwYWRkaW5nLXRvcDoyMnB4IWltcG9ydGFudH0udF93MjhweHt3aWR0
+aDoyOHB4IWltcG9ydGFudH0udF9wdDdweHtwYWRkaW5nLXRvcDo3cHghaW1wb3J0YW50fS50
+X3czM2QzNHB7d2lkdGg6MzMuMzQlIWltcG9ydGFudH0udF93MzVweHt3aWR0aDozNXB4IWlt
+cG9ydGFudH0udF9oMjNweHtoZWlnaHQ6MjNweCFpbXBvcnRhbnR9LnRfZnoyM3B4e2ZvbnQt
+c2l6ZToyM3B4IWltcG9ydGFudH0udF9saDIzcHh7bGluZS1oZWlnaHQ6MjNweCFpbXBvcnRh
+bnR9LnRfdzg1cHt3aWR0aDo4NSUhaW1wb3J0YW50fS50X3c1MHB7d2lkdGg6NTAlIWltcG9y
+dGFudH0udF93NzNweHt3aWR0aDo3M3B4IWltcG9ydGFudH0udF9wdDhweHtwYWRkaW5nLXRv
+cDo4cHghaW1wb3J0YW50fS50X3c0MHB4e3dpZHRoOjQwcHghaW1wb3J0YW50fS50X3B0MTZw
+eHtwYWRkaW5nLXRvcDoxNnB4IWltcG9ydGFudH0udF9iZ2NmMmYzZjd7YmFja2dyb3VuZC1j
+b2xvcjojZjJmM2Y3IWltcG9ydGFudH0udF9iZ2Nub25le2JhY2tncm91bmQtY29sb3I6bm9u
+ZSFpbXBvcnRhbnR9LnRfYmRiMXB4c29saWRiMGFkYWR7Ym9yZGVyLWJvdHRvbToxcHggc29s
+aWQgI2IwYWRhZCFpbXBvcnRhbnR9LnRfcGIyM3B4e3BhZGRpbmctYm90dG9tOjIzcHghaW1w
+b3J0YW50fS50X3cxMjFweHt3aWR0aDoxMjFweCFpbXBvcnRhbnR9LnRfcGIyMHB4e3BhZGRp
+bmctYm90dG9tOjIwcHghaW1wb3J0YW50fS50X3B0MjVweHtwYWRkaW5nLXRvcDoyNXB4IWlt
+cG9ydGFudH0udF93MjVwe3dpZHRoOjI1JSFpbXBvcnRhbnR9LnRfdzMzcHh7d2lkdGg6MzNw
+eCFpbXBvcnRhbnR9LnRfaDIwcHh7aGVpZ2h0OjIwcHghaW1wb3J0YW50fS50X2Z6MjBweHtm
+b250LXNpemU6MjBweCFpbXBvcnRhbnR9LnRfbGgyMHB4e2xpbmUtaGVpZ2h0OjIwcHghaW1w
+b3J0YW50fS50X3c1NXB4e3dpZHRoOjU1cHghaW1wb3J0YW50fS50X2gyNXB4e2hlaWdodDoy
+NXB4IWltcG9ydGFudH0udF9mejI1cHh7Zm9udC1zaXplOjI1cHghaW1wb3J0YW50fS50X2xo
+MjVweHtsaW5lLWhlaWdodDoyNXB4IWltcG9ydGFudH0udF9md25vcm1hbHtmb250LXdlaWdo
+dDpub3JtYWwhaW1wb3J0YW50fS50X2Zzbm9ybWFse2ZvbnQtc3R5bGU6bm9ybWFsIWltcG9y
+dGFudH0udF9wdDEycHh7cGFkZGluZy10b3A6MTJweCFpbXBvcnRhbnR9LnRfcGIxMnB4e3Bh
+ZGRpbmctYm90dG9tOjEycHghaW1wb3J0YW50fS50X3Z7ZGlzcGxheTpibG9jayFpbXBvcnRh
+bnQ7Zm9udC1zaXplOmluaGVyaXQhaW1wb3J0YW50O21heC1oZWlnaHQ6bm9uZSFpbXBvcnRh
+bnQ7bWF4LXdpZHRoOm5vbmUhaW1wb3J0YW50O292ZXJmbG93OnZpc2libGUhaW1wb3J0YW50
+O30udF9kbm9uZXtkaXNwbGF5Om5vbmUhaW1wb3J0YW50O319DQpAbWVkaWEgc2NyZWVuIGFu
+ZCAobWF4LXdpZHRoOjQ1MHB4KSxzY3JlZW4gYW5kIChtYXgtZGV2aWNlLXdpZHRoOjQ1MHB4
+KXsubV93MTAwcHt3aWR0aDoxMDAlIWltcG9ydGFudH0ubV93MjgwcHh7d2lkdGg6MjgwcHgh
+aW1wb3J0YW50fS5tX3ByNXB4e3BhZGRpbmctcmlnaHQ6NXB4IWltcG9ydGFudH0ubV9wbDVw
+eHtwYWRkaW5nLWxlZnQ6NXB4IWltcG9ydGFudH0ubV93OTBwe3dpZHRoOjkwJSFpbXBvcnRh
+bnR9Lm1fYmdwbWluNjFweDB7YmFja2dyb3VuZC1wb3NpdGlvbjotNjFweCAwIWltcG9ydGFu
+dH0ubV9iZ3N6MjA3cGF1dG97YmFja2dyb3VuZC1zaXplOjIwNyUgYXV0byFpbXBvcnRhbnR9
+Lm1fcHQ2NnB7cGFkZGluZy10b3A6NjYlIWltcG9ydGFudH0ubV9wYjBweHtwYWRkaW5nLWJv
+dHRvbTowcHghaW1wb3J0YW50fS5tX2hhdXRve2hlaWdodDphdXRvIWltcG9ydGFudH0ubV9o
+ODBwe2hlaWdodDo4MCUhaW1wb3J0YW50fS5tX2JkdDFweHNvbGlkZTNlM2Uze2JvcmRlci10
+b3A6MXB4IHNvbGlkICNlM2UzZTMhaW1wb3J0YW50fS5tX2JkcjFweHNvbGlkZTNlM2Uze2Jv
+cmRlci1yaWdodDoxcHggc29saWQgI2UzZTNlMyFpbXBvcnRhbnR9Lm1fYmRiMXB4c29saWRl
+M2UzZTN7Ym9yZGVyLWJvdHRvbToxcHggc29saWQgI2UzZTNlMyFpbXBvcnRhbnR9Lm1fYmRs
+MXB4c29saWRlM2UzZTN7Ym9yZGVyLWxlZnQ6MXB4IHNvbGlkICNlM2UzZTMhaW1wb3J0YW50
+fS5tX2JkYjB7Ym9yZGVyLWJvdHRvbTowIWltcG9ydGFudH0ubV93MTYwcHh7d2lkdGg6MTYw
+cHghaW1wb3J0YW50fS5tX3B0MjBweHtwYWRkaW5nLXRvcDoyMHB4IWltcG9ydGFudH0ubV9w
+dDE4cHh7cGFkZGluZy10b3A6MThweCFpbXBvcnRhbnR9Lm1fcGIxOHB4e3BhZGRpbmctYm90
+dG9tOjE4cHghaW1wb3J0YW50fS5tX3B0NXB4e3BhZGRpbmctdG9wOjVweCFpbXBvcnRhbnR9
+Lm1fd3t3aWR0aDp1bmRlZmluZWQhaW1wb3J0YW50fS5tX3B0MTBweHtwYWRkaW5nLXRvcDox
+MHB4IWltcG9ydGFudH0ubV9mejE1cHh7Zm9udC1zaXplOjE1cHghaW1wb3J0YW50fS5tX3cz
+M2QzM3B7d2lkdGg6MzMuMzMlIWltcG9ydGFudH0ubV93NjBweHt3aWR0aDo2MHB4IWltcG9y
+dGFudH0ubV9wdDZweHtwYWRkaW5nLXRvcDo2cHghaW1wb3J0YW50fS5tX3B0MjJweHtwYWRk
+aW5nLXRvcDoyMnB4IWltcG9ydGFudH0ubV93MjhweHt3aWR0aDoyOHB4IWltcG9ydGFudH0u
+bV9wdDdweHtwYWRkaW5nLXRvcDo3cHghaW1wb3J0YW50fS5tX3czM2QzNHB7d2lkdGg6MzMu
+MzQlIWltcG9ydGFudH0ubV93MzVweHt3aWR0aDozNXB4IWltcG9ydGFudH0ubV9oMjNweHto
+ZWlnaHQ6MjNweCFpbXBvcnRhbnR9Lm1fZnoyM3B4e2ZvbnQtc2l6ZToyM3B4IWltcG9ydGFu
+dH0ubV9saDIzcHh7bGluZS1oZWlnaHQ6MjNweCFpbXBvcnRhbnR9Lm1fdzUwcHt3aWR0aDo1
+MCUhaW1wb3J0YW50fS5tX3c3M3B4e3dpZHRoOjczcHghaW1wb3J0YW50fS5tX3B0OHB4e3Bh
+ZGRpbmctdG9wOjhweCFpbXBvcnRhbnR9Lm1fdzQwcHh7d2lkdGg6NDBweCFpbXBvcnRhbnR9
+Lm1fcHQxNnB4e3BhZGRpbmctdG9wOjE2cHghaW1wb3J0YW50fS5tX2JnY2YyZjNmN3tiYWNr
+Z3JvdW5kLWNvbG9yOiNmMmYzZjchaW1wb3J0YW50fS5tX2JnY25vbmV7YmFja2dyb3VuZC1j
+b2xvcjpub25lIWltcG9ydGFudH0ubV9iZGIxcHhzb2xpZGIwYWRhZHtib3JkZXItYm90dG9t
+OjFweCBzb2xpZCAjYjBhZGFkIWltcG9ydGFudH0ubV9wYjIwcHh7cGFkZGluZy1ib3R0b206
+MjBweCFpbXBvcnRhbnR9Lm1fdzEyMHB4e3dpZHRoOjEyMHB4IWltcG9ydGFudH0ubV9wdDI1
+cHh7cGFkZGluZy10b3A6MjVweCFpbXBvcnRhbnR9Lm1fdzYzcHt3aWR0aDo2MyUhaW1wb3J0
+YW50fS5tX3cyNXB7d2lkdGg6MjUlIWltcG9ydGFudH0ubV93MzFweHt3aWR0aDozMXB4IWlt
+cG9ydGFudH0ubV9oMjBweHtoZWlnaHQ6MjBweCFpbXBvcnRhbnR9Lm1fZnoyMHB4e2ZvbnQt
+c2l6ZToyMHB4IWltcG9ydGFudH0ubV9saDIwcHh7bGluZS1oZWlnaHQ6MjBweCFpbXBvcnRh
+bnR9Lm1fdzUwcHh7d2lkdGg6NTBweCFpbXBvcnRhbnR9Lm1faDI1cHh7aGVpZ2h0OjI1cHgh
+aW1wb3J0YW50fS5tX2Z6MjVweHtmb250LXNpemU6MjVweCFpbXBvcnRhbnR9Lm1fbGgyNXB4
+e2xpbmUtaGVpZ2h0OjI1cHghaW1wb3J0YW50fS5tX2Z3bm9ybWFse2ZvbnQtd2VpZ2h0Om5v
+cm1hbCFpbXBvcnRhbnR9Lm1fZnNub3JtYWx7Zm9udC1zdHlsZTpub3JtYWwhaW1wb3J0YW50
+fS5tX3B0MTJweHtwYWRkaW5nLXRvcDoxMnB4IWltcG9ydGFudH0ubV9wYjEycHh7cGFkZGlu
+Zy1ib3R0b206MTJweCFpbXBvcnRhbnR9Lm1fdntkaXNwbGF5OmJsb2NrIWltcG9ydGFudDtm
+b250LXNpemU6aW5oZXJpdCFpbXBvcnRhbnQ7bWF4LWhlaWdodDpub25lIWltcG9ydGFudDtt
+YXgtd2lkdGg6bm9uZSFpbXBvcnRhbnQ7b3ZlcmZsb3c6dmlzaWJsZSFpbXBvcnRhbnQ7fS5t
+X2Rub25le2Rpc3BsYXk6bm9uZSFpbXBvcnRhbnQ7fX08L3N0eWxlPg0KPC9oZWFkPg0KPGJv
+ZHkgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6I2ZmZmZmZiI+DQo8cHJlPg0KVW5lIHBlcnNv
+bm5lIGEgcsOpY2VtbWVudCBlc3NhecOpIGQndXRpbGlzZXIgdW5lIGFwcGxpY2F0aW9uIHBv
+dXIgc2UgY29ubmVjdGVyIMOgIHZvdHJlIGNvbXB0ZSBnaGNvYWRAZ3JvdXBlc2ltb24uZnIu
+DQpOb3VzIGF2b25zIGVtcMOqY2jDqSBjZXR0ZSB0ZW50YXRpdmUgZGUgY29ubmV4aW9uLg0K
+VmV1aWxsZXogY29uc3VsdGVyIGxlcyBkw6l0YWlscyBkZSBsYSB0ZW50YXRpdmUgZGUgY29u
+bmV4aW9uOg0KKiBBZHJlc3NlIElQOiBbOTkuMTA4LjE5MC4xNzNdDQoqIExpZXU6IElyYWsN
+Cg0KU2kgdm91cyBuZSByZWNvbm5haXNzZXogcGFzIGNldHRlIHRlbnRhdGl2ZSwgdW5lIGF1
+dHJlIHBlcnNvbm5lIHRlbnRlcmEgcGV1dC3DqnRyZSBkJ2FjY8OpZGVyIMOgIHZvdHJlIGNv
+bXB0ZS4NClBvdXIgdW5lIGFzc2lzdGFuY2UgaW1tw6lkaWF0ZSBkZSBsYSBwYXJ0IGRlIGwn
+w6lxdWlwZSwgdmV1aWxsZXogY29udGFjdGVyIG5vdHJlIHNpdGUgV2ViIGQnYXNzaXN0YW5j
+ZToNCjxhIGhyZWY9Imh0dHA6Ly9rdi5idjQzLmNvbS9jLzJWZC9idUQvS1FWX05fc3ZmYjhQ
+LzdkZDl0bzZqMTNxOXlwZnhjdHAvekVVSWxZZ3pUMy9GLzlEay9GL2FkZjA2ZGZhIj5odHRw
+Oi8va3YuYnY0My5jb20vYy8yVmQvYnVEL0tRVl9OX3N2ZmI4UC83ZGQ5dG82ajEzcTl5cGZ4
+Y3RwL3pFVUlsWWd6VDMvRi85RGsvRi9hZGYwNmRmYTwvYT4NCg0KTm90ZTogU2kgbm9uIGNv
+bnRhY3TDqSwgdm90cmUgZW1haWwgc2VyYSBtYXJxdcOpIGNvbW1lIGNvbXByb21pcyBldCBz
+ZXJhIHN1cHByaW3DqSBkYW5zIGxlcyAzIHByb2NoYWlucyBqb3Vycy4NCg0KPC9wcmU+DQo8
+L2JvZHk+PC9odG1sPg==
+--b1_48ff9cefac3c9ff0b056ac9b07ea289c--
+
+--141004ZL4688618414602G19--
+
+--c76cc496-05f0-41bf-b393-41996f5eef43--

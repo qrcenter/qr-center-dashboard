@@ -1,0 +1,131 @@
+Return-Path: <hth2432@gmail.com>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id StY5N1wajF6rNQAAzyXPIA
+	(envelope-from <hth2432@gmail.com>)
+	for <info@turathalanbiaa.com>; Tue, 07 Apr 2020 09:14:52 +0300
+Return-path: <hth2432@gmail.com>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Tue, 07 Apr 2020 09:14:52 +0300
+Received: from mail-lj1-f176.google.com ([209.85.208.176]:38695)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <hth2432@gmail.com>)
+	id 1jLhVb-0003Ji-KL
+	for info@turathalanbiaa.com; Tue, 07 Apr 2020 09:14:52 +0300
+Received: by mail-lj1-f176.google.com with SMTP id v16so2331240ljg.5
+        for <info@turathalanbiaa.com>; Mon, 06 Apr 2020 23:14:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:content-transfer-encoding:mime-version:date:subject:message-id
+         :to;
+        bh=+hs/Vtg6xWj/+R0YmNx0aBOr2rJEWvdfFWAiCXAfhuc=;
+        b=Z2GO9bj4rUqPHw8TDlZKZYRqHPNc+jzFPZTISOdgKm0cVZV9yNpQD32SUGKpMz+MbK
+         lqEGM8/SKsO6hGn15e8Bt06nP8VVhaiYvu68tb5JzrHZU1Sn47y2/xYicm5OQj76o11C
+         QGMvFlINlbKl1y3PxmuIr1RSwG7Y/xaDIoDzXRs518O5nW1koVeJqab7E1J8gqnwl8pB
+         LumACnV/dzcBL8Xegn++DHPYCSsCixhDJe+0GNOrW7tfFtRMVzCiAerQKFI0HusLAqQi
+         wkyMjANlVouH4C6CYykTv215PqMDb8g7lILAOgaghzDFw3Jlmf5iXXKlNE62iXxR436L
+         Y9LQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version:date
+         :subject:message-id:to;
+        bh=+hs/Vtg6xWj/+R0YmNx0aBOr2rJEWvdfFWAiCXAfhuc=;
+        b=ELznKSn+Bg9N/WTdNeXolftPBCud7xzoX4hZRbg3Em9ckGPY+xmZILGls1WP6BcV2Y
+         oxraz8jQxcnR/2idDpcuiTNFN9MCtF2iiFUmCQFWvAV2yXM6F3jQmJDVQZY4hYo51CNS
+         Vh70GmyWT0eWTYl64+MHGa7ZcrxjAHKh/Q32ENxinjePOzgLJwtCq7kgJxkQPbb8L/pX
+         Sw1JU+/xTmSup4k/jAxLbUmCOJ9HZba0jdRfgrOOztq53UU1dPJde7r2nc5ZYi3ifbwh
+         7r28eadArMs5J42Z3MtOISFKlIxrwrF6dt0xAsW9NnmdpSw9L3HB1tNwwKUsAfMvW8SO
+         LFtw==
+X-Gm-Message-State: AGi0Pub6eZvKdEVhKFRWyG4+n+jgagEzEMeVfAvUaZ1fAbeOEofFinvr
+	8fqKWtdc1X9ghiAls1U5vPCc4lFz
+X-Google-Smtp-Source: APiQypKEtFEGZ+Dl7aj0FtY06z1Z9AK8P9oNjiy0DkSv+xIdY8CCsLegq6HMggrskgjMURBhxL18gg==
+X-Received: by 2002:a2e:5ce:: with SMTP id 197mr641378ljf.234.1586240050244;
+        Mon, 06 Apr 2020 23:14:10 -0700 (PDT)
+Received: from [192.168.0.105] ([37.239.113.3])
+        by smtp.gmail.com with ESMTPSA id q8sm11216226ljj.77.2020.04.06.23.14.08
+        for <info@turathalanbiaa.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 06 Apr 2020 23:14:09 -0700 (PDT)
+From: =?utf-8?B?2K3Zitiv2LEg2LfZhw==?= <hth2432@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-A8511B4F-B947-453B-A82E-5659844D7653
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Date: Tue, 7 Apr 2020 09:14:04 +0300
+Subject: =?utf-8?B?2KfZhNiz2YTYp9mFINi52YTZitmD2YUg2LPYrNmE2Kog2YHZiiA=?=
+ =?utf-8?B?2KfZhNmF2LnZh9ivINmI2YTZg9mGINi52YbYr9mKINmF2LTZg9mE?=
+ =?utf-8?B?2Ycg2YHZiiDYp9mE2K/YrtmI2YQg2KfZhNmJINiq2YHYudmK2YQg?=
+ =?utf-8?B?2KfZhNit2LPYp9ioINmI2KPYrdioINin2LnYsdmBINi32LHZitmC?=
+ =?utf-8?B?2Ycg2KrYs9is2YrZhCDYtdit2YrYrdmHINin2Ygg2YTYpyDZiNin?=
+ =?utf-8?B?2YTYp9iz2KrZhdin2LHYqSDYp9mE2KrZiiDYs9is2YTYqiDZgdmK?=
+ =?utf-8?B?2YfYpyDYqtiu2KrZhNmBINi52YYg2KfZhNmF2YjYrNmI2K/YqSA=?=
+ =?utf-8?B?2YHZiiDYt9ix2YrZgtmHINin2YTYqtiz2KzZitmEINio2KfZhNmB?=
+ =?utf-8?B?2YrYr9mK2Ygg2YTYsNin2YTZgyDZhtiq2YXZhtmJINmF2YYg2Kw=?=
+ =?utf-8?B?2YbYp9io2YPZhSDYp9mE2YbYuNixINmI2KfZhNix2K8g2YTZhNmF?=
+ =?utf-8?B?2LnZhNmI2YXYp9iqINin2YbYpyDYs9is2YTYqiDYqNi12YHZhyA=?=
+ =?utf-8?B?2LfYp9mE2Kgg?=
+Message-Id: <1603954C-D527-428B-BB09-E43C1C27333C@gmail.com>
+To: info@turathalanbiaa.com
+X-Mailer: iPhone Mail (16F203)
+X-Spam-Status: No, score=2.0
+X-Spam-Score: 20
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ‏‫من الـ iPhone الخاص بي‬ ‏‫من الـ
+    iPhone الخاص بي‬ 
+ Content analysis details:   (2.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [hth2432[at]gmail.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [hth2432[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.208.176 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.208.176 listed in wl.mailspike.net]
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+X-Spam-Flag: NO
+
+
+--Apple-Mail-A8511B4F-B947-453B-A82E-5659844D7653
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: base64
+
+DQoNCuKAj+KAq9mF2YYg2KfZhNmAIGlQaG9uZSDYp9mE2K7Yp9i1INio2YrigKw=
+
+--Apple-Mail-A8511B4F-B947-453B-A82E-5659844D7653
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div style=3D"direction: rtl;"><br></div><b=
+r><div id=3D"AppleMailSignature" dir=3D"rtl"><div style=3D"text-align: right=
+;direction: rtl; ">=E2=80=8F=E2=80=AB=D9=85=D9=86 =D8=A7=D9=84=D9=80&nbsp;iP=
+hone =D8=A7=D9=84=D8=AE=D8=A7=D8=B5 =D8=A8=D9=8A=E2=80=AC</div></div></body>=
+</html>=
+
+--Apple-Mail-A8511B4F-B947-453B-A82E-5659844D7653--

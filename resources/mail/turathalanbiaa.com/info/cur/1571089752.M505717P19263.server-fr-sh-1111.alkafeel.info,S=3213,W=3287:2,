@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id 7ZjcHVjtpF0/SwAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Mon, 14 Oct 2019 23:49:12 +0200
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Mon, 14 Oct 2019 23:49:12 +0200
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1iK8DI-00057W-FI
+	for info@turathalanbiaa.com; Mon, 14 Oct 2019 23:49:12 +0200
+X-Failed-Recipients: jawadfaraj257@gmali.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1571089752-eximdsn-1715577109
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iK8DI-00057W-FI@server-fr-sh-1111.alkafeel.info>
+Date: Mon, 14 Oct 2019 23:49:12 +0200
+
+--1571089752-eximdsn-1715577109
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  jawadfaraj257@gmali.com
+    host smtp.secureserver.net [68.178.213.203]
+    SMTP error from remote mail server after RCPT TO:<jawadfaraj257@gmali.com>:
+    550 5.1.1 <jawadfaraj257@gmali.com> Recipient not found.  <http://x.co/irbounce>
+
+--1571089752-eximdsn-1715577109
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;jawadfaraj257@gmali.com
+Status: 5.0.0
+Remote-MTA: dns; smtp.secureserver.net
+Diagnostic-Code: smtp; 550 5.1.1 <jawadfaraj257@gmali.com> Recipient not found.  <http://x.co/irbounce>
+
+--1571089752-eximdsn-1715577109
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1iK8DF-00057A-HC
+	for jawadfaraj257@gmali.com; Mon, 14 Oct 2019 23:49:09 +0200
+To: jawadfaraj257@gmali.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 5.124.8.204
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Mon, 14 Oct 2019 21:49:09 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <2f16fcbcd8678f5fe3c495472cccac0c@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/5201/fc793da7d46adccb8078eab7f07d30b2" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1571089752-eximdsn-1715577109--

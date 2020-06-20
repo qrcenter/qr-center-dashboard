@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id ZK6JDlw+oV6rwQAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Thu, 23 Apr 2020 10:06:04 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Thu, 23 Apr 2020 10:06:04 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jRVvw-000CtY-6v
+	for info@turathalanbiaa.com; Thu, 23 Apr 2020 10:06:04 +0300
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1587625564-eximdsn-378046918
+MIME-Version: 1.0
+Subject: Warning: message 1jQQHe-0007jQ-VB delayed 72 hours
+Message-Id: <E1jRVvw-000CtY-6v@server-fr-sh-1111.alkafeel.info>
+Date: Thu, 23 Apr 2020 10:06:04 +0300
+
+--1587625564-eximdsn-378046918
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+A message that you sent has not yet been delivered to one or more of its
+recipients after more than 72 hours on the queue on server-fr-sh-1111.alkafeel.info.
+
+The message identifier is:     1jQQHe-0007jQ-VB
+The subject of the message is: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+The date of the message is:    Mon, 20 Apr 2020 06:51:58 +0000
+
+The address to which the message has not yet been delivered is:
+
+  hassanfffffffcr7@gmail.com
+    Delay reason: H=alt4.gmail-smtp-in.l.google.com [74.125.28.26]:
+    SMTP error from remote mail server after RCPT TO:<hassanfffffffcr7@gmail.com>:
+    452-4.2.2 The email a
+
+No action is required on your part. Delivery attempts will continue for
+some time, and this warning may be repeated at intervals if the message
+remains undelivered. Eventually the mail delivery software will give up,
+and when that happens, the message will be returned to you.
+
+--1587625564-eximdsn-378046918
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: delayed
+Final-Recipient: rfc822;hassanfffffffcr7@gmail.com
+Status: 4.0.0
+
+--1587625564-eximdsn-378046918
+Content-type: text/rfc822-headers
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jQQHe-0007jQ-VB
+	for hassanfffffffcr7@gmail.com; Mon, 20 Apr 2020 09:51:58 +0300
+To: hassanfffffffcr7@gmail.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.237.227.49, 37.237.227.49
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Mon, 20 Apr 2020 06:51:58 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <2c48ff4552937af2bb75189c52afd40f@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+--1587625564-eximdsn-378046918--

@@ -1,0 +1,179 @@
+Return-Path: <>
+Delivered-To: turathal+spam@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id 2mtQNHQSWl4ivgAAzyXPIA
+	(envelope-from <>)
+	for <turathal+spam@server-fr-sh-1111.alkafeel.info>; Sat, 29 Feb 2020 10:27:48 +0300
+Return-path: <>
+Envelope-to: rose.pierrejean@turathalanbiaa.com
+Delivery-date: Sat, 29 Feb 2020 10:27:48 +0300
+Received: from mo87.mail-out.ovh.net ([178.32.228.87]:46935)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	id 1j7wXK-000CTM-2W
+	for rose.pierrejean@turathalanbiaa.com; Sat, 29 Feb 2020 10:27:48 +0300
+Received: from mail110.ha.ovh.net (b6.ovh.net [213.186.33.56])
+	by mo87.mail-out.ovh.net (Postfix) with SMTP id AF3FB1660765
+	for <rose.pierrejean@turathalanbiaa.com>; Sat, 29 Feb 2020 08:17:27 +0100 (CET)
+Received: from localhost (HELO queue) (127.0.0.1)
+	by localhost with SMTP; 29 Feb 2020 09:17:27 +0200
+Date: 29 Feb 2020 09:17:27 +0200
+From: MAILER-DAEMON@mx1.ovh.net
+To: rose.pierrejean@turathalanbiaa.com
+Subject: failure notice
+X-Ovh-Tracer-Id: 1154891830895706362
+X-VR-SPAMSTATE: OK
+X-VR-SPAMSCORE: 0
+X-VR-SPAMCAUSE: gggruggvucftvghtrhhoucdtuddrgedugedrleelgddutddvucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecuqfggjfdpvefjgfevmfevgfenuceurghilhhouhhtmecuhedttdenucenucfjughrpeffhffvufestddttddttddttdenucfhrhhomhepofetkffngfftqdfftefgoffqpfesmhiguddrohhvhhdrnhgvthenucffohhmrghinhepghdurdgsvgenucfkpheptddrtddrtddrtdenucevlhhushhtvghrufhiiigvpedunecurfgrrhgrmhepmhhouggvpehsmhhtphdqohhuthdphhgvlhhopehmrghilhduuddtrdhhrgdrohhvhhdrnhgvthdpihhnvghtpedtrddtrddtrddtpdhmrghilhhfrhhomheppdhrtghpthhtoheprhhoshgvrdhpihgvrhhrvghjvggrnhesthhurhgrthhhrghlrghnsghirggrrdgtohhm
+X-Spam-Subject: ***SPAM***  failure notice
+X-Spam-Status: Yes, score=8.9
+X-Spam-Score: 89
+X-Spam-Bar: ++++++++
+X-Spam-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi. This is the qmail-send program at mx1.ovh.net. I'm afraid
+    I wasn't able to deliver your message to the following addresses. This is
+    a permanent error; I've given up. Sorry it didn't work out. <g1.be-uu@g1.be>:
+    user does not exist, but will deliver to /homez.781/vpopmail/domains/2/m/g1.be/postmaster/
+    user is over quota 
+ Content analysis details:   (8.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.0 URI_OPTOUT_3LD         URI: Opt-out URI, suspicious hostname
+  0.8 PP_MIME_FAKE_ASCII_TEXT BODY: MIME text/plain claims to be ASCII
+                              but isn't
+  2.4 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  1.7 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+               [Blocked - see <https://www.spamcop.net/bl.shtml?178.32.228.87>]
+  0.1 URIBL_SBL_A            Contains URL's A record listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: c.support-lnc.info]
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+  0.8 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of .info|.us|.me|.me.uk|.biz
+                             domains in spam/malware
+X-Spam-Flag: YES
+
+Hi. This is the qmail-send program at mx1.ovh.net.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+<g1.be-uu@g1.be>:
+user does not exist, but will deliver to /homez.781/vpopmail/domains/2/m/g1.be/postmaster/
+user is over quota
+
+
+--- Below this line is a copy of the message.
+
+Return-Path: <rose.pierrejean@turathalanbiaa.com>
+Received: from localhost (HELO queue) (127.0.0.1)
+	by localhost with SMTP; 29 Feb 2020 09:17:27 +0200
+Received: from unknown (HELO output36.mail.ovh.net) (10.108.97.143)
+  by mail110.ha.ovh.net with AES256-GCM-SHA384 encrypted SMTP; 29 Feb 2020 09:17:27 +0200
+Received: from vr23.mail.ovh.net (unknown [10.101.8.23])
+	by out36.mail.ovh.net (Postfix) with ESMTP id 48TyQv1s2Cz8mHLZJ
+	for <uu@g1.be>; Sat, 29 Feb 2020 07:17:27 +0000 (UTC)
+Received: from in38.mail.ovh.net (unknown [10.101.4.38])
+	by vr23.mail.ovh.net (Postfix) with ESMTP id 48TyQp0zwYzsq3y9
+	for <uu@g1.be>; Sat, 29 Feb 2020 07:17:22 +0000 (UTC)
+Received-SPF: Softfail (mailfrom) identity=mailfrom; client-ip=171.237.2.120; helo=turathalanbiaa.com; envelope-from=rose.pierrejean@turathalanbiaa.com; receiver=uu@g1.be 
+Authentication-Results: in38.mail.ovh.net; dkim=none; dkim-atps=neutral
+Received: from turathalanbiaa.com (unknown [171.237.2.120])
+	by in38.mail.ovh.net (Postfix) with ESMTP id 48TyQl5lkNzb0ksP
+	for <uu@g1.be>; Sat, 29 Feb 2020 07:17:18 +0000 (UTC)
+From: "Mail Delivery System" <MAILER-DAEMON@orange.fr>
+X-bcc: uu@g1.be
+Date: Sat, 29 Feb 2020 07:55:20 +0100
+To: uu@g1.be
+Subject: [SPAM] Undelivered Mail Returned to Sender
+MIME-Version: 1.0
+Content-Type: multipart/report; boundary="------------I305M09060309060P_637615828806426"
+Message-ID: <cmu-lmtpd-92812-1582881648-1@mwinb2e05>
+X-Ovh-Remote: 171.237.2.120 ([171.237.2.120])
+X-Ovh-Tracer-Id: 1153484456430598775
+X-VR-SPAMSTATE: SPAM
+X-VR-SPAMSCORE: 500
+X-VR-SPAMCAUSE: gggruggvucftvghtrhhoucdtuddrgedugedrleelgddutddvucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecuqfggjfdpvefjgfevmfevgfenuceurghilhhouhhtmecuhedttdenucgohfhorhgsihguuggvnhffohhmrghinhculdehtddtmdenucfjughrpefhfffvufggtgfksehptderredttdejnecuhfhrohhmpedfofgrihhlucffvghlihhvvghrhicuufihshhtvghmfdcuoefotefknffgtfdqffetgffoqffpsehorhgrnhhgvgdrfhhrqeenucffohhmrghinhepshhuphhpohhrthdqlhhntgdrihhnfhhonecukfhppedujedurddvfeejrddvrdduvddtnecuvehluhhsthgvrhfuihiivgepuddunecurfgrrhgrmhepmhhouggvpehsmhhtphdphhgvlhhopehinhefkedrmhgrihhlrdhovhhhrdhnvghtpdhinhgvthepudejuddrvdefjedrvddruddvtddpmhgrihhlfhhrohhmpehrohhsvgdrphhivghrrhgvjhgvrghnsehtuhhrrghthhgrlhgrnhgsihgrrgdrtghomhdprhgtphhtthhopehuuhesghdurdgsvg
+X-Ovh-Spam-Status: SPAM
+X-Ovh-Spam-Reason: vr: SPAM; dkim: disabled; spf: disabled
+X-Ovh-Message-Type: SPAM
+X-Spam-Tag: YES
+
+--------------I305M09060309060P_637615828806426
+Content-Type: message/rfc822
+Content-Description: Undelivered Message
+
+From: "Mail Delivery System" <MAILER-DAEMON@Palestiniens.fr>
+X-bcc: uu@g1.be
+Date: Sat, 29 Feb 2020 07:55:20 +0100
+To: uu@g1.be
+Message-ID: <897531012.5445.1582880793091.JavaMail.www@wwinf1v29>
+Subject: Bonjour
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_5444_1055459776.1582880794008"
+X-SAVECOPY: true
+X-Originating-IP: 211.254.108.161
+X-Wum-Nature: EMAIL-NATURE
+X-WUM-FROM: |~|
+X-WUM-TO: |~|
+X-WUM-REPLYTO: |~|
+
+------=_Part_5444_1055459776.1582880794008
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Sur internet c'est tr=C3=A8s dur de d=C3=A9battre (enfin honn=C3=AAtement, =
+pas que sur internet...), mais tu peux faire passer des id=C3=A9es que tu j=
+uges int=C3=A9ressantes en argumentant. =C3=87a ne fera pas changer d'avis =
+la personne qui d=C3=A9bat, mais =C3=A7a n'emp=C3=AAchera pas d'autre de li=
+re et de r=C3=A9fl=C3=A9chir.
+Ils pouvaient pas mettre des groupes bien plut=C3=B4t ?
+En m=C3=AAme temps, tu parles du RER A entre la D=C3=A9fense et Rueil. M=C3=
+=AAme si je t'accorde que c'est avant tout un sentiment d'ins=C3=A9curit=C3=
+=A9, il y a des endroits qui craignent un peu plus que =C3=A7a.
+------=_Part_5444_1055459776.1582880794008
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Je viens de regarder le 5 pour me mettre a niveau avant d'aller voir le der=
+nier (qui a mon avis sera un bon film) la sc=C3=A8ne "je suis ton p=C3=A8re=
+" est tout simplement hilarante. La t=C3=AAte de Luke est tellement ridicul=
+e!
+C'est pas =C3=A7a, peut-etre c'est un chanson que ils sont fait=20
+Mais l'essence m=C3=AAme d'un juge n'est il pas de faire fi de ses pr=C3=A9=
+jug=C3=A9s et de savoir juger de fa=C3=A7on impartiale ? C'est la justice d=
+es hommes par les hommes, cela a toujours =C3=A9t=C3=A9 comme cela depuis q=
+ue la notion de justice existe. pourquoi remettre cela en cause maintenant =
+?
+------=_Part_5444_1055459776.1582880794008--
+
+--------------I305M09060309060P_637615828806426
+Content-Type: text/plain; charset=UTF-8;
+Content-Transfer-Encoding: 8bit
+
+Nous avons le plaisir de vous annoncer que votre colis Mondial Relay est disponible dans votre Point Relais.
+
+Votre colis sera disponible pendant 7 jours, passé ce délai il sera retourné à l'expéditeur.
+
+Pour plus d'informations sur votre colis et sur les horaires d'ouverture de votre relais, nous vous invitons à visiter notre site Web en cliquant sur le lien ci-dessous :
+
+CLIQUEZ SUR CE LIEN POUR EN SAVOIR PLUS:
+http://c.support-lnc.info/YSUzRDcyMSUyNmMlM0Q1MzE3JTI2ZSUzRDM3NTM2MSUy/3v1f5qlsvj5mw8mnawz/NmwlM0QyODE2NDYzJTI2cyUzRDEzMjg3NzI3JTI2dCUzRGMlMjZscyUzRDU=
+
+Quand vous irez retirer votre colis :
+*** N'oubliez pas de vous munir d'une pièce d'identité
+*** Demandez votre colis
+
+Nous vous remercions de votre confiance et souhaitons avoir prochainement le plaisir de vous servir à nouveau.
+
+Cordialement, Mondial Relay
+
+--------------I305M09060309060P_637615828806426--

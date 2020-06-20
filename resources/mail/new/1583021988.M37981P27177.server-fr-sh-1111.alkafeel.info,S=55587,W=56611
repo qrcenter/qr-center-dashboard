@@ -1,0 +1,1024 @@
+Return-Path: <>
+Delivered-To: turathal@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id N47hAaT/Wl4pagAAzyXPIA
+	(envelope-from <>)
+	for <turathal@server-fr-sh-1111.alkafeel.info>; Sun, 01 Mar 2020 03:19:48 +0300
+Return-path: <>
+Envelope-to: emilion.gtavef@turathalanbiaa.com
+Delivery-date: Sun, 01 Mar 2020 03:19:48 +0300
+Received: from mail-db3eur04hn2088.outbound.protection.outlook.com ([52.101.138.88]:63684 helo=EUR04-DB3-obe.outbound.protection.outlook.com)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	id 1j8CKe-0007AL-Lv
+	for emilion.gtavef@turathalanbiaa.com; Sun, 01 Mar 2020 03:19:48 +0300
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=FYgOvqEHBqlIiGHoV3rPy/nY5YvA4FOrXl+fmrPLHg2xD2Fpqp5IKf2d8efn7iX9MXl12X2okSjLpGmjF54dTIaLkNhVDcU4PBYg4JxmkOVXfqpgKqaRoCHaRVtgAep5EKQ+MfRG94t3kJACUA+qQGTiZ6uEVuee6zsoFo1zgS3mCI9may5biBDbf523qo+pD+YIrlUu8Kv3MbLGhSt4sHfS6pdNx5/ydlNCKFCvdRgKcDg5srijzq5MLhr1e0q05LJL6+4CsbHNQEyYVbPAYL2QIbCglm304i3laGSvANOiCZ++S2RySozakCstAUvX4emPHDeMPLx62wT04iuyZQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=R88KuoNLtFe4wbkU4lTdSWSHGXHTcjMHeRxizEkALJ8=;
+ b=hG9U1JWGlqmontfGFiv0RNfqg4kHCdYpVs6WD4wE//VrnwYNo6Y8dpU1sJrHtA7QBUI18xhGX2MK4K1NXuIR4Zed5mVkNCgGD0OBDrOH/EN/pb8e9RFAmW/5MNk6LsMtpHdVLMlL2llXkyyktsyfyFjb7wyW7n/bqYnUq9S94MWkI1mmIGcVpciAwg103RycAkxG0dI3HyrjS7avx6oqMlNX/FmaonogBt6Cgp4pEec2qX59NTNFXNOROUtQeGJS029c1yVqNkjzMybWkDC24B5Gk6G7MGKVC8fhc4s1d/ZHW9mzm5FNrKH3JFs8oxkInesaoZZZqDA6Eqo1eZKc/A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass; dmarc=pass
+ action=none header.from=ville-st-donat.fr; dkim=pass
+ header.d=ville-st-donat.fr; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mairiedesaintdonat.onmicrosoft.com;
+ s=selector2-mairiedesaintdonat-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=R88KuoNLtFe4wbkU4lTdSWSHGXHTcjMHeRxizEkALJ8=;
+ b=KZ1WlZpaLFuztSWzK1HJezy8EFZITyu8+d6XmSleC4PDR9aZ0ZWdZOkM1VQKh3GsN6PMxwD0zXUWkM25+VnCi9Sggi98QBd2m+2TgIJ4Dkgw3jq1+oTxfAKdCXvxgc8J8oWg/Uh+c4RBULoheTQ5R8AHJlQXXnb2raNtz4Y3GsI=
+MIME-Version: 1.0
+From: <postmaster@ville-st-donat.fr>
+To: <emilion.gtavef@turathalanbiaa.com>
+Date: Sun, 1 Mar 2020 00:19:03 +0000
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="fd18e556-e795-4fe0-be9b-c7cbdc2d9a78"
+X-MS-Exchange-Message-Is-Ndr:
+Content-Language: en-US
+Message-ID:
+ <57f546e4-b64b-47ab-8305-060bc7cb7939@DB7P191MB0348.EURP191.PROD.OUTLOOK.COM>
+In-Reply-To: <cmu-lmtpd-92812-1582865234-1@mwinb2e05>
+References: <cmu-lmtpd-92812-1582865234-1@mwinb2e05>
+Subject: Undeliverable: Undelivered Mail Returned to Sender
+Auto-Submitted: auto-replied
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DB7P191MB0348:
+X-Microsoft-Antispam-PRVS:
+	<DB7P191MB0348F0BA2CD1364BC16FD805B8E60@DB7P191MB0348.EURP191.PROD.OUTLOOK.COM>
+X-MS-Oob-TLC-OOBClassifiers: OLM:7691;
+X-Forefront-PRVS: 0329B15C8A
+X-Forefront-Antispam-Report:
+	SFV:NSPM;SFS:(10019020)(50650200002)(396003)(346002)(366004)(376002)(136003)(39830400003)(199004)(189003)(1930700014)(52230400001)(42882007)(9686003)(45080400002)(78352004)(498600001)(81156014)(81166006)(8676002)(6916009)(31686004)(66946007)(66576008)(78496005)(2876002)(31696002)(53546011)(42186006)(316002)(32400700002)(2906002)(1706002)(19627235002)(30864003)(5660300002)(46394003)(579004);DIR:OUT;SFP:1501;SCL:1;SRVR:DB7P191MB0348;H:;FPR:;SPF:None;LANG:en;PTR:InfoNoRecords;A:0;MX:0;
+Received-SPF: None (protection.outlook.com:  does not designate permitted
+ sender hosts)
+Authentication-Results: spf=none (sender IP is ) smtp.mailfrom=<>; 
+X-MS-Exchange-SenderADCheck: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	MIg91N0F4AMziOUcej+OTEFN1M6DkkrGvFuTOY/XAgWxfEwbvwAoZeYBG4H3JTFVvNz5AvdoPjI3HBPN/iom105xP0t5oBeJKJ3/YZM4Jwe2qmdPJTI5S62iNNxzqd6VkB7iXeFKSqRHuWtWHDBmQxHdWK1AROKN9QZbLdR9xJ1RuFBNDPt8RWdUX0DYtJcVJquUA6ZUlkhOk3t2G2Vg7jc2vcJbEdnB6XSt7HYSzOZNKT3maYGGhRQXJdSz+tKakt1Qg98KiwuiEViwFPIyFK7G0a9V8j+aZZ25/j4cbDG+O8ae7rVuBP+iHvE6roz6oJjhgzrj+uCJOZzk5KwxrzBBzfgdazMZR0wOGtpvro9Cl47mzOsiYdgGIbT0a8Qhi/JU4Rw3kUtJgr97vX4LU9ONfg98hOfHx98CTvuzjzPTQthWwnocU2HBt24gLMnblSYjRKV00s60H3lHq/ouIrHZV75Ye25JcCReOtMh10v/UfRMnbx0wPsKrXwNE+9lYGj1OOfW5z5CpwWuzULsDBgUCsXj8aZlMKpxo714kWaz/CNlGWqO6apoTjXF3xs7nyxXXfNWxbpsQQYlQVf1dtfvqQUlCjJTYgbOE4zGenxNRPjxhVIg7XUnexDv5xLzrqZ7LOvEMQkPnGfAoNvBhA==
+X-OriginatorOrg: ville-st-donat.fr
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Mar 2020 00:19:03.4910
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+	19a970d2-498a-4bb7-3203-08d7bd7625d8
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB7P191MB0348
+X-Spam-Status: No, score=1.1
+X-Spam-Score: 11
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  [http://products.office.com/en-us/CMSImages/Office365Logo_Orange.png?version=b8d100a9-0a8b-8e6a-88e1-ef488fee0470]
+    Your message to celine.teston@ville-st-donat.fr couldn't be delivered. celine.teston
+    [...] 
+ Content analysis details:   (1.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [52.101.138.88 listed in list.dnswl.org]
+  0.1 URIBL_SBL_A            Contains URL's A record listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: m.overstepbpo.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  1.0 FORGED_SPF_HELO        No description available.
+  0.0 T_MIME_MALF            Malformed MIME: headers in body
+X-Spam-Flag: NO
+
+--fd18e556-e795-4fe0-be9b-c7cbdc2d9a78
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="d2c89fdb-81c5-449b-b073-d4d850568abc"
+
+--d2c89fdb-81c5-449b-b073-d4d850568abc
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+[http://products.office.com/en-us/CMSImages/Office365Logo_Orange.png?versio=
+n=3Db8d100a9-0a8b-8e6a-88e1-ef488fee0470]
+Your message to celine.teston@ville-st-donat.fr couldn't be delivered.
+celine.teston wasn't found at ville-st-donat.fr.
+emilion.gtavef  Office 365      celine.teston
+Action Required                 Recipient
+Unknown To address
+
+How to Fix It
+The address may be misspelled or may not exist. Try one or more of the foll=
+owing:
+
+  *   Send the message again following these steps: In Outlook, open this n=
+on-delivery report (NDR) and choose Send Again from the Report ribbon. In O=
+utlook on the web, select this NDR, then select the link "To send this mess=
+age again, click here." Then delete and retype the entire recipient address=
+. If prompted with an Auto-Complete List suggestion don't select it. After =
+typing the complete address, click Send.
+  *   Contact the recipient (by phone, for example) to check that the addre=
+ss exists and is correct.
+  *   The recipient may have set up email forwarding to an incorrect addres=
+s. Ask them to check that any forwarding they've set up is working correctl=
+y.
+  *   Clear the recipient Auto-Complete List in Outlook or Outlook on the w=
+eb by following the steps in this article: Fix email delivery issues for er=
+ror code 5.1.10 in Office 365<https://go.microsoft.com/fwlink/?LinkId=3D532=
+972>, and then send the message again. Retype the entire recipient address =
+before selecting Send.
+
+If the problem continues, forward this message to your email admin. If you'=
+re an email admin, refer to the More Info for Email Admins section below.
+
+Was this helpful? Send feedback to Microsoft<https://go.microsoft.com/fwlin=
+k/?LinkId=3D525921>.
+________________________________
+
+More Info for Email Admins
+Status code: 550 5.1.10
+
+This error occurs because the sender sent a message to an email address hos=
+ted by Office 365 but the address is incorrect or doesn't exist at the dest=
+ination domain. The error is reported by the recipient domain's email serve=
+r, but most often it must be fixed by the person who sent the message. If t=
+he steps in the How to Fix It section above don't fix the problem, and you'=
+re the email admin for the recipient, try one or more of the following:
+
+The email address exists and is correct - Confirm that the recipient addres=
+s exists, is correct, and is accepting messages.
+
+Synchronize your directories - If you have a hybrid environment and are usi=
+ng directory synchronization make sure the recipient's email address is syn=
+ced correctly in both Office 365 and in your on-premises directory.
+
+Errant forwarding rule - Check for forwarding rules that aren't behaving as=
+ expected. Forwarding can be set up by an admin via mail flow rules or mail=
+box forwarding address settings, or by the recipient via the Inbox Rules fe=
+ature.
+
+Recipient has a valid license - Make sure the recipient has an Office 365 l=
+icense assigned to them. The recipient's email admin can use the Office 365=
+ admin center to assign a license (Users > Active Users > select the recipi=
+ent > Assigned License > Edit).
+
+Mail flow settings and MX records are not correct - Misconfigured mail flow=
+ or MX record settings can cause this error. Check your Office 365 mail flo=
+w settings to make sure your domain and any mail flow connectors are set up=
+ correctly. Also, work with your domain registrar to make sure the MX recor=
+ds for your domain are configured correctly.
+
+For more information and additional tips to fix this issue, see Fix email d=
+elivery issues for error code 5.1.10 in Office 365<https://go.microsoft.com=
+/fwlink/?LinkId=3D532972>.
+
+Original Message Details
+Created Date:   3/1/2020 12:02:59 AM
+Sender Address: emilion.gtavef@turathalanbiaa.com
+Recipient Address:      celine.teston@ville-st-donat.fr
+Subject:        Undelivered Mail Returned to Sender
+
+Error Details
+Reported error: 550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient celine=
+.teston@ville-st-donat.fr not found by SMTP address lookup
+DSN generated by:       DB7P191MB0348.EURP191.PROD.OUTLOOK.COM
+
+Message Hops
+HOP     TIME (UTC)      FROM    TO      WITH    RELAY TIME
+1       3/1/2020
+12:18:57 AM     turathalanbiaa.com      mibv4.ldsysteme.fr      ESMTP   15 =
+min, 58 sec
+2       3/1/2020
+12:19:00 AM     localhost       mibv4.ldsysteme.fr      SMTP    3 sec
+3       3/1/2020
+12:19:02 AM     127.0.0.1       mibv4.ldsysteme.fr      ESMTP   2 sec
+4       3/1/2020
+12:19:02 AM     mibv4.ldsysteme.fr      HE1EUR01FT062.mail.protection.outlo=
+ok.com       Microsoft SMTP Server   *
+5       3/1/2020
+12:19:03 AM     HE1EUR01FT062.eop-EUR01.prod.protection.outlook.com     AM5=
+P189CA0027.outlook.office365.com     Microsoft SMTP Server (version=3DTLS1_=
+2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)    1 sec
+6       3/1/2020
+12:19:03 AM     AM5P189CA0027.EURP189.PROD.OUTLOOK.COM  DB7P191MB0348.EURP1=
+91.PROD.OUTLOOK.COM  Microsoft SMTP Server (version=3DTLS1_2, cipher=3DTLS_=
+ECDHE_RSA_WITH_AES_256_GCM_SHA384)    *
+
+Original Message Headers
+
+Received: from AM5P189CA0027.EURP189.PROD.OUTLOOK.COM (2603:10a6:206:15::40=
+)
+ by DB7P191MB0348.EURP191.PROD.OUTLOOK.COM (2603:10a6:5:e::14) with Microso=
+ft
+ SMTP Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA=
+384) id
+ 15.20.2772.15; Sun, 1 Mar 2020 00:19:03 +0000
+Received: from HE1EUR01FT062.eop-EUR01.prod.protection.outlook.com
+ (2603:10a6:206:15:cafe::d3) by AM5P189CA0027.outlook.office365.com
+ (2603:10a6:206:15::40) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2772.15 via Front=
+end
+ Transport; Sun, 1 Mar 2020 00:19:03 +0000
+Authentication-Results: spf=3Dsoftfail (sender IP is 109.69.194.75)
+ smtp.mailfrom=3Dturathalanbiaa.com; ville-st-donat.fr; dkim=3Dnone (messag=
+e not
+ signed) header.d=3Dnone;ville-st-donat.fr; dmarc=3Dnone action=3Dnone
+ header.from=3Dturathalanbiaa.com;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ turathalanbiaa.com discourages use of 109.69.194.75 as permitted sender)
+Received: from mibv4.ldsysteme.fr (109.69.194.75) by
+ HE1EUR01FT062.mail.protection.outlook.com (10.152.1.16) with Microsoft SMT=
+P
+ Server id 15.20.2772.15 via Frontend Transport; Sun, 1 Mar 2020 00:19:02
+ +0000
+Received: from 127.0.0.1 (localhost [127.0.0.1])
+        by mibv4.ldsysteme.fr (Postfix) with ESMTP id 066748B2336
+        for <celine.teston@ville-st-donat.fr>; Sun,  1 Mar 2020 01:19:02 +0=
+100 (CET)
+X-MIB-FROM: emilion.gtavef@turathalanbiaa.com
+X-MIBTO: moIfBxna5g9L51WBQDkibCjyhX8NzNnn5SwSNcgLS9Y=3D
+Received: from localhost ([127.0.0.1])
+          by mibv4.ldsysteme.fr (MIBD SMTP Server 4.0.0000) with SMTP ID 14=
+8
+          for <celine.teston@ville-st-donat.fr>;
+          Sun, 1 Mar 2020 01:19:00 +0100 (CET)
+Received: from turathalanbiaa.com (unknown [14.248.117.63])
+        by mibv4.ldsysteme.fr (Postfix) with ESMTP id 7E5DC8B2327
+        for <celine.teston@ville-st-donat.fr>; Sun,  1 Mar 2020 01:18:57 +0=
+100 (CET)
+From: "Mail Delivery System" <MAILER-DAEMON@turathalanbiaa.com>
+Date: Sun, 01 Mar 2020 01:02:59 +0100
+To: celine.teston@ville-st-donat.fr
+Subject: Undelivered Mail Returned to Sender
+MIME-Version: 1.0
+Content-Type: multipart/report; boundary=3D"------------I305M09060309060P_6=
+37615828894396"
+Message-ID: <cmu-lmtpd-92812-1582865234-1@mwinb2e05>
+Return-Path: emilion.gtavef@turathalanbiaa.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 0c3c80e2-609a-46d3-ac36-c9449a2740bd:0
+X-Forefront-Antispam-Report: CIP:109.69.194.75;IPV:;CTRY:FR;EFV:NLI;
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 866b77be-4173-4089-8506-08d7bd7625=
+3f
+X-MS-TrafficTypeDiagnostic: DB7P191MB0348:
+
+
+--d2c89fdb-81c5-449b-b073-d4d850568abc
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1" />
+  <head>
+    <title>
+          DSN
+        </title>
+  </head>
+  <body style=3D"        background-color: white;      ">
+    <table style=3D"        background-color: white;         max-width: 548=
+px;         color: black;         border-spacing: 0px 0px;         padding-=
+top: 0px;         padding-bottom: 0px;        border-collapse: collapse;   =
+   " width=3D"548" cellspacing=3D"0" cellpadding=3D"0">
+      <tbody>
+        <tr>
+          <td style=3D"        text-align: left;        padding-bottom: 20p=
+x;      ">
+            <img height=3D"28" width=3D"126" style=3D"        max-width: 10=
+0%;      " src=3D"http://products.office.com/en-us/CMSImages/Office365Logo_=
+Orange.png?version=3Db8d100a9-0a8b-8e6a-88e1-ef488fee0470" />
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        font-size: 16px;         padding-bottom: 10px;         -ms=
+-text-size-adjust: 100%;        text-align: left;      ">Your message to <s=
+pan style=3D"        color: #0072c6;      ">celine.teston@ville-st-donat.fr=
+</span> couldn't be delivered.<br /></td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;         font-size: 24px;         padding-top: 0px;         paddin=
+g-bottom: 20px;         text-align: center;         -ms-text-size-adjust: 1=
+00%;      ">
+            <span style=3D"        color: #0072c6;      ">celine.teston</sp=
+an> wasn't found at <span style=3D"        color: #0072c6;      ">ville-st-=
+donat.fr</span>.<br /></td>
+        </tr>
+        <tr>
+          <td style=3D"        padding-bottom: 15px;         padding-left: =
+0px;         padding-right: 0px;         border-spacing: 0px 0px;      ">
+            <table style=3D"        max-width: 548px;         font-weight: =
+600;        border-spacing: 0px 0px;         padding-top: 0px;         padd=
+ing-bottom: 0px;        border-collapse: collapse;      ">
+              <tbody>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 15px;        font-weight: 600;        t=
+ext-align: left;        width: 181px;        -ms-text-size-adjust: 100%;   =
+     vertical-align: bottom;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">emilion.gtavef</span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 15px;        font-weight: 600;        t=
+ext-align: center;        width: 186px;        -ms-text-size-adjust: 100%; =
+       vertical-align: bottom;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">Office 365</span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;         -ms-text-size-adjust: 100%;         font-size: 15=
+px;         font-weight: 600;        text-align: right;         width: 181p=
+x;         vertical-align: bottom;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">celine.teston</span>
+                    </font>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;        text-align: left;        padding-top: 0px=
+;        padding-bottom: 0px;        vertical-align: middle;        width: =
+181px;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"        color: #c00000;      ">
+                        <b>Action Required</b>
+                      </span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;        text-align: center;        padding-top: 0=
+px;        padding-bottom: 0px;        vertical-align: middle;        width=
+: 186px;      " />
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;        text-align: right;        padding-top: 0p=
+x;        padding-bottom: 0px;        vertical-align: middle;        width:=
+ 181px;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"color:#000000">Recipient</span>
+                    </font>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan=3D"3" style=3D"        padding-top:0;        =
+padding-bottom:0;        padding-left:0;        padding-right:0      ">
+                    <table cellspacing=3D"0" cellpadding=3D"0" style=3D"   =
+     border-spacing: 0px 0px;        padding-top: 0px;        padding-botto=
+m: 0px;        padding-left: 0px;        padding-right: 0px;        border-=
+collapse: collapse;      ">
+                      <tbody>
+                        <tr height=3D"10">
+                          <td width=3D"180" height=3D"10" bgcolor=3D"#c0000=
+0" style=3D"        width: 180px;        line-height: 10px;        height: =
+10px;        font-size: 6px;        padding-top: 0;        padding-bottom: =
+0;        padding-left: 0;        padding-right: 0;      "><!--[if gte mso =
+15]>&nbsp;<![endif]--></td>
+                          <td width=3D"4" height=3D"10" bgcolor=3D"#ffffff"=
+ style=3D"        width: 4px;        line-height: 10px;        height: 10px=
+;        font-size: 6px;        padding-top: 0;        padding-bottom: 0;  =
+      padding-left: 0;        padding-right: 0;      "><!--[if gte mso 15]>=
+&nbsp;<![endif]--></td>
+                          <td width=3D"180" height=3D"10" bgcolor=3D"#ccccc=
+c" style=3D"        width: 180px;        line-height: 10px;        height: =
+10px;        font-size: 6px;        padding-top: 0;        padding-bottom: =
+0;        padding-left: 0;        padding-right: 0;      "><!--[if gte mso =
+15]>&nbsp;<![endif]--></td>
+                          <td width=3D"4" height=3D"10" bgcolor=3D"#ffffff"=
+ style=3D"        width: 4px;        line-height: 10px;        height: 10px=
+;        font-size: 6px;        padding-top: 0;        padding-bottom: 0;  =
+      padding-left: 0;        padding-right: 0;      "><!--[if gte mso 15]>=
+&nbsp;<![endif]--></td>
+                          <td width=3D"180" height=3D"10" bgcolor=3D"#ccccc=
+c" style=3D"        width: 180px;        line-height: 10px;        height: =
+10px;        font-size: 6px;        padding-top: 0;        padding-bottom: =
+0;        padding-left: 0;        padding-right: 0;      "><!--[if gte mso =
+15]>&nbsp;<![endif]--></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        text-align: left;        width: 181px;        line-height: 20px;  =
+      font-weight: 400;        padding-top: 0px;        padding-left: 0px; =
+       padding-right: 0px;        padding-bottom: 0px;      ">
+                    <font color=3D"#ffffff">
+                      <span style=3D"        color: #c00000;      ">Unknown=
+ To address</span>
+                    </font>
+                  </td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        text-align: center;        width: 186px;        line-height: 20px;=
+        font-weight: 400;        padding-top: 0px;        padding-left: 0px=
+;        padding-right: 0px;        padding-bottom: 0px;      " />
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        text-align: right;        width: 181px;        line-height: 20px; =
+       font-weight: 400;        padding-top: 0px;        padding-left: 0px;=
+        padding-right: 0px;        padding-bottom: 0px;      " />
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        width: 100%;        padding-top: 0px;       =
+ padding-right: 10px;        padding-left: 10px;      ">
+            <br />
+            <table style=3D"        width: 100%;        padding-right: 0px;=
+        padding-left: 0px;        padding-top: 0px;        padding-bottom: =
+0px;        background-color: #f2f5fa;        margin-left: 0px;      ">
+              <tbody>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 21px=
+;        font-weight: 500;        background-color: #f2f5fa;        padding=
+-top: 0px;        padding-bottom: 0px;        padding-left: 10px;        pa=
+dding-right: 10px;      ">How to Fix It</td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 16px=
+;        font-weight: 400;        padding-top: 0px;        padding-bottom: =
+6px;        padding-left: 10px;        padding-right: 10px;        backgrou=
+nd-color: #f2f5fa;      ">The address may be misspelled or may not exist. T=
+ry one or more of the following:</td>
+                </tr>
+                <tr>
+                  <td style=3D"         padding-top: 0px;         padding-b=
+ottom: 0px;         padding-left: 0px;         padding-right: 0px;        b=
+order-spacing: 0px 0px;      ">
+                    <ul style=3D"        font-family: 'Segoe UI', Frutiger,=
+ Arial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 16=
+px;        font-weight: 400;        margin-left: 40px;        margin-bottom=
+: 5px;        background-color: #f2f5fa;        padding-top: 0px;        pa=
+dding-bottom: 0px;        padding-left: 6px;        padding-right: 6px;    =
+  ">
+                      <li>Send the message again following these steps: In =
+Outlook, open this non-delivery report (NDR) and choose <b>Send Again</b> f=
+rom the Report ribbon. In Outlook on the web, select this NDR, then select =
+the link "<b>To send this message again, click here.</b>" Then delete and r=
+etype the entire recipient address. If prompted with an Auto-Complete List =
+suggestion don't select it. After typing the complete address, click <b>Sen=
+d</b>.</li>
+                      <li>Contact the recipient (by phone, for example) to =
+check that the address exists and is correct.</li>
+                      <li>The recipient may have set up email forwarding to=
+ an incorrect address. Ask them to check that any forwarding they've set up=
+ is working correctly.</li>
+                      <li>Clear the recipient Auto-Complete List in Outlook=
+ or Outlook on the web by following the steps in this article: <a href=3D"h=
+ttps://go.microsoft.com/fwlink/?LinkId=3D532972">Fix email delivery issues =
+for error code 5.1.10 in Office 365</a>, and then send the message again. R=
+etype the entire recipient address before selecting <b>Send</b>.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 16px=
+;        font-weight: 400;        padding-top: 0px;        padding-bottom: =
+6px;        padding-left: 10px;        padding-right: 10px;        backgrou=
+nd-color: #f2f5fa;      ">If the problem continues, forward this message to=
+ your email admin. If you're an email admin, refer to the <b>More Info for =
+Email Admins</b> section below.</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 14px;       =
+ font-weight: 400;        padding-top: 10px;        padding-bottom: 0px;   =
+     padding-bottom: 4px;      ">
+            <br />
+            <em>Was this helpful? <a href=3D"https://go.microsoft.com/fwlin=
+k/?LinkId=3D525921">Send feedback to Microsoft</a>.</em>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        -ms-text-size-adjust: 100%;        font-size=
+: 0px;        line-height: 0px;        padding-top: 0px;        padding-bot=
+tom: 0px;      ">
+            <hr />
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 21px;       =
+ font-weight: 500;      ">
+            <br />More Info for Email Admins</td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 14px;      "=
+>
+            <em>Status code: 550 5.1.10</em>
+            <br />
+            <br />This error occurs because the sender sent a message to an=
+ email address hosted by Office 365 but the address is incorrect or doesn't=
+ exist at the destination domain. The error is reported by the recipient do=
+main's email server, but most often it must be fixed by the person who sent=
+ the message. If the steps in the <b>How to Fix It</b> section above don't =
+fix the problem, and you're the email admin for the recipient, try one or m=
+ore of the following:<br /><br /><b>The email address exists and is correct=
+</b> - Confirm that the recipient address exists, is correct, and is accept=
+ing messages.<br /><br /><b>Synchronize your directories</b> - If you have =
+a hybrid environment and are using directory synchronization make sure the =
+recipient's email address is synced correctly in both Office 365 and in you=
+r on-premises directory.<br /><br /><b>Errant forwarding rule</b> - Check f=
+or forwarding rules that aren't behaving as expected. Forwarding can be set=
+ up by an admin via mail flow rules or mailbox forwarding address settings,=
+ or by the recipient via the Inbox Rules feature.<br /><br /><b>Recipient h=
+as a valid license</b> - Make sure the recipient has an Office 365 license =
+assigned to them. The recipient's email admin can use the Office 365 admin =
+center to assign a license (Users &gt; Active Users &gt; select the recipie=
+nt &gt; Assigned License &gt; Edit).<br /><br /><b>Mail flow settings and M=
+X records are not correct</b> - Misconfigured mail flow or MX record settin=
+gs can cause this error. Check your Office 365 mail flow settings to make s=
+ure your domain and any mail flow connectors are set up correctly. Also, wo=
+rk with your domain registrar to make sure the MX records for your domain a=
+re configured correctly.<br /><br />For more information and additional tip=
+s to fix this issue, see <a href=3D"https://go.microsoft.com/fwlink/?LinkId=
+=3D532972">Fix email delivery issues for error code 5.1.10 in Office 365</a=
+>.<br /><br /></td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 17px;       =
+ font-weight: 500;      ">Original Message Details</td>
+        </tr>
+        <tr>
+          <td style=3D"        font-size: 14px;        line-height: 20px;  =
+      font-family: 'Segoe UI', Frutiger, Arial, sans-serif;        -ms-text=
+-size-adjust: 100%;        font-weight: 500;      ">
+            <table style=3D"        width: 100%;        border-collapse: co=
+llapse;        margin-left: 10px;      ">
+              <tbody>
+                <tr>
+                  <td valign=3D"top" style=3D"        font-family: 'Segoe U=
+I', Frutiger, Arial, sans-serif;        font-size: 14px;        -ms-text-si=
+ze-adjust: 100%;        white-space: nowrap;        font-weight: 500;      =
+  width: 140px;      ">Created Date:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">3/1/2020 12:02:59 AM</td>
+                </tr>
+                <tr>
+                  <td valign=3D"top" style=3D"        font-family: 'Segoe U=
+I', Frutiger, Arial, sans-serif;        font-size: 14px;        -ms-text-si=
+ze-adjust: 100%;        white-space: nowrap;        font-weight: 500;      =
+  width: 140px;      ">Sender Address:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">emilion.gtavef@turathalanbiaa.com</td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 14px;        -ms-text-size-adjust: 100%=
+;        white-space: nowrap;        font-weight: 500;        width: 140px;=
+      ">Recipient Address:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">celine.teston@ville-st-donat.fr</td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 14px;        -ms-text-size-adjust: 100%=
+;        white-space: nowrap;        font-weight: 500;        width: 140px;=
+      ">Subject:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">Undelivered Mail Returned to Sender</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sa=
+ns-serif;        -ms-text-size-adjust: 100%;        font-size: 17px;       =
+ font-weight: 500;      ">
+            <br />Error Details</td>
+        </tr>
+        <tr>
+          <td style=3D"        font-size: 14px;        line-height: 20px;  =
+      font-family: 'Segoe UI', Frutiger, Arial, sans-serif;        -ms-text=
+-size-adjust: 100%;        font-weight: 500;      ">
+            <table style=3D"        width: 100%;        border-collapse: co=
+llapse;        margin-left: 10px;      ">
+              <tbody>
+                <tr>
+                  <td valign=3D"top" style=3D"        font-family: 'Segoe U=
+I', Frutiger, Arial, sans-serif;        font-size: 14px;        -ms-text-si=
+ze-adjust: 100%;        white-space: nowrap;        font-weight: 500;      =
+  width: 140px;      ">Reported error:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">
+                    <em>550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipien=
+t celine.teston@ville-st-donat.fr not found by SMTP address lookup</em>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        font-size: 14px;        -ms-text-size-adjust: 100%=
+;        white-space: nowrap;        font-weight: 500;        width: 140px;=
+      ">DSN generated by:</td>
+                  <td style=3D"        font-family: 'Segoe UI', Frutiger, A=
+rial, sans-serif;        -ms-text-size-adjust: 100%;        font-size: 14px=
+;        font-weight: 400;      ">DB7P191MB0348.EURP191.PROD.OUTLOOK.COM</t=
+d>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table style=3D"width: 880px;" cellspacing=3D"0">
+      <tr>
+        <td colspan=3D"6" style=3D"        padding-top: 4px;        border-=
+bottom: 1px solid #999999;        padding-bottom: 4px;        line-height: =
+120%;        font-size: 17px;        font-family: 'Segoe UI', Frutiger, Ari=
+al, sans-serif;        -ms-text-size-adjust: 100%;        font-weight: 500;=
+      ">Message Hops</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">HO=
+P</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;        wi=
+dth: 80px;      ">TIME (UTC)</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">FR=
+OM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">TO=
+</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">WI=
+TH</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        background-color: #f2f5fa;        border-bottom: 1p=
+x solid #999999;        white-space: nowrap;        padding: 8px;      ">RE=
+LAY TIME</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">1</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">3/1/2020<br />12:18=
+:57 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">turathalanbiaa.com</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">mibv4.ldsysteme.fr</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">ESMTP</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">15&nbsp;min, 58&nbsp;sec</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">2</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">3/1/2020<br />12:19=
+:00 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">localhost</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">mibv4.ldsysteme.fr</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">SMTP</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">3&nbsp;sec</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">3</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">3/1/2020<br />12:19=
+:02 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">127.0.0.1</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">mibv4.ldsysteme.fr</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">ESMTP</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">2&nbsp;sec</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">4</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">3/1/2020<br />12:19=
+:02 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">mibv4.ldsysteme.fr</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">HE1EUR01FT062.mail.protection.outlook.c=
+om</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">Microsoft SMTP Server</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">*</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">5</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">3/1/2020<br />12:19=
+:03 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">HE1EUR01FT062.eop-EUR01.prod.protection=
+.outlook.com</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">AM5P189CA0027.outlook.office365.com</td=
+>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">Microsoft SMTP Server (version=3DTLS1_2=
+, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">1&nbsp;sec</td>
+      </tr>
+      <tr>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: center;      ">6</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;        width: 80px;      ">3/1/2020<br />12:19=
+:03 AM</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">AM5P189CA0027.EURP189.PROD.OUTLOOK.COM<=
+/td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">DB7P191MB0348.EURP191.PROD.OUTLOOK.COM<=
+/td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">Microsoft SMTP Server (version=3DTLS1_2=
+, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)</td>
+        <td style=3D"        font-size: 12px;        font-family: 'Segoe UI=
+', Frutiger, Arial, sans-serif;        -ms-text-size-adjust: 100%;        f=
+ont-weight: 500;        border-bottom: 1px solid #999999;        padding: 8=
+px;        text-align: left;      ">*</td>
+      </tr>
+    </table>
+    <p style=3D"        font-family: 'Segoe UI', Frutiger, Arial, sans-seri=
+f;        -ms-text-size-adjust: 100%;        font-size: 17px;        font-w=
+eight: 500;        padding-top: 4px;        padding-bottom: 0;        margi=
+n-top: 19px;        margin-bottom: 5px;      ">Original Message Headers</p>
+    <pre style=3D"        color: gray;        white-space: pre;        padd=
+ing-top: 0;        margin-top: 5px;      ">Received: from AM5P189CA0027.EUR=
+P189.PROD.OUTLOOK.COM (2603:10a6:206:15::40)
+ by DB7P191MB0348.EURP191.PROD.OUTLOOK.COM (2603:10a6:5:e::14) with Microso=
+ft
+ SMTP Server (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA=
+384) id
+ 15.20.2772.15; Sun, 1 Mar 2020 00:19:03 +0000
+Received: from HE1EUR01FT062.eop-EUR01.prod.protection.outlook.com
+ (2603:10a6:206:15:cafe::d3) by AM5P189CA0027.outlook.office365.com
+ (2603:10a6:206:15::40) with Microsoft SMTP Server (version=3DTLS1_2,
+ cipher=3DTLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2772.15 via Front=
+end
+ Transport; Sun, 1 Mar 2020 00:19:03 +0000
+Authentication-Results: spf=3Dsoftfail (sender IP is 109.69.194.75)
+ smtp.mailfrom=3Dturathalanbiaa.com; ville-st-donat.fr; dkim=3Dnone (messag=
+e not
+ signed) header.d=3Dnone;ville-st-donat.fr; dmarc=3Dnone action=3Dnone
+ header.from=3Dturathalanbiaa.com;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ turathalanbiaa.com discourages use of 109.69.194.75 as permitted sender)
+Received: from mibv4.ldsysteme.fr (109.69.194.75) by
+ HE1EUR01FT062.mail.protection.outlook.com (10.152.1.16) with Microsoft SMT=
+P
+ Server id 15.20.2772.15 via Frontend Transport; Sun, 1 Mar 2020 00:19:02
+ +0000
+Received: from 127.0.0.1 (localhost [127.0.0.1])
+	by mibv4.ldsysteme.fr (Postfix) with ESMTP id 066748B2336
+	for &lt;celine.teston@ville-st-donat.fr&gt;; Sun,  1 Mar 2020 01:19:02 +01=
+00 (CET)
+X-MIB-FROM: emilion.gtavef@turathalanbiaa.com
+X-MIBTO: moIfBxna5g9L51WBQDkibCjyhX8NzNnn5SwSNcgLS9Y=3D
+Received: from localhost ([127.0.0.1])
+          by mibv4.ldsysteme.fr (MIBD SMTP Server 4.0.0000) with SMTP ID 14=
+8
+          for &lt;celine.teston@ville-st-donat.fr&gt;;
+          Sun, 1 Mar 2020 01:19:00 +0100 (CET)
+Received: from turathalanbiaa.com (unknown [14.248.117.63])
+	by mibv4.ldsysteme.fr (Postfix) with ESMTP id 7E5DC8B2327
+	for &lt;celine.teston@ville-st-donat.fr&gt;; Sun,  1 Mar 2020 01:18:57 +01=
+00 (CET)
+From: "Mail Delivery System" &lt;MAILER-DAEMON@turathalanbiaa.com&gt;
+Date: Sun, 01 Mar 2020 01:02:59 +0100
+To: celine.teston@ville-st-donat.fr
+Subject: Undelivered Mail Returned to Sender
+MIME-Version: 1.0
+Content-Type: multipart/report; boundary=3D"------------I305M09060309060P_6=
+37615828894396"
+Message-ID: &lt;cmu-lmtpd-92812-1582865234-1@mwinb2e05&gt;
+Return-Path: emilion.gtavef@turathalanbiaa.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 0c3c80e2-609a-46d3-ac36-c9449a2740bd:0
+X-Forefront-Antispam-Report: CIP:109.69.194.75;IPV:;CTRY:FR;EFV:NLI;
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 866b77be-4173-4089-8506-08d7bd7625=
+3f
+X-MS-TrafficTypeDiagnostic: DB7P191MB0348:
+</pre>
+  </body>
+</html>=
+
+--d2c89fdb-81c5-449b-b073-d4d850568abc--
+
+--fd18e556-e795-4fe0-be9b-c7cbdc2d9a78
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;DB7P191MB0348.EURP191.PROD.OUTLOOK.COM
+Received-From-MTA: dns;mibv4.ldsysteme.fr
+Arrival-Date: Sun, 1 Mar 2020 00:19:03 +0000
+
+Original-Recipient: rfc822;celine.teston@ville-st-donat.fr
+Final-Recipient: rfc822;celine.teston@ville-st-donat.fr
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient celine.teston@ville-st-donat.fr not found by SMTP address lookup
+
+
+--fd18e556-e795-4fe0-be9b-c7cbdc2d9a78
+Content-Type: message/rfc822
+
+Received: from AM5P189CA0027.EURP189.PROD.OUTLOOK.COM (2603:10a6:206:15::40)
+ by DB7P191MB0348.EURP191.PROD.OUTLOOK.COM (2603:10a6:5:e::14) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2772.15; Sun, 1 Mar 2020 00:19:03 +0000
+Received: from HE1EUR01FT062.eop-EUR01.prod.protection.outlook.com
+ (2603:10a6:206:15:cafe::d3) by AM5P189CA0027.outlook.office365.com
+ (2603:10a6:206:15::40) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2772.15 via Frontend
+ Transport; Sun, 1 Mar 2020 00:19:03 +0000
+Authentication-Results: spf=softfail (sender IP is 109.69.194.75)
+ smtp.mailfrom=turathalanbiaa.com; ville-st-donat.fr; dkim=none (message not
+ signed) header.d=none;ville-st-donat.fr; dmarc=none action=none
+ header.from=turathalanbiaa.com;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ turathalanbiaa.com discourages use of 109.69.194.75 as permitted sender)
+Received: from mibv4.ldsysteme.fr (109.69.194.75) by
+ HE1EUR01FT062.mail.protection.outlook.com (10.152.1.16) with Microsoft SMTP
+ Server id 15.20.2772.15 via Frontend Transport; Sun, 1 Mar 2020 00:19:02
+ +0000
+Received: from 127.0.0.1 (localhost [127.0.0.1])
+	by mibv4.ldsysteme.fr (Postfix) with ESMTP id 066748B2336
+	for <celine.teston@ville-st-donat.fr>; Sun,  1 Mar 2020 01:19:02 +0100 (CET)
+X-MIB-FROM: emilion.gtavef@turathalanbiaa.com
+X-MIBTO: moIfBxna5g9L51WBQDkibCjyhX8NzNnn5SwSNcgLS9Y=
+Received: from localhost ([127.0.0.1])
+          by mibv4.ldsysteme.fr (MIBD SMTP Server 4.0.0000) with SMTP ID 148
+          for <celine.teston@ville-st-donat.fr>;
+          Sun, 1 Mar 2020 01:19:00 +0100 (CET)
+Received: from turathalanbiaa.com (unknown [14.248.117.63])
+	by mibv4.ldsysteme.fr (Postfix) with ESMTP id 7E5DC8B2327
+	for <celine.teston@ville-st-donat.fr>; Sun,  1 Mar 2020 01:18:57 +0100 (CET)
+From: "Mail Delivery System" <MAILER-DAEMON@turathalanbiaa.com>
+Date: Sun, 01 Mar 2020 01:02:59 +0100
+To: celine.teston@ville-st-donat.fr
+Subject: Undelivered Mail Returned to Sender
+MIME-Version: 1.0
+Content-Type: multipart/report; boundary="------------I305M09060309060P_637615828894396"
+Message-ID: <cmu-lmtpd-92812-1582865234-1@mwinb2e05>
+Return-Path: emilion.gtavef@turathalanbiaa.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 0c3c80e2-609a-46d3-ac36-c9449a2740bd:0
+X-Forefront-Antispam-Report: CIP:109.69.194.75;IPV:;CTRY:FR;EFV:NLI;
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 866b77be-4173-4089-8506-08d7bd76253f
+X-MS-TrafficTypeDiagnostic: DB7P191MB0348:
+
+--------------I305M09060309060P_637615828894396
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Nous avons le plaisir de vous annoncer que votre colis Mondial Relay est =
+disponible dans votre Point Relais.
+
+Votre colis sera disponible pendant 7 jours, pass=C3=A9 ce d=C3=A9lai il =
+sera retourn=C3=A9 =C3=A0 l'exp=C3=A9diteur.
+
+Pour plus d'informations sur votre colis et sur les horaires d'ouverture =
+de votre relais, nous vous invitons =C3=A0 visiter notre site Web en cliq=
+uant sur le lien ci-dessous :
+
+CLIQUEZ SUR CE LIEN POUR EN SAVOIR PLUS:
+
+http://m.overstepbpo.com/1/54o8u0q9nlrz5bzp3yb/60b82878a327591186254c02c8=
+c.jpg
+
+Quand vous irez retirer votre colis :
+ - N'oubliez pas de vous munir d'une pi=C3=A8ce d'identit=C3=A9
+ - Demandez votre colis
+
+Nous vous remercions de votre confiance et souhaitons avoir prochainement=
+ le plaisir de vous servir =C3=A0 nouveau.
+
+Cordialement, Mondial Relay
+
+--------------I305M09060309060P_637615828894396--
+
+--fd18e556-e795-4fe0-be9b-c7cbdc2d9a78--

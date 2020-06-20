@@ -1,0 +1,189 @@
+Return-Path: <gertude383@intertill.gilenyie.top>
+Delivered-To: turathal+spam@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id jfnZIE5npl1BRwAAzyXPIA
+	(envelope-from <gertude383@intertill.gilenyie.top>)
+	for <turathal+spam@server-fr-sh-1111.alkafeel.info>; Wed, 16 Oct 2019 02:41:50 +0200
+Return-path: <gertude383@intertill.gilenyie.top>
+Envelope-to: webmaster@turathalanbiaa.com
+Delivery-date: Wed, 16 Oct 2019 02:41:50 +0200
+Received: from mx.intertill.gilenyie.top ([165.227.14.187]:54822)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <gertude383@intertill.gilenyie.top>)
+	id 1iKXNs-0004f0-Pj
+	for webmaster@turathalanbiaa.com; Wed, 16 Oct 2019 02:41:50 +0200
+Received: from mx.intertill.gilenyie.top (mx.intertill.gilenyie.top [127.0.0.1])
+	by mx.intertill.gilenyie.top (Postfix) with ESMTP id 46tD4H0XFwz25Rh
+	for <webmaster@turathalanbiaa.com>; Wed, 16 Oct 2019 00:41:03 +0000 (UTC)
+Authentication-Results: mx.intertill.gilenyie.top (amavisd-new);
+	dkim=pass (1024-bit key) reason="pass (just generated, assumed good)"
+	header.d=intertill.gilenyie.top
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=
+	intertill.gilenyie.top; h=content-transfer-encoding:content-type
+	:content-type:mime-version:message-id:x-mailer:user-agent
+	:reply-to:list-unsubscribe:subject:subject:to:from:from:date
+	:date; s=dkim; t=1571186462; x=1573778463; bh=ylBoZKKxONJ4Z2wlnz
+	TUtALUlJU67rsuBTQ78dF6PkA=; b=Fq5OrVn0/MHriTmgsrjIfnrWWkUaw+jr5K
+	/JPjczuEPE4N0N8KFfO2Yjc6z+9D2JDs1zpkoN8sPnZXi9aVi29Omie2B4KbuuMN
+	DRxb0Cm7SGxv9Seekni5nyK9mvhp7wxR1wmO5RuNUq7sXxutgiQpaAPSYAz9Mhha
+	/2oCzclfY=
+X-Virus-Scanned: Debian amavisd-new at mx.intertill.gilenyie.top
+Received: from mx.intertill.gilenyie.top ([127.0.0.1])
+	by mx.intertill.gilenyie.top (mx.intertill.gilenyie.top [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id bSVtUt55Px2H for <webmaster@turathalanbiaa.com>;
+	Wed, 16 Oct 2019 00:41:02 +0000 (UTC)
+Received: from [127.0.0.1] (mx.intertill.gilenyie.top [127.0.0.1])
+	by mx.intertill.gilenyie.top (Postfix) with ESMTP id 46tCrY663Gz24TK
+	for <webmaster@turathalanbiaa.com>; Wed, 16 Oct 2019 00:30:53 +0000 (UTC)
+Date: Wed, 16 Oct 2019 01:30:53 +0100
+From: =?UTF-8?Q?A=C5=89onymous=20H=CA=8Ccker?= <gertude383@intertill.gilenyie.top>
+To: webmaster@turathalanbiaa.com
+List-Unsubscribe: <http://intertill.gilenyie.top/unsub/Q3Y5U09EZjdzOEgzOE44eTFYTElZQ0gwazdjTWsyQlVWZ3ZMWUl1Z0Q1a09hdjVXNVI0TVU4Zmg0UUFRRDNDSStOMUE5S0E1bE1nU3ZPV0lxMGhHSEpzSE1NNHgwaUoxdTRWaGZQYXNsaFlSbVNCbUZMNEFTL01mVDFKQWJXR0s=>
+Reply-To: <gertude383@intertill.gilenyie.top>
+User-Agent: CodeIgniter
+X-Sender: gertude383@intertill.gilenyie.top
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: <5da664bda23f5@intertill.gilenyie.top>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: Yes, score=19.1
+X-Spam-Score: 191
+X-Spam-Bar: +++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ATTN: webmaster@turathalanbiaa.com The last time you visited
+    a Ƿorn website with teenagers, you downloaded and installed the vίrus I
+    developed. My program has turned on your cam and recorded the act of your
+    ʍasturbation.. 
+ Content analysis details:   (19.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 TRACKER_ID             BODY: Incorporates a tracking ID number
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [165.227.14.187 listed in psbl.surriel.com]
+  1.9 URIBL_ABUSE_SURBL      Contains an URL listed in the ABUSE SURBL
+                             blocklist
+                             [URIs: gilenyie.top]
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  5.0 URIBL_BLACK            Contains an URL listed in the URIBL blacklist
+                             [URIs: gilenyie.top]
+  0.5 FROM_SUSPICIOUS_NTLD   From abused NTLD
+  2.0 PDS_BTC_NTLD           Bitcoin suspect NTLD
+  5.0 KAM_SOMETLD_ARE_BAD_TLD .stream, .trade, .pw, .top, .press, .bid
+                              & .date TLD Abuse
+  2.0 FROM_SUSPICIOUS_NTLD_FP From abused NTLD
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?Q?IMPORTANT!=20You=20have=20been=20recorded=20=CA=8Dasturbating!?= =?UTF-8?Q?=20I=20have=20Webmaster.mp4!?=
+
+ATTN:  webmaster@turathalanbiaa.com
+
+The last time you visited a Ƿorn website with teenagers,
+you downloaded and installed the vίrus I developed.
+
+My program has turned on your cam and recorded the act
+of your ʍasturbation..
+
+My software also downloaded all your email contact lίsts
+and a list of your friends on Facebook.
+
+I have the - Webmaster.mp4 - with you jerkίng
+off to teens, as well as a file with all your contacts
+on my computer.
+
+You are very Ƿerverted!
+
+
+If you want me to delete both files and keep the secret,
+you must send me the Bitcoin payment.
+I gıve you 72 houɼs onɭy to transƒer the funds.
+
+If you don't know how to pay with Bitcoin,
+visit Google and search - how to buy bitcoin.
+
+*********************************************
+Send 2,000 USD = 0.2452651 BTC
+to this Bitcoin address as soon as possible:
+
+3HKtqwtKtVFnEUC2Ba5PKG44XvUPXg8XvS
+
+(copy & paste)
+*********************************************
+
+1 BTC = 8,165 USD right now, so send exactly 0.2452651 BTC
+to the address above.
+
+
+
+Do not try to cheat me!
+As soon as you open this Email I will know you opened it.
+I am tracking all actions on your device..
+
+This Bitcoin address is linked to you onɭy,
+so I will know when you send the correct amount.
+When you pay in full, I will remove both files and deactivate
+my program.
+
+If you choose to not send the btc...
+I will send your ʍasturbation vίdeo to
+ALL YOUR FRIENDS AND ASSOCIATES from your
+contact lists that I hacked.
+
+
+Here are the payment details again:
+
+Send 2,000 USD (0.2452651 BTC)
+to this Bitcoin address:
+
+*********************************************
+0.2452651 BTC
+
+to:
+
+3HKtqwtKtVFnEUC2Ba5PKG44XvUPXg8XvS
+
+(copy & paste)
+*********************************************
+
+
+You саn visit police but nobody can help you.
+I know what I am doing.
+I don't live in your country and I know how
+to stay anonymous.
+
+Don't try to deceive me - I will know it
+immediately - my spy software is recording all the
+websites you visit and all your key presses.
+If you do - I will send this ugly vίd to eveɼyone you know,
+INCLUDING YOUR FAMILY MEMBERS.
+
+
+Don't cheat me! Don't forget the shame and if you ignore
+this message your life will be ruined.
+
+I am waiting for your Bitcoin payment.
+You have 72 houɼs ɭeft.
+
+
+Aŉonymous Hʌcker
+
+
+P.S. If you need more time to buy and send BTC,
+open your notepad and write '48h more'.
+This way you can contact me.
+I will consider gıving you another 48 houɼs
+befoɼe I releɑse the vίd, but onɭy when I see that
+you are really struggling to buy bitcoin.
+I KNOW you can afford it - so don't play around...
+

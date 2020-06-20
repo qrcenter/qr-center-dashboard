@@ -1,0 +1,254 @@
+Return-Path: <>
+Delivered-To: turathal@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id ECOCItXPU15mggAAzyXPIA
+	(envelope-from <>)
+	for <turathal@server-fr-sh-1111.alkafeel.info>; Mon, 24 Feb 2020 16:29:57 +0300
+Return-path: <>
+Envelope-to: programmation.ivraiee@turathalanbiaa.com
+Delivery-date: Mon, 24 Feb 2020 16:29:57 +0300
+Received: from mailhost.impressionsdumas.com ([81.255.124.82]:40927)
+	by server-fr-sh-1111.alkafeel.info with esmtp (Exim 4.92)
+	id 1j6Do1-0008fq-6O
+	for programmation.ivraiee@turathalanbiaa.com; Mon, 24 Feb 2020 16:29:57 +0300
+MIME-Version: 1.0
+From: <postmaster@imp-dumas.local>
+To: <programmation.ivraiee@turathalanbiaa.com>
+Date: Mon, 24 Feb 2020 14:22:21 +0100
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="a401c155-8007-42fc-bc4f-65e729162a15"
+Content-Language: fr-FR
+Message-ID: <8a4eac6a-2cfd-4f04-8b9b-b57b1e9f5d45@imp-dumas.local>
+In-Reply-To: <202002241322.01ODMin2379984@smtp41.msg.oleane.net>
+References: <202002241322.01ODMin2379984@smtp41.msg.oleane.net>
+Subject: Non remis : Mail delivery failed: returning message to sender
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Échec de la remise pour ces destinataires ou groupes : elsonmibglyphesneg@glyphes.fr<mailto:elsonmibglyphesneg@glyphes.fr>
+    L'adresse de messagerie que vous avez entrée est introuvable. Vérifiez l'adresse
+    de messagerie du destinataire et essayez de renvoye [...] 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.8 DKIM_ADSP_NXDOMAIN     No valid author signature and domain not in
+                             DNS
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--a401c155-8007-42fc-bc4f-65e729162a15
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="bf439e22-48f2-4350-b0fd-6d257a1170d3"
+
+--bf439e22-48f2-4350-b0fd-6d257a1170d3
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+=C9chec de la remise pour ces destinataires ou groupes :
+
+elsonmibglyphesneg@glyphes.fr<mailto:elsonmibglyphesneg@glyphes.fr>
+L'adresse de messagerie que vous avez entr=E9e est introuvable. V=E9rifiez =
+l'adresse de messagerie du destinataire et essayez de renvoyer le message. =
+Si le probl=E8me persiste, contactez le support technique.
+
+
+
+
+
+
+
+Informations de diagnostic pour les administrateurs :
+
+G=E9n=E9ration du serveur : imp-dumas.local
+
+elsonmibglyphesneg@glyphes.fr
+#550 5.1.1 RESOLVER.ADR.RecipNotFound; not found ##
+
+En-t=EAtes de message d'origine :
+
+Received: from smtp41.msg.oleane.net (62.161.4.41) by
+ mailhost.impressionsdumas.com (10.0.0.4) with Microsoft SMTP Server id
+ 14.3.439.0; Mon, 24 Feb 2020 14:22:21 +0100
+Received: from smtp41.msg.oleane.net (localhost [127.0.0.1])    by
+ smtp41.msg.oleane.net (MX-ASAV) with ESMTP id 01ODMkMM380033   for
+ <elsonmibglyphesneg@glyphes.fr>; Mon, 24 Feb 2020 14:22:46 +0100
+Received: from turathalanbiaa.com (fm-dyn-111-95-17-133.fast.net.id
+ [111.95.17.133] (may be forged))       by smtp41.msg.oleane.net (MX) with =
+ESMTP id
+ 01ODMin2379984 for <elsonmibglyphesneg@glyphes.fr>; Mon, 24 Feb 2020 14:22=
+:45
+ +0100
+Message-ID: <202002241322.01ODMin2379984@smtp41.msg.oleane.net>
+Date: Mon, 24 Feb 2020 14:02:25 +0100
+From: WEB.DE Mailer Daemon <iMondeffortNaphtaline@web.de>
+To: <elsonmibglyphesneg@glyphes.fr>
+Subject: Mail delivery failed: returning message to sender
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: text/html; charset=3D"utf-8"
+Content-Transfer-Encoding: 8bit
+X-UI-Out-Filterresults: unknown:0;V03:K0:+STn2oTnzps=3D:Z+BU98CyrZ4GucVihlt=
+rzp
+ =3D=3D
+X-Backend: vm-mx-sophos-mta08
+X-PMX-Backend: PMX 6.3.3.2656215, Antispam-Engine: 2.7.2.2107409, Antispam-=
+Data: 2020.2.24.131517, AntiVirus-Engine: 5.70.0, AntiVirus-Data: 2020.2.22=
+.5700003 running on vm-mx-sophos-mta08
+X-PMX-VirusScan: no virus found
+X-PFSI-Info: PMX 6.3.3.2656215, Antispam-Engine: 2.7.2.2107409, Antispam-Da=
+ta: 2020.2.24.131517, AntiVirus-Engine: 5.70.0, AntiVirus-Data: 2020.2.22.5=
+700003 (no virus found)
+X-Spam-Level: XXXX
+X-Spam-Flag: NO
+X-PMX-Spam: Probability=3D47%
+X-PMX-SpamScan: NO 47% XXXX
+Return-Path: programmation.ivraiee@turathalanbiaa.com
+
+
+--bf439e22-48f2-4350-b0fd-6d257a1170d3
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">=C9chec de la remis=
+e pour ces destinataires ou groupes=A0:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:els=
+onmibglyphesneg@glyphes.fr">elsonmibglyphesneg@glyphes.fr</a><br>
+L'adresse de messagerie que vous avez entr=E9e est introuvable. V=E9rifiez =
+l'adresse de messagerie du destinataire et essayez de renvoyer le message. =
+Si le probl=E8me persiste, contactez le support technique.<br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Informations de di=
+agnostic pour les administrateurs :</b></p>
+<p>G=E9n=E9ration du serveur : imp-dumas.local</p>
+<p>elsonmibglyphesneg@glyphes.fr<br>
+ #550 5.1.1 RESOLVER.ADR.RecipNotFound; not found ##</p>
+<p>En-t=EAtes de message d'origine :</p>
+<pre>Received: from smtp41.msg.oleane.net (62.161.4.41) by
+ mailhost.impressionsdumas.com (10.0.0.4) with Microsoft SMTP Server id
+ 14.3.439.0; Mon, 24 Feb 2020 14:22:21 +0100
+Received: from smtp41.msg.oleane.net (localhost [127.0.0.1]) 	by
+ smtp41.msg.oleane.net (MX-ASAV) with ESMTP id 01ODMkMM380033	for
+ &lt;elsonmibglyphesneg@glyphes.fr&gt;; Mon, 24 Feb 2020 14:22:46 +0100
+Received: from turathalanbiaa.com (fm-dyn-111-95-17-133.fast.net.id
+ [111.95.17.133] (may be forged)) 	by smtp41.msg.oleane.net (MX) with ESMTP=
+ id
+ 01ODMin2379984	for &lt;elsonmibglyphesneg@glyphes.fr&gt;; Mon, 24 Feb 2020=
+ 14:22:45
+ +0100
+Message-ID: &lt;202002241322.01ODMin2379984@smtp41.msg.oleane.net&gt;
+Date: Mon, 24 Feb 2020 14:02:25 +0100
+From: WEB.DE Mailer Daemon &lt;iMondeffortNaphtaline@web.de&gt;
+To: &lt;elsonmibglyphesneg@glyphes.fr&gt;
+Subject: Mail delivery failed: returning message to sender
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: text/html; charset=3D&quot;utf-8&quot;
+Content-Transfer-Encoding: 8bit
+X-UI-Out-Filterresults: unknown:0;V03:K0:+STn2oTnzps=3D:Z+BU98CyrZ4GucVihlt=
+rzp
+ =3D=3D
+X-Backend: vm-mx-sophos-mta08
+X-PMX-Backend: PMX 6.3.3.2656215, Antispam-Engine: 2.7.2.2107409, Antispam-=
+Data: 2020.2.24.131517, AntiVirus-Engine: 5.70.0, AntiVirus-Data: 2020.2.22=
+.5700003 running on vm-mx-sophos-mta08
+X-PMX-VirusScan: no virus found
+X-PFSI-Info: PMX 6.3.3.2656215, Antispam-Engine: 2.7.2.2107409, Antispam-Da=
+ta: 2020.2.24.131517, AntiVirus-Engine: 5.70.0, AntiVirus-Data: 2020.2.22.5=
+700003 (no virus found)
+X-Spam-Level: XXXX
+X-Spam-Flag: NO
+X-PMX-Spam: Probability=3D47%
+X-PMX-SpamScan: NO 47% XXXX
+Return-Path: programmation.ivraiee@turathalanbiaa.com
+</pre>
+</font>
+</body>
+</html>=
+
+--bf439e22-48f2-4350-b0fd-6d257a1170d3--
+
+--a401c155-8007-42fc-bc4f-65e729162a15
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;imp-dumas.local
+Received-From-MTA: dns;smtp41.msg.oleane.net
+Arrival-Date: Mon, 24 Feb 2020 13:22:21 +0000
+
+Final-Recipient: rfc822;elsonmibglyphesneg@glyphes.fr
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+
+
+--a401c155-8007-42fc-bc4f-65e729162a15
+Content-Type: message/rfc822
+
+Received: from smtp41.msg.oleane.net (62.161.4.41) by
+ mailhost.impressionsdumas.com (10.0.0.4) with Microsoft SMTP Server id
+ 14.3.439.0; Mon, 24 Feb 2020 14:22:21 +0100
+Received: from smtp41.msg.oleane.net (localhost [127.0.0.1]) 	by
+ smtp41.msg.oleane.net (MX-ASAV) with ESMTP id 01ODMkMM380033	for
+ <elsonmibglyphesneg@glyphes.fr>; Mon, 24 Feb 2020 14:22:46 +0100
+Received: from turathalanbiaa.com (fm-dyn-111-95-17-133.fast.net.id
+ [111.95.17.133] (may be forged)) 	by smtp41.msg.oleane.net (MX) with ESMTP id
+ 01ODMin2379984	for <elsonmibglyphesneg@glyphes.fr>; Mon, 24 Feb 2020 14:22:45
+ +0100
+Message-ID: <202002241322.01ODMin2379984@smtp41.msg.oleane.net>
+Date: Mon, 24 Feb 2020 14:02:25 +0100
+From: WEB.DE Mailer Daemon <iMondeffortNaphtaline@web.de>
+To: <elsonmibglyphesneg@glyphes.fr>
+Subject: Mail delivery failed: returning message to sender
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-UI-Out-Filterresults: unknown:0;V03:K0:+STn2oTnzps=:Z+BU98CyrZ4GucVihltrzp
+ ==
+X-Backend: vm-mx-sophos-mta08
+X-PMX-Backend: PMX 6.3.3.2656215, Antispam-Engine: 2.7.2.2107409, Antispam-Data: 2020.2.24.131517, AntiVirus-Engine: 5.70.0, AntiVirus-Data: 2020.2.22.5700003 running on vm-mx-sophos-mta08
+X-PMX-VirusScan: no virus found
+X-PFSI-Info: PMX 6.3.3.2656215, Antispam-Engine: 2.7.2.2107409, Antispam-Data: 2020.2.24.131517, AntiVirus-Engine: 5.70.0, AntiVirus-Data: 2020.2.22.5700003 (no virus found)
+X-Spam-Level: XXXX
+X-Spam-Flag: NO
+X-PMX-Spam: Probability=47%
+X-PMX-SpamScan: NO 47% XXXX
+Return-Path: programmation.ivraiee@turathalanbiaa.com
+
+Nous avons le plaisir de vous annoncer que votre colis La Poste est disponi=
+ble dans votre Point Relais.<br>
+<br>
+Votre colis sera disponible pendant 7 jours, pass=C3=A9 ce d=C3=A9lai il se=
+ra retourn=C3=A9 =C3=A0 l'exp=C3=A9diteur.<br>
+<br>
+Pour plus d'informations sur votre colis et sur les horaires d'ouverture de=
+ votre relais, nous vous invitons =C3=A0 visiter notre site Web en cliquant=
+ sur le lien ci-dessous :<br>
+<br>
+CLIQUEZ SUR CE LIEN POUR EN SAVOIR PLUS:<br>
+<a href=3D"http://dut.goodbetterbest.promo/YSUzRDIwMTIlMjZjJTNEMTI1NiUyNmUl=
+M0QzNTQ4NjElMjZsJTNEMjkzMTglMjZzJTNEMTQwNTQ1MjMlMjZ0/50vwqxgfbcxptitsitx/JT=
+NEYyUyNmxzJTNENA=3D=3D">http://dut.goodbetterbest.promo/YSUzRDIwMTIlMjZjJTN=
+EMTI1NiUyNmUlM0QzNTQ4NjElMjZsJTNEMjkzMTglMjZzJTNEMTQwNTQ1MjMlMjZ0/50vwqxgfb=
+cxptitsitx/JTNEYyUyNmxzJTNENA=3D=3D</a><br>
+<br>
+Quand vous irez retirer votre colis :<br>
+- N'oubliez pas de vous munir d'une pi=C3=A8ce d'identit=C3=A9<br>
+- Demandez votre colis<br>
+<br>
+Nous vous remercions de votre confiance et souhaitons avoir prochainement l=
+e plaisir de vous servir =C3=A0 nouveau.<br>
+Cordialement,<br>
+L'=C3=A9quipe La Poste<br>
+
+
+--a401c155-8007-42fc-bc4f-65e729162a15--

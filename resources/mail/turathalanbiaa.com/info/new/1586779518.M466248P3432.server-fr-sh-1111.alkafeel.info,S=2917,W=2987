@@ -1,0 +1,70 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id fq5tG35VlF5oDQAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Mon, 13 Apr 2020 15:05:18 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Mon, 13 Apr 2020 15:05:18 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jNxq2-0000tB-Dt
+	for info@turathalanbiaa.com; Mon, 13 Apr 2020 15:05:18 +0300
+X-Failed-Recipients: atyefklleel@gmali.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1586779518-eximdsn-10521737
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jNxq2-0000tB-Dt@server-fr-sh-1111.alkafeel.info>
+Date: Mon, 13 Apr 2020 15:05:18 +0300
+
+--1586779518-eximdsn-10521737
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  atyefklleel@gmali.com
+    The mail server could not deliver mail to atyefklleel@gmali.com.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+--1586779518-eximdsn-10521737
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;atyefklleel@gmali.com
+Status: 5.0.0
+
+--1586779518-eximdsn-10521737
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jNxq2-0000sn-92
+	for atyefklleel@gmali.com; Mon, 13 Apr 2020 15:05:18 +0300
+To: atyefklleel@gmali.com
+Subject: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 185.180.61.8
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Mon, 13 Apr 2020 12:05:18 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <d7c253584bf4f5ab170d5ce6a3c22fa8@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>مرحبا بك , لقد تم تسجيلك بنجاح</h1>
+<a href="http://www.turath.dev" style="text-decoration: none;font-size: 18px;">الذهاب الي الموقع</a>
+
+
+--1586779518-eximdsn-10521737--

@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id 906FMLTBml7KAQAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Sat, 18 Apr 2020 12:00:36 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Sat, 18 Apr 2020 12:00:36 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jPjL2-0000KI-PU
+	for info@turathalanbiaa.com; Sat, 18 Apr 2020 12:00:36 +0300
+X-Failed-Recipients: morteza.walidjarallah2000@MAIL.ru
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1587200436-eximdsn-1720786436
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jPjL2-0000KI-PU@server-fr-sh-1111.alkafeel.info>
+Date: Sat, 18 Apr 2020 12:00:36 +0300
+
+--1587200436-eximdsn-1720786436
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  morteza.walidjarallah2000@MAIL.ru
+    host mxs.mail.ru [94.100.180.104]
+    SMTP error from remote mail server after end of data:
+    550 spam message rejected. Please visit http://help.mail.ru/notspam-support/id?c=qQVYbhUYadS1gNGEdXD3PfiDdemyJDJvXsDGek9T2L4MouonX-_lzSUAAABDigAAT7jtLQ~~ or  report details to abuse@corp.mail.ru. Error code:
+    6E5805A9D469181584D180B53DF77075E97583F86F3224B27AC6C05EBED8534F27EAA20CCDE5EF5F. ID:
+    0000002500008A432DEDB84F.
+
+--1587200436-eximdsn-1720786436
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;morteza.walidjarallah2000@MAIL.ru
+Status: 5.0.0
+Remote-MTA: dns; mxs.mail.ru
+Diagnostic-Code: smtp; 550 spam message rejected. Please visit http://help.mail.ru/notspam-support/id?c=qQVYbhUYadS1gNGEdXD3PfiDdemyJDJvXsDGek9T2L4MouonX-_lzSUAAABDigAAT7jtLQ~~ or  report details to abuse@corp.mail.ru. Error code: 6E5805A9D469181584D180B53DF77075E97583F86F3224B27AC6C05EBED8534F27EAA20CCDE5EF5F. ID: 0000002500008A432DEDB84F.
+
+--1587200436-eximdsn-1720786436
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jPjL1-0000Jv-49
+	for morteza.walidjarallah2000@mail.ru; Sat, 18 Apr 2020 12:00:35 +0300
+To: morteza.walidjarallah2000@mail.ru
+Subject: Reset Password
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.239.12.32, 37.239.12.32
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Sat, 18 Apr 2020 09:00:35 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <f93857375b226b335540844aab23a66c@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/image"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<h3>morteza.walidjarallah2000@mail.ru</h3>
+<a href="http://www.edu.turathalanbiaa.com/reset_password/4UwoJTunJdfrEZmAXiwwUnMS9Yo1956frDNHYiQXaLYr7V9nJJCr6lndBtPc2JUs4bXD42Wg95u5aPRyuBYBHCxxT6FpIVqJn3LZL78ltk4EEgM7MXaL8xY6nUg9HzdC" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغير كلمة المرور</a>
+
+
+--1587200436-eximdsn-1720786436--

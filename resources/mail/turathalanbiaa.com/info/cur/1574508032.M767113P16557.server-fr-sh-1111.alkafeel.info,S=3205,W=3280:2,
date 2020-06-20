@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id vSnLLAAW2V2tQAAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Sat, 23 Nov 2019 14:20:32 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Sat, 23 Nov 2019 14:20:32 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1iYTSq-0004Iv-NG
+	for info@turathalanbiaa.com; Sat, 23 Nov 2019 14:20:32 +0300
+X-Failed-Recipients: mohammed04@bk.ru
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1574508032-eximdsn-590472235
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iYTSq-0004Iv-NG@server-fr-sh-1111.alkafeel.info>
+Date: Sat, 23 Nov 2019 14:20:32 +0300
+
+--1574508032-eximdsn-590472235
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  mohammed04@bk.ru
+    host mxs.mail.ru [94.100.180.104]
+    SMTP error from remote mail server after end of data:
+    550 Message was not accepted -- invalid mailbox.  Local mailbox mohammed04@bk.ru is unavailable:
+    user is terminated
+
+--1574508032-eximdsn-590472235
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;mohammed04@bk.ru
+Status: 5.0.0
+Remote-MTA: dns; mxs.mail.ru
+Diagnostic-Code: smtp; 550 Message was not accepted -- invalid mailbox.  Local mailbox mohammed04@bk.ru is unavailable: user is terminated
+
+--1574508032-eximdsn-590472235
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1iYTSp-0004IU-26
+	for mohammed04@bk.ru; Sat, 23 Nov 2019 14:20:31 +0300
+To: mohammed04@bk.ru
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.238.65.4
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Sat, 23 Nov 2019 11:20:31 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <c3b548c2475e9f11fa3c39ae795c6308@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/5496/82a93537ba09dace6b0f620ce6404ce4" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1574508032-eximdsn-590472235--

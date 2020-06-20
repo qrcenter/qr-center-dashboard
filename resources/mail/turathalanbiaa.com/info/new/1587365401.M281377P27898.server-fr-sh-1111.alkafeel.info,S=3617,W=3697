@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id NyOADxlGnV76bAAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Mon, 20 Apr 2020 09:50:01 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Mon, 20 Apr 2020 09:50:01 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jQQFl-0007Fn-7M
+	for info@turathalanbiaa.com; Mon, 20 Apr 2020 09:50:01 +0300
+X-Failed-Recipients: halol73@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1587365401-eximdsn-1928588019
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jQQFl-0007Fn-7M@server-fr-sh-1111.alkafeel.info>
+Date: Mon, 20 Apr 2020 09:50:01 +0300
+
+--1587365401-eximdsn-1928588019
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  halol73@gmail.com
+    host gmail-smtp-in.l.google.com [108.177.15.27]
+    SMTP error from remote mail server after RCPT TO:<halol73@gmail.com>:
+    550-5.1.1 The email account that you tried to reach does not exist. Please try
+    550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. Learn more at
+    550 5.1.1  https://support.google.com/mail/?p=NoSuchUser z26si12230572wml.7 - gsmtp
+
+--1587365401-eximdsn-1928588019
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;halol73@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser z26si12230572wml.7 - gsmtp
+
+--1587365401-eximdsn-1928588019
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jQQFl-0007FH-25
+	for halol73@gmail.com; Mon, 20 Apr 2020 09:50:01 +0300
+To: halol73@gmail.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.237.136.27
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Mon, 20 Apr 2020 06:50:01 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <5fe7d4f1f84bdfa6dd6b9f1bdd624a27@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://edu.turathalanbiaa.com/active/6416/mywNUkIjElnk33WNkrCt7WKIX82is0PDsg9lgyLie5XZz4dkFtUWdC4sDlZTWDFW" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1587365401-eximdsn-1928588019--

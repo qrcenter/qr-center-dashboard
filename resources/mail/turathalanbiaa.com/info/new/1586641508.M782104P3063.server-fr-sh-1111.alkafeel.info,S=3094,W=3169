@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id kEuRLmQ6kl73CwAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Sun, 12 Apr 2020 00:45:08 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Sun, 12 Apr 2020 00:45:08 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jNNw4-0000nM-OO
+	for info@turathalanbiaa.com; Sun, 12 Apr 2020 00:45:08 +0300
+X-Failed-Recipients: ghx3@list.ru
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1586641508-eximdsn-1893168239
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jNNw4-0000nM-OO@server-fr-sh-1111.alkafeel.info>
+Date: Sun, 12 Apr 2020 00:45:08 +0300
+
+--1586641508-eximdsn-1893168239
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ghx3@list.ru
+    host mxs.mail.ru [94.100.180.31]
+    SMTP error from remote mail server after end of data:
+    550 Message was not accepted -- invalid mailbox.  Local mailbox ghx3@list.ru is unavailable:
+    user is terminated
+
+--1586641508-eximdsn-1893168239
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;ghx3@list.ru
+Status: 5.0.0
+Remote-MTA: dns; mxs.mail.ru
+Diagnostic-Code: smtp; 550 Message was not accepted -- invalid mailbox.  Local mailbox ghx3@list.ru is unavailable: user is terminated
+
+--1586641508-eximdsn-1893168239
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jNNw2-0000mk-Sp
+	for ghx3@list.ru; Sun, 12 Apr 2020 00:45:06 +0300
+To: ghx3@list.ru
+Subject: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.239.76.34
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Sat, 11 Apr 2020 21:45:06 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <7f07387658b5e6f9f400ef752bf97bd4@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>مرحبا بك , لقد تم تسجيلك بنجاح</h1>
+<a href="http://www.turath.dev" style="text-decoration: none;font-size: 18px;">الذهاب الي الموقع</a>
+
+
+--1586641508-eximdsn-1893168239--

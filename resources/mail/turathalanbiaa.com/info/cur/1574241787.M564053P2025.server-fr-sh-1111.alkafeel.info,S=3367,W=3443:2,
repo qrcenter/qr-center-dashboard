@@ -1,0 +1,76 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id OI2RIfsF1V3pBwAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Wed, 20 Nov 2019 12:23:07 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Wed, 20 Nov 2019 12:23:07 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1iXMCZ-0000i3-GJ
+	for info@turathalanbiaa.com; Wed, 20 Nov 2019 12:23:07 +0300
+X-Failed-Recipients: yassirralhkem2004@gamil.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1574241787-eximdsn-1221892301
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iXMCZ-0000i3-GJ@server-fr-sh-1111.alkafeel.info>
+Date: Wed, 20 Nov 2019 12:23:07 +0300
+
+--1574241787-eximdsn-1221892301
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  yassirralhkem2004@gamil.com
+    host mx9.webfaction.com [185.20.49.164]
+    SMTP error from remote mail server after RCPT TO:<yassirralhkem2004@gamil.com>:
+    550 5.1.1 <yassirralhkem2004@gamil.com>: Recipient address rejected:
+    User unknown in virtual alias table
+
+--1574241787-eximdsn-1221892301
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;yassirralhkem2004@gamil.com
+Status: 5.0.0
+Remote-MTA: dns; mx9.webfaction.com
+Diagnostic-Code: smtp; 550 5.1.1 <yassirralhkem2004@gamil.com>: Recipient address rejected: User unknown in virtual alias table
+
+--1574241787-eximdsn-1221892301
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1iXMCZ-0000ht-7e
+	for yassirralhkem2004@gamil.com; Wed, 20 Nov 2019 12:23:07 +0300
+To: yassirralhkem2004@gamil.com
+Subject: Reset Password
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 190.2.143.67
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Wed, 20 Nov 2019 09:23:07 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <9f0e4316bcc427cea9f3e6ab224ece3f@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="https://edu.turathalanbiaa.com/assets/image"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<h3>yassirralhkem2004@gamil.com</h3>
+<a href="https://edu.turathalanbiaa.com/reset_password/UwMh61oArhFoZFAal2SNe2Kcq2YWoMVN7JwdmUnGyj3R8btfvjdYElvfejP3yvJU2UoYG9DP9LUdiuVSpAh3HvQBYYCWHzoSBpXyXEYH8lkqjm7APvhUVsDYeMbjLE6i" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغير كلمة المرور</a>
+
+
+--1574241787-eximdsn-1221892301--

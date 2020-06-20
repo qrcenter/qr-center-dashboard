@@ -1,0 +1,70 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id yLs/I86AlV5tqgAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Tue, 14 Apr 2020 12:22:22 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Tue, 14 Apr 2020 12:22:22 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jOHlu-000BLY-I7
+	for info@turathalanbiaa.com; Tue, 14 Apr 2020 12:22:22 +0300
+X-Failed-Recipients: Linoiraq20@ylahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1586856142-eximdsn-1461385216
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jOHlu-000BLY-I7@server-fr-sh-1111.alkafeel.info>
+Date: Tue, 14 Apr 2020 12:22:22 +0300
+
+--1586856142-eximdsn-1461385216
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  Linoiraq20@ylahoo.com
+    The mail server could not deliver mail to linoiraq20@ylahoo.com.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+--1586856142-eximdsn-1461385216
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;Linoiraq20@ylahoo.com
+Status: 5.0.0
+
+--1586856142-eximdsn-1461385216
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jOHlu-000BLB-FN
+	for Linoiraq20@ylahoo.com; Tue, 14 Apr 2020 12:22:22 +0300
+To: Linoiraq20@ylahoo.com
+Subject: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.239.99.37
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Tue, 14 Apr 2020 09:22:22 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <f1ef0629c5386ea1115b1ab29a5f5762@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>مرحبا بك , لقد تم تسجيلك بنجاح</h1>
+<a href="http://www.turath.dev" style="text-decoration: none;font-size: 18px;">الذهاب الي الموقع</a>
+
+
+--1586856142-eximdsn-1461385216--

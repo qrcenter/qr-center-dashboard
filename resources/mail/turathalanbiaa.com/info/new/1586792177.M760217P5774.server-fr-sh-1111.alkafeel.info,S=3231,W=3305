@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id 4JVDLfGGlF6OFgAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Mon, 13 Apr 2020 18:36:17 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Mon, 13 Apr 2020 18:36:17 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jO18D-0001W7-Ng
+	for info@turathalanbiaa.com; Mon, 13 Apr 2020 18:36:17 +0300
+X-Failed-Recipients: altaaefatema@gemel.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1586792177-eximdsn-1247222773
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jO18D-0001W7-Ng@server-fr-sh-1111.alkafeel.info>
+Date: Mon, 13 Apr 2020 18:36:17 +0300
+
+--1586792177-eximdsn-1247222773
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  altaaefatema@gemel.com
+    host gemel-com.mail.protection.outlook.com [104.47.45.36]
+    SMTP error from remote mail server after RCPT TO:<altaaefatema@gemel.com>:
+    550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [CO1NAM04FT034.eop-NAM04.prod.protection.outlook.com]
+
+--1586792177-eximdsn-1247222773
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;altaaefatema@gemel.com
+Status: 5.0.0
+Remote-MTA: dns; gemel-com.mail.protection.outlook.com
+Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. AS(201806281) [CO1NAM04FT034.eop-NAM04.prod.protection.outlook.com]
+
+--1586792177-eximdsn-1247222773
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jO18B-0001UC-73
+	for altaaefatema@gemel.com; Mon, 13 Apr 2020 18:36:15 +0300
+To: altaaefatema@gemel.com
+Subject: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.238.176.35
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Mon, 13 Apr 2020 15:36:15 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <86e56cc4db12d87df79851e13873b552@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>مرحبا بك , لقد تم تسجيلك بنجاح</h1>
+<a href="http://www.turath.dev" style="text-decoration: none;font-size: 18px;">الذهاب الي الموقع</a>
+
+
+--1586792177-eximdsn-1247222773--

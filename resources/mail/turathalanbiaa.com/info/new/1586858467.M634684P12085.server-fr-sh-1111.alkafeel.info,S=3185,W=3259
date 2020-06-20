@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id 2D/HJeOJlV41LwAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Tue, 14 Apr 2020 13:01:07 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Tue, 14 Apr 2020 13:01:07 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jOINP-0003XE-Jg
+	for info@turathalanbiaa.com; Tue, 14 Apr 2020 13:01:07 +0300
+X-Failed-Recipients: www.aljarady00@giml.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1586858467-eximdsn-289429764
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jOINP-0003XE-Jg@server-fr-sh-1111.alkafeel.info>
+Date: Tue, 14 Apr 2020 13:01:07 +0300
+
+--1586858467-eximdsn-289429764
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  www.aljarady00@giml.com
+    host eu-smtp-inbound-1.mimecast.com [91.220.42.201]
+    SMTP error from remote mail server after RCPT TO:<www.aljarady00@giml.com>:
+    550 Invalid Recipient - https://community.mimecast.com/docs/DOC-1369#550 [m8XXY44gNjKbN5TbJRrkXA.uk197]
+
+--1586858467-eximdsn-289429764
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;www.aljarady00@giml.com
+Status: 5.0.0
+Remote-MTA: dns; eu-smtp-inbound-1.mimecast.com
+Diagnostic-Code: smtp; 550 Invalid Recipient - https://community.mimecast.com/docs/DOC-1369#550 [m8XXY44gNjKbN5TbJRrkXA.uk197]
+
+--1586858467-eximdsn-289429764
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jOHy1-000EFJ-0n
+	for www.aljarady00@giml.com; Tue, 14 Apr 2020 12:34:53 +0300
+To: www.aljarady00@giml.com
+Subject: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.237.234.17
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Tue, 14 Apr 2020 09:34:52 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <4de6d087f81fa17017098ccc20d86f57@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>مرحبا بك , لقد تم تسجيلك بنجاح</h1>
+<a href="http://www.turath.dev" style="text-decoration: none;font-size: 18px;">الذهاب الي الموقع</a>
+
+
+--1586858467-eximdsn-289429764--

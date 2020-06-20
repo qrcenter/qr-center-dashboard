@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id 9CTNFgpT0F01UAAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Sat, 16 Nov 2019 22:50:34 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Sat, 16 Nov 2019 22:50:34 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1iW45a-0005Og-Ba
+	for info@turathalanbiaa.com; Sat, 16 Nov 2019 22:50:34 +0300
+X-Failed-Recipients: ali_hsien_1973@yahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1573933834-eximdsn-300961444
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iW45a-0005Og-Ba@server-fr-sh-1111.alkafeel.info>
+Date: Sat, 16 Nov 2019 22:50:34 +0300
+
+--1573933834-eximdsn-300961444
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ali_hsien_1973@yahoo.com
+    host mta6.am0.yahoodns.net [67.195.204.74]
+    SMTP error from remote mail server after end of data:
+    554 delivery error: dd Sorry, your message to ali_hsien_1973@yahoo.com cannot be delivered. This mailbox is disabled (554.30). - mta4459.mail.bf1.yahoo.com
+
+--1573933834-eximdsn-300961444
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;ali_hsien_1973@yahoo.com
+Status: 5.0.0
+Remote-MTA: dns; mta6.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd Sorry, your message to ali_hsien_1973@yahoo.com cannot be delivered. This mailbox is disabled (554.30). - mta4459.mail.bf1.yahoo.com
+
+--1573933834-eximdsn-300961444
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1iW45X-0005OD-IZ
+	for ali_hsien_1973@yahoo.com; Sat, 16 Nov 2019 22:50:31 +0300
+To: ali_hsien_1973@yahoo.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 45.134.17.103
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Sat, 16 Nov 2019 19:50:31 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <969132ddf188751bcbd1c6cea149ec4f@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/5399/7f0545c9cf75ecbe87b9b5ef0ee5e1ef" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1573933834-eximdsn-300961444--

@@ -1,0 +1,278 @@
+Return-Path: <>
+Delivered-To: turathal+spam@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id y30WJzV8YF747AAAzyXPIA
+	(envelope-from <>)
+	for <turathal+spam@server-fr-sh-1111.alkafeel.info>; Thu, 05 Mar 2020 07:12:37 +0300
+Return-path: <>
+Envelope-to: coeurant.serenite60@turathalanbiaa.com
+Delivery-date: Thu, 05 Mar 2020 07:12:37 +0300
+Received: from leibniz.telenet-ops.be ([195.130.137.77]:34728)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	id 1j9hsC-000FZi-3E
+	for coeurant.serenite60@turathalanbiaa.com; Thu, 05 Mar 2020 07:12:37 +0300
+Received: from xavier.telenet-ops.be (xavier.telenet-ops.be [IPv6:2a02:1800:120:4::f00:14])
+	by leibniz.telenet-ops.be (Postfix) with ESMTPS id 48Xxtt52CHzMqgdw
+	for <coeurant.serenite60@turathalanbiaa.com>; Thu,  5 Mar 2020 05:03:34 +0100 (CET)
+Received: from mail.thercon.be ([81.82.231.52])
+	by xavier.telenet-ops.be with bizsmtp
+	id AU2t2200E18V8eh01U2t7t; Thu, 05 Mar 2020 05:02:53 +0100
+MIME-Version: 1.0
+From: <postmaster@THERCON.BE>
+To: <coeurant.serenite60@turathalanbiaa.com>
+Date: Thu, 5 Mar 2020 05:02:53 +0100
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="df2bceef-8d29-4cb6-b291-3430d1cd3e66"
+X-MS-Exchange-Message-Is-Ndr:
+Content-Language: fr
+Message-ID: <926abf98-2a74-4881-96bd-7a9e288cbbbb@THER-VMAIL01.ORCON.BE.LOCAL>
+In-Reply-To: <2d31fa56a2765e5279caaf90dc379757107bb0e@bk.ru>
+References: <2d31fa56a2765e5279caaf90dc379757107bb0e@bk.ru>
+Auto-Submitted: auto-replied
+X-Spam-Status: Yes, score=7.4
+X-Spam-Score: 74
+X-Spam-Bar: +++++++
+X-Spam-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Échec de la remise pour ces destinataires ou groupes : Auowdajwhvnx
+    (auowdajwhvnx@orcon.be)<mailto:auowdajwhvnx@orcon.be> Nous n’avons pas trouvé
+    l’adresse de courrier que vous avez entrée. Vérifiez l’adresse de courrier
+    du destinataire et essayez de renv [...] 
+ Content analysis details:   (7.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: georgethalassinossecurityconsultant.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.7 RCVD_IN_DNSWL_LOW      RBL: Sender listed at https://www.dnswl.org/,
+                             low trust
+                             [195.130.137.77 listed in list.dnswl.org]
+  0.1 URIBL_SBL_A            Contains URL's A record listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: tr.georgethalassinossecurityconsultant.com]
+  2.5 UNICODE_OBFU_ASC       Obfuscating text with unicode
+  1.0 UNICODE_OBFU_ZW        Obfuscating text with hidden characters
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Non remis : Mail delivery failed: returning message to sender
+
+--df2bceef-8d29-4cb6-b291-3430d1cd3e66
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="a2d6af0b-8a10-4e3e-b1ec-2e8f2ccec27e"
+
+--a2d6af0b-8a10-4e3e-b1ec-2e8f2ccec27e
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+=C9chec de la remise pour ces destinataires ou groupes :
+
+Auowdajwhvnx (auowdajwhvnx@orcon.be)<mailto:auowdajwhvnx@orcon.be>
+Nous n=92avons pas trouv=E9 l=92adresse de courrier que vous avez entr=E9e.=
+ V=E9rifiez l=92adresse de courrier du destinataire et essayez de renvoyer =
+le message. Si le probl=E8me persiste, contactez l=92administrateur de votr=
+e courrier.
+
+
+
+
+
+
+
+
+Informations de diagnostic pour les administrateurs :
+
+Serveur de g=E9n=E9ration : THER-VMAIL01.ORCON.BE.LOCAL
+
+auowdajwhvnx@orcon.be
+Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipien=
+t not found by SMTP address lookup'
+
+En-t=EAtes de message d'origine :
+
+Received: from THER-VMAIL01.ORCON.BE.LOCAL (192.168.1.21) by
+ THER-VMAIL01.ORCON.BE.LOCAL (192.168.1.21) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.1913.5; Thu, 5 Mar 2020 05:02:53 +0100
+Received: from turathalanbiaa.com (222.171.204.76) by
+ THER-VMAIL01.ORCON.BE.LOCAL (192.168.1.21) with Microsoft SMTP Server id
+ 15.1.1913.5 via Frontend Transport; Thu, 5 Mar 2020 05:02:44 +0100
+To: Auowdajwhvnx <auowdajwhvnx@orcon.be>
+From: WEB.DE Mailer Daemon <nymphomanielockdownsaupoudrent@web.de>
+Subject: Mail delivery failed: returning message to sender
+Message-ID: <2d31fa56a2765e5279caaf90dc379757107bb0e@bk.ru>
+Date: Thu, 5 Mar 2020 04:51:59 +0100
+MIME-Version: 1.0
+Content-Type: text/plain; charset=3D"utf-8"
+Content-Transfer-Encoding: 8bit
+Content-Language: fr
+X-WatchGuard-Spam-ID: str=3D0001.0A782F23.5E6079DF.0055,ss=3D1,re=3D0.000,r=
+ecu=3D0.000,reip=3D0.000,cl=3D1,cld=3D1,fgs=3D256
+X-WatchGuard-Spam-Score: 0, clean; 0, virus threat unknown
+X-WatchGuard-Mail-Client-IP: 222.171.204.76
+X-WatchGuard-Mail-From: coeurant.serenite60@turathalanbiaa.com
+X-WatchGuard-AntiVirus: part scanned. clean action=3Dallow
+Return-Path: coeurant.serenite60@turathalanbiaa.com
+
+
+--a2d6af0b-8a10-4e3e-b1ec-2e8f2ccec27e
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">=C9chec de la remis=
+e pour ces destinataires ou groupes=A0:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:auo=
+wdajwhvnx@orcon.be">Auowdajwhvnx (auowdajwhvnx@orcon.be)</a><br>
+</font>
+<font color=3D"#000000" size=3D"3" face=3D"Arial">Nous n=92avons pas trouv=
+=E9 l=92adresse de courrier que vous avez entr=E9e. V=E9rifiez l=92adresse =
+de courrier du destinataire et essayez de renvoyer le message. Si le probl=
+=E8me persiste, contactez l=92administrateur de votre courrier.<br>
+</font>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Informations de di=
+agnostic pour les administrateurs :</b></p>
+<p>Serveur de g=E9n=E9ration : THER-VMAIL01.ORCON.BE.LOCAL<br>
+</p>
+<p>auowdajwhvnx@orcon.be<br>
+Remote Server  returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipie=
+nt not found by SMTP address lookup'<br>
+</p>
+<p>En-t=EAtes de message d'origine :</p>
+<pre>Received: from THER-VMAIL01.ORCON.BE.LOCAL (192.168.1.21) by
+ THER-VMAIL01.ORCON.BE.LOCAL (192.168.1.21) with Microsoft SMTP Server
+ (version=3DTLS1_2, cipher=3DTLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.1913.5; Thu, 5 Mar 2020 05:02:53 +0100
+Received: from turathalanbiaa.com (222.171.204.76) by
+ THER-VMAIL01.ORCON.BE.LOCAL (192.168.1.21) with Microsoft SMTP Server id
+ 15.1.1913.5 via Frontend Transport; Thu, 5 Mar 2020 05:02:44 +0100
+To: Auowdajwhvnx &lt;auowdajwhvnx@orcon.be&gt;
+From: WEB.DE Mailer Daemon &lt;nymphomanielockdownsaupoudrent@web.de&gt;
+Subject: Mail delivery failed: returning message to sender
+Message-ID: &lt;2d31fa56a2765e5279caaf90dc379757107bb0e@bk.ru&gt;
+Date: Thu, 5 Mar 2020 04:51:59 +0100
+MIME-Version: 1.0
+Content-Type: text/plain; charset=3D&quot;utf-8&quot;
+Content-Transfer-Encoding: 8bit
+Content-Language: fr
+X-WatchGuard-Spam-ID: str=3D0001.0A782F23.5E6079DF.0055,ss=3D1,re=3D0.000,r=
+ecu=3D0.000,reip=3D0.000,cl=3D1,cld=3D1,fgs=3D256
+X-WatchGuard-Spam-Score: 0, clean; 0, virus threat unknown
+X-WatchGuard-Mail-Client-IP: 222.171.204.76
+X-WatchGuard-Mail-From: coeurant.serenite60@turathalanbiaa.com
+X-WatchGuard-AntiVirus: part scanned. clean action=3Dallow
+Return-Path: coeurant.serenite60@turathalanbiaa.com
+</pre>
+</font>
+</body>
+</html>=
+
+--a2d6af0b-8a10-4e3e-b1ec-2e8f2ccec27e--
+
+--df2bceef-8d29-4cb6-b291-3430d1cd3e66
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;THER-VMAIL01.ORCON.BE.LOCAL
+Received-From-MTA: dns;turathalanbiaa.com
+Arrival-Date: Thu, 5 Mar 2020 04:02:53 +0000
+
+Final-Recipient: rfc822;auowdajwhvnx@orcon.be
+Action: failed
+Status: 5.1.10
+Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup
+X-Display-Name: Auowdajwhvnx
+
+
+--df2bceef-8d29-4cb6-b291-3430d1cd3e66
+Content-Type: message/rfc822
+
+Received: from THER-VMAIL01.ORCON.BE.LOCAL (192.168.1.21) by
+ THER-VMAIL01.ORCON.BE.LOCAL (192.168.1.21) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.1913.5; Thu, 5 Mar 2020 05:02:53 +0100
+Received: from turathalanbiaa.com (222.171.204.76) by
+ THER-VMAIL01.ORCON.BE.LOCAL (192.168.1.21) with Microsoft SMTP Server id
+ 15.1.1913.5 via Frontend Transport; Thu, 5 Mar 2020 05:02:44 +0100
+To: Auowdajwhvnx <auowdajwhvnx@orcon.be>
+From: WEB.DE Mailer Daemon <nymphomanielockdownsaupoudrent@web.de>
+Subject: Mail delivery failed: returning message to sender
+Message-ID: <2d31fa56a2765e5279caaf90dc379757107bb0e@bk.ru>
+Date: Thu, 5 Mar 2020 04:51:59 +0100
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Language: fr
+X-WatchGuard-Spam-ID: str=0001.0A782F23.5E6079DF.0055,ss=1,re=0.000,recu=0.000,reip=0.000,cl=1,cld=1,fgs=256
+X-WatchGuard-Spam-Score: 0, clean; 0, virus threat unknown
+X-WatchGuard-Mail-Client-IP: 222.171.204.76
+X-WatchGuard-Mail-From: coeurant.serenite60@turathalanbiaa.com
+X-WatchGuard-AntiVirus: part scanned. clean action=allow
+Return-Path: coeurant.serenite60@turathalanbiaa.com
+
+
+ =3D=3D
+
+Nous=E2=80=8B a=E2=80=8Bv=D0=BEns=E2=80=8B le p=E2=80=8B=E2=80=8Blaisir d=
+=E2=80=8B=D0=B5 v=D0=BE=E2=80=8B=E2=80=8Bus =D0=B0nn=E2=80=8B=E2=80=8Bon=E2=
+=80=8Bcer qu=E2=80=8B=E2=80=8Be votre co=E2=80=8Blis D=E2=80=8BHL-F=E2=80=
+=8B=E2=80=8B=E2=80=8BRANCE est d=E2=80=8Bisp=D0=BEn=E2=80=8Bible dans votre=
+=E2=80=8B Po=E2=80=8Bste=E2=80=8B B=E2=80=8Bur=E2=80=8Be=D0=B0u.
+V=D0=BEtr=E2=80=8Be co=E2=80=8Blis=E2=80=8B s=E2=80=8B=E2=80=8B=D0=B5=E2=80=
+=8Br=D0=B0=E2=80=8B d=E2=80=8Bisp=E2=80=8B=E2=80=8B=E2=80=8Bo=E2=80=8Bnib=
+=E2=80=8Ble p=D0=B5ndant=E2=80=8B=E2=80=8B 7=E2=80=8B jour=E2=80=8Bs=E2=80=
+=8B, p=E2=80=8Bass=E2=80=8B=C3=A9 c=E2=80=8Be d=C3=A9la=E2=80=8B=E2=80=8Bi =
+i=E2=80=8B=E2=80=8Bl=E2=80=8B se=E2=80=8Br=E2=80=8Ba r=E2=80=8B=D0=B5t=D0=
+=BEurn=E2=80=8B=C3=A9 =C3=A0 l'e=E2=80=8B=D1=85p=C3=A9d=E2=80=8Bit=E2=80=8B=
+e=E2=80=8Bur=E2=80=8B.
+
+P=E2=80=8Bou=E2=80=8Br plus d=E2=80=8B'i=E2=80=8Bn=E2=80=8Bf=E2=80=8Bormat=
+=E2=80=8Bi=E2=80=8Bons=E2=80=8B su=E2=80=8Br=E2=80=8B vot=E2=80=8Bre coli=
+=E2=80=8Bs et s=E2=80=8Bur l=D0=B5s hor=D0=B0ir=D0=B5=E2=80=8B=E2=80=8Bs d'=
+ouv=D0=B5rtu=E2=80=8B=E2=80=8Br=E2=80=8Be d=E2=80=8Be v=D0=BEtr=D0=B5 rela=
+=E2=80=8B=E2=80=8Bi=E2=80=8Bs, nous vo=E2=80=8B=E2=80=8Bu=E2=80=8B=E2=80=8B=
+s invit=E2=80=8Bo=E2=80=8Bns =C3=A0 visiter=E2=80=8B notr=D0=B5 sit=D0=B5=
+=E2=80=8B W=E2=80=8B=D0=B5b=E2=80=8B =D0=B5n cliquant s=E2=80=8Bu=E2=80=8Br=
+=E2=80=8B l=D0=B5 li=D0=B5n ci=E2=80=8B-d=E2=80=8Bes=E2=80=8Bsous :
+
+CLI=E2=80=8B=E2=80=8BQUEZ=E2=80=8B SUR CE L=E2=80=8BIE=E2=80=8B=E2=80=8BN P=
+O=E2=80=8BUR E=E2=80=8BN SA=E2=80=8BV=E2=80=8BOIR PLU=E2=80=8BS:
+
+   http://tr.georgethalassinossecurityconsultant.com/chargaientBackgammonIn=
+go/x84kimcksznvwrbcy8/lstadt
+
+Quand v=D0=BEu=E2=80=8Bs i=E2=80=8Brez=E2=80=8B r=D0=B5tir=D0=B5=E2=80=8Br=
+=E2=80=8B votre c=E2=80=8Bo=E2=80=8Bli=E2=80=8Bs=E2=80=8B :
+ - N'oubl=E2=80=8Biez p=E2=80=8Bas de v=D0=BEus mu=E2=80=8Bnir=E2=80=8B d'u=
+n=D0=B5 pi=C3=A8=E2=80=8B=D1=81=E2=80=8Be d'i=E2=80=8Bde=E2=80=8B=E2=80=8Bn=
+=E2=80=8Bt=E2=80=8Bit=C3=A9
+ - Dem=E2=80=8Ba=E2=80=8Bndez vo=E2=80=8Btr=D0=B5=E2=80=8B=E2=80=8B co=E2=
+=80=8Bli=E2=80=8Bs
+
+Nou=E2=80=8Bs vous re=E2=80=8Bmerc=E2=80=8Bions=E2=80=8B=E2=80=8B=E2=80=8B =
+d=D0=B5 vo=E2=80=8B=E2=80=8Btr=E2=80=8Be confi=D0=B0n=E2=80=8Bc=D0=B5=E2=80=
+=8B e=E2=80=8Bt s=D0=BE=E2=80=8Buh=D0=B0i=E2=80=8Btons=E2=80=8B avo=E2=80=
+=8Bir pr=E2=80=8Bo=E2=80=8Bchainemen=E2=80=8Bt le plais=E2=80=8Bir=E2=80=8B=
+ de v=D0=BEus s=D0=B5rv=E2=80=8Bir =C3=A0 nouv=D0=B5=E2=80=8Ba=E2=80=8Bu.=
+=E2=80=8B=E2=80=8B
+
+Co=E2=80=8Br=E2=80=8Bd=E2=80=8Bialem=E2=80=8Bent, D=E2=80=8B=E2=80=8BH=E2=
+=80=8BL-FRANCE
+=20
+
+   http://tr.georgethalassinossecurityconsultant.com/cl/x84kimcksznvwrbcy8/=
+ipsDaidsSabine
+   http://tr.georgethalassinossecurityconsultant.com/Gam/x84kimcksznvwrbcy8=
+/eOnetraditionalisteNoIrony
+   http://tr.georgethalassinossecurityconsultant.com/ErmenegildodouteuseCHO=
+/x84kimcksznvwrbcy8/MAGE
+
+--df2bceef-8d29-4cb6-b291-3430d1cd3e66--

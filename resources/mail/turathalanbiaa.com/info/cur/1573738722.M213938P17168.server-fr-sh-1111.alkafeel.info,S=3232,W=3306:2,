@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id 0Hi0DOJYzV0QQwAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Thu, 14 Nov 2019 16:38:42 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Thu, 14 Nov 2019 16:38:42 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1iVFKc-0004TA-54
+	for info@turathalanbiaa.com; Thu, 14 Nov 2019 16:38:42 +0300
+X-Failed-Recipients: So1297@yahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1573738722-eximdsn-2137483493
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iVFKc-0004TA-54@server-fr-sh-1111.alkafeel.info>
+Date: Thu, 14 Nov 2019 16:38:42 +0300
+
+--1573738722-eximdsn-2137483493
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  So1297@yahoo.com
+    host mta6.am0.yahoodns.net [67.195.228.94]
+    SMTP error from remote mail server after end of data:
+    554 delivery error: dd This user doesn't have a yahoo.com account (so1297@yahoo.com) [-9] - mta4140.mail.gq1.yahoo.com
+
+--1573738722-eximdsn-2137483493
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;So1297@yahoo.com
+Status: 5.0.0
+Remote-MTA: dns; mta6.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd This user doesn't have a yahoo.com account (so1297@yahoo.com) [-9] - mta4140.mail.gq1.yahoo.com
+
+--1573738722-eximdsn-2137483493
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1iVFKY-0004SW-IE
+	for So1297@yahoo.com; Thu, 14 Nov 2019 16:38:38 +0300
+To: So1297@yahoo.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 180.24.98.16
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Thu, 14 Nov 2019 13:38:38 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <37100ccad0c2296817b90e507c8fbda6@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/5372/e3af6757b4855101866523145f8fe309" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1573738722-eximdsn-2137483493--

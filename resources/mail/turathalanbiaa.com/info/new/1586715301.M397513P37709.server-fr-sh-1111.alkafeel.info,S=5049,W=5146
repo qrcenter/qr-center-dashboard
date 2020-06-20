@@ -1,0 +1,97 @@
+Return-Path: <alhwyz0313@gmail.com>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id O5GJF6Vak15NkwAAzyXPIA
+	(envelope-from <alhwyz0313@gmail.com>)
+	for <info@turathalanbiaa.com>; Sun, 12 Apr 2020 21:15:01 +0300
+Return-path: <alhwyz0313@gmail.com>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Sun, 12 Apr 2020 21:15:01 +0300
+Received: from mail-ua1-f43.google.com ([209.85.222.43]:42440)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <alhwyz0313@gmail.com>)
+	id 1jNh8F-0009cc-Tc
+	for info@turathalanbiaa.com; Sun, 12 Apr 2020 21:15:01 +0300
+Received: by mail-ua1-f43.google.com with SMTP id u10so1494277ual.9
+        for <info@turathalanbiaa.com>; Sun, 12 Apr 2020 11:14:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=I8uwS3wzDMorajw3eZDB901x+wZ53v4pKU6rzXSE578=;
+        b=BsD+NOD/hYzm/veRkvGrf0NYd+f/lipl0YthBgnp76ytMgXmGRBqnmFoCnoP5NaeBY
+         MoXRW784Y6GNIdX7lwj2T+RicciIMs7GYM3+ghTmIxMIkfFjUafb83pSH/Q8RRvUEJFq
+         5iFnMXNxKjgfe+Z7qJP5WMceH5CRa1H4v5xXAzQ+XNQe5GSg/Rlc7pHfuJsoaI+Zhd9K
+         hbas9WboKHmF4ThZKMuOoBTJktN5MsPN/JmmFYjtfSuoX53vmNglYTHGbZcu+/TYPfJd
+         hgSIST9DMiMTbOOL5e9sbEb7y3SYHN9rV59GcrhCBGVxRtq/pgsxExcBjQGz3NbpPjUg
+         I7JQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=I8uwS3wzDMorajw3eZDB901x+wZ53v4pKU6rzXSE578=;
+        b=mWrvghfmz0OLrbf6iO92QW9lBjdpBkSNcrQK8Uyd1rgplgRmahyW/Okw9pOzyByYec
+         SKuWoMgxTuToJ0h9tEvhEfApGrk1gZ+ONcBZ1isx8MHcjPn99uJ8vLkVaCj9k6SvVbj/
+         erMIISkgER93eBTZJkz7H05ApNHW/zfn/mFSkx1htXLnIU3JP9qEfFt4GUtaSxN3pd0+
+         qw+gJ5xxKfMBmU5UZ/taGsTBTrfk/jIlF/eJgqXAuF5r84zjKciFXe72HpsE3oV5pg82
+         Y/HAjFfDCpv0FIpYCp1uY33gn/O5K1xYLwrxs1E4pAqW+kBpJ5TMiMPMOS+p+Q9TfBgB
+         2X5A==
+X-Gm-Message-State: AGi0PuYERJq7r3L2avrUDc3Mdg5KF5DH0lDbeY+STZ/RBzS0Q3dW2WNq
+	nUj8x9vUHRcVzNq50vj2yoMkFV1p5QmtPUq/iWsGGg==
+X-Google-Smtp-Source: APiQypI64RHIE4SEnYd+2uHFB+qHRdlRwc+uJzXDXVfA22xbAfBkatDyqehLbRm47WFlgcylezTMy+r9VgKRQsFEA0s=
+X-Received: by 2002:ab0:48a6:: with SMTP id x35mr3572420uac.125.1586715258243;
+ Sun, 12 Apr 2020 11:14:18 -0700 (PDT)
+MIME-Version: 1.0
+From: =?UTF-8?B?2LLZitmG2KjZitipINin2YTZh9mI2Yk=?= <alhwyz0313@gmail.com>
+Date: Sun, 12 Apr 2020 21:18:40 +0300
+Message-ID: <CAJbgRr=v5Mneb8QeJuO3+qj=w=36Dx1dA6ig+JQYZyOrvvNPiQ@mail.gmail.com>
+Subject: 
+To: info@turathalanbiaa.com
+Content-Type: multipart/alternative; boundary="00000000000053cf6205a31bef5c"
+X-Spam-Status: No, score=0.1
+X-Spam-Score: 1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  كيف يتم الغاء الاشتراك كيف يتم الغاء
+    الاشتراك 
+ Content analysis details:   (0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [alhwyz0313[at]gmail.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [alhwyz0313[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.222.43 listed in wl.mailspike.net]
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.222.43 listed in list.dnswl.org]
+X-Spam-Flag: NO
+
+--00000000000053cf6205a31bef5c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+2YPZitmBINmK2KrZhSDYp9mE2LrYp9ihINin2YTYp9i02KrYsdin2YMNCg==
+--00000000000053cf6205a31bef5c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+PGRpdiBkaXI9ImF1dG8iPtmD2YrZgSDZitiq2YUg2KfZhNi62KfYoSDYp9mE2KfYtNiq2LHYp9mD
+wqA8L2Rpdj4NCg==
+--00000000000053cf6205a31bef5c--

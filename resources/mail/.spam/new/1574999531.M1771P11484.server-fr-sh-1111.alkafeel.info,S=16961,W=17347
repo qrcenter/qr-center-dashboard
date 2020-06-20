@@ -1,0 +1,386 @@
+Return-Path: <melinakincaid@maxiskirt.awestrike.monster>
+Delivered-To: turathal+spam@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id VipEO+qV4F3cLAAAzyXPIA
+	(envelope-from <melinakincaid@maxiskirt.awestrike.monster>)
+	for <turathal+spam@server-fr-sh-1111.alkafeel.info>; Fri, 29 Nov 2019 06:52:10 +0300
+Return-path: <melinakincaid@maxiskirt.awestrike.monster>
+Envelope-to: webmaster@turathalanbiaa.com
+Delivery-date: Fri, 29 Nov 2019 06:52:11 +0300
+Received: from mx.maxiskirt.awestrike.monster ([178.62.226.56]:46714)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <melinakincaid@maxiskirt.awestrike.monster>)
+	id 1iaXKC-0002u3-V5
+	for webmaster@turathalanbiaa.com; Fri, 29 Nov 2019 06:52:10 +0300
+Received: from mx.maxiskirt.awestrike.monster (mx.maxiskirt.awestrike.monster [127.0.0.1])
+	by mx.maxiskirt.awestrike.monster (Postfix) with ESMTP id 47PLCh144hz22fb
+	for <webmaster@turathalanbiaa.com>; Fri, 29 Nov 2019 03:51:28 +0000 (UTC)
+Authentication-Results: mx.maxiskirt.awestrike.monster (amavisd-new);
+	dkim=pass (1024-bit key) reason="pass (just generated, assumed good)"
+	header.d=maxiskirt.awestrike.monster
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=
+	maxiskirt.awestrike.monster; h=content-type:content-type
+	:mime-version:message-id:x-mailer:user-agent:reply-to
+	:list-unsubscribe:subject:subject:to:from:from:date:date; s=
+	dkim; t=1574999487; x=1577591488; bh=WeVbJqjEKvI7owyzuecbAi2cHug
+	vFvcOJXNNoGR+stw=; b=bESkTRRxoSPr4Mwc+yW30pzRp2vHeGyzeq4QjpOSK1T
+	mV/Slrb/mwYe5Z/NuIWhcYmASP0qb9igr9K3c/noec+eBpSqYCFY/JSiY7djsIsF
+	yPAXMG2gBmK8oCB0SQ9esfKh/4SASWQATIaY+H1cmREhH/F+y27SkudkY3gnyP50
+	=
+X-Virus-Scanned: Debian amavisd-new at mx.maxiskirt.awestrike.monster
+Received: from mx.maxiskirt.awestrike.monster ([127.0.0.1])
+	by mx.maxiskirt.awestrike.monster (mx.maxiskirt.awestrike.monster [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id C6hYwYb0xYAx for <webmaster@turathalanbiaa.com>;
+	Fri, 29 Nov 2019 03:51:27 +0000 (UTC)
+Received: from [127.0.0.1] (mx.maxiskirt.awestrike.monster [127.0.0.1])
+	by mx.maxiskirt.awestrike.monster (Postfix) with ESMTP id 47PL5f0SsDz22fV
+	for <webmaster@turathalanbiaa.com>; Fri, 29 Nov 2019 03:46:13 +0000 (UTC)
+Date: Fri, 29 Nov 2019 03:46:13 +0000
+From: "Anonymous Hacker" <melinakincaid@maxiskirt.awestrike.monster>
+To: webmaster@turathalanbiaa.com
+List-Unsubscribe: <http://maxiskirt.awestrike.monster/unsub/Q3Y5U09EZjdzOEgzOE44eTFYTElZQ0gwazdjTWsyQlVWZ3ZMWUl1Z0Q1a09hdjVXNVI0TVU4Zmg0UUFRRDNDSWJrOHpoWmFreC9uUTRMemVlNVdxTmxUOW5BRlJNWGcvOHlFNEl4V3ZsL21iYU9QZlkvMkNsa00ydEVldEVLZ00=>
+Reply-To: <melinakincaid@maxiskirt.awestrike.monster>
+User-Agent: CodeIgniter
+X-Sender: melinakincaid@maxiskirt.awestrike.monster
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: <5de09485abaa4@maxiskirt.awestrike.monster>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="B_ALT_5de09485abac1"
+X-Spam-Status: Yes, score=12.6
+X-Spam-Score: 126
+X-Spam-Bar: ++++++++++++
+X-Spam-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ATTENTION: webmaster@turathalanbiaa.com The last time you
+   visited a porn website with teenagers, you silently downloaded and installed
+    the software I developed. My software has turned on your camera and recorded
+    both your screen and an act of your mɑsturbation.. 
+ Content analysis details:   (12.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  3.6 RCVD_IN_SBL_CSS        RBL: Received via a relay in Spamhaus SBL-CSS
+                             [178.62.226.56 listed in zen.spamhaus.org]
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: awestrike.monster]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [178.62.226.56 listed in psbl.surriel.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?Q?IMPORTANT!=20I=20recorded=20YOU=20m=C9=91sturbating!=20I=20hav?= =?UTF-8?Q?e=20Webmaster.mp4=20video=20file!?=
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_5de09485abac1
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+ATTENTION: webmaster@turathalanbiaa.com
+
+The last time you visited a porn website with teenagers, you silently
+downloaded and installed the software I developed.
+
+My software has turned on your camera and recorded both your screen and an
+act of your mɑsturbation..
+
+My sneaky program also downloaded all your email contact lists and a list of
+your friends from social networks.
+
+I have the - Webmaster.mp4 video file - with you jerking off to teenagers,
+as well as a file with your relatives and associates email addresses.
+
+After downloading those files let me say one thing: your fantasies are far
+beyond the normal!
+
+
+If you want me to delete both files and keep your secret, you must send me
+the Bitcoin payment.
+Bitcoin is a secure cryptocurrency, very similar to BTC.
+I give you 72 houɼs only to send the Bitcoin transfer.
+
+If you don't know how to pay with Bitcoin, visit Google and search - how to
+buy Bitcoin.
+Visit one of the brokers (Coinbase, Bitstamp, anycoindirect), buy Bitcoin
+and send it to my address.
+Only then I will leɑve you ɑlone!
+
+At anycoindirect you can pay instantly with SEPA, Giropay, EPS, Mybank,
+Sofort, credit cards or Bancontract.
+
+******************************************
+Send 2,000 USD = 0.271073 BTC
+to this Bitcoin address as soon as possible:
+
+39hhiJjXdD4vygRV5
+FqhPiWGaBhcrx6pW4
+
+(copy & paste - it's case sensitive - and combine both lines into one single
+address)
+
+1 BTC = 7,530 USD right now, so send exactly 0.271073 BTC to my Bitcoin
+wallet.
+******************************************
+
+Do not try to cheat me!
+As soon as you open this Email I will be notified you opened it.
+I am monitoring all actions on your device..
+
+This Bitcoin address is linked to you only, so I will know immediately when
+you send the correct amount.
+When you pay in full, I will remove both files (your mɑsturbation video and
+your contact lists) and I will deactivate my sneaky program.
+Changing your password will not help you, I will still have access to your
+device remotely.
+
+If you choose not to send me the Bitcoin transfer...
+I will send your mɑsturbation video to all your friends and associates from
+your contact lists that I downloaded from your device.
+Your family members will receive it as well. You will regret it, trust me.
+
+Here are the payment details again:
+
+******************************************
+Send 2,000 USD = 0.271073 BTC
+to this Bitcoin address as soon as possible:
+
+39hhiJjXdD4vygRV5
+FqhPiWGaBhcrx6pW4
+
+(copy & paste - it's case sensitive - and combine both lines into one single
+address)
+******************************************
+
+
+
+You can visit police but they will not help you with solving the problem.
+My program will still be installed on your device and I still will own your
+mɑsturbation videos.
+Police will not catch me anyway. I know what I am doing.
+I do not live in your country and I know how to stay anonymous.
+
+Don't ever try to deceive me - I will know it. My program is recording all
+the websites you visit and all your key presses.
+If you try to trick me - I will send this ugly video to everyone you know,
+including your family members.
+
+Don't forget the potential shame - your life can be a disaster.
+
+I am waiting for your Bitcoin payment.
+You have 72 houɼs left.
+
+
+Anonymous Hacker
+
+
+
+
+
+--B_ALT_5de09485abac1
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=3C=21DOCTYPE HTML PUBLIC =22-//W3C//DTD XHTML 1.0 Transitional //EN=22 =22=
+http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd=22=3E
+=3Chtml xmlns=3D=22http://www.w3.org/1999/xhtml=22 xmlns:v=3D=22urn:schemas=
+-microsoft-com:vml=22 xmlns:o=3D=22urn:schemas-microsoft-com:office:office=
+=22=3E
+=3Chead=3E
+=3Cmeta http-equiv=3D=22Content-Type=22 content=3D=22text/html=3B charset=
+=3Dutf-8=22=3E
+=3Cmeta name=3D=22viewport=22 content=3D=22width=3Ddevice-width=22=3E
+=3C=21--=5Bif =21mso=5D=3E=3C=21--=3E=3Cmeta http-equiv=3D=22X-UA-Compatibl=
+e=22 content=3D=22IE=3Dedge=22=3E=3C=21--=3C=21=5Bendif=5D--=3E
+=3C=21--=5Bif =21mso=5D=3E=3C=21-- --=3E
+=3Clink href=3D=22https://fonts.googleapis.com/css?family=3DBitter=22 rel=
+=3D=22stylesheet=22 type=3D=22text/css=22=3E
+=3Clink href=3D=22https://fonts.googleapis.com/css?family=3DOpen+Sans=22 re=
+l=3D=22stylesheet=22 type=3D=22text/css=22=3E
+=3C=21--=3C=21=5Bendif=5D--=3E
+=3Cstyle type=3D=22text/css=22 id=3D=22media-query=22=3E
+ body =7B
+ margin: 0=3B
+ padding: 0=3B =7D
+
+table, tr, td =7B
+ vertical-align: top=3B
+ border-collapse: collapse=3B =7D
+
+.a =7B
+ max-width: 480px=3B
+ margin: 10px 10px 10px 10px=3B
+=20
+=7D
+.n =7B
+ display:none=3B
+=7D
+.b =7B
+ max-width: 480px=3B
+ margin: 10px 10px 10px 10px=3B
+ padding: 10px 20px 10px 20px=3B
+ border: 1px solid black=3B
+=20
+=7D
+=3C/style=3E
+=3C/head=3E
+=3Cbody style=3D=22margin: 0=3Bpadding: 0=3B-webkit-text-size-adjust: 100=
+=25=3Bbackground-color: =23FFFFFF=22=3E
+=20
+=3Cdiv class=3D=22a=22=3E=3Cb=3EATTENTION: webmaster=40turathalanbiaa.com=
+=3C/b=3E=3C/div=3E
+=3Cdiv class=3D=22a=22=3E
+The last time you visited a porn website with teenagers, you silently downl=
+oaded and installed the software I developed.
+=3CBR=3E=3CBR=3E
+My software has turned on your camera and =3Cb=3Erecorded both your screen =
+and the act of your m=C9=91sturbation..=3C/b=3E
+=3CBR=3E=3CBR=3E
+My sneaky program also downloaded all your email contact lists and a list o=
+f your friends from social networks.
+=3CBR=3E=3CBR=3E
+I have the - =3Cb=3EWebmaster.mp4 video file=3C/b=3E - with you jerking off=
+ to teenagers, as well as a file with your relatives and associates email a=
+ddresses.
+=3CBR=3E=3CBR=3E
+After downloading those files let me say one thing: your fantasies are far =
+beyond the normal=21
+=3C/div=3E=20
+
+=3Cdiv class=3D=22a=22=3E
+If you want me to delete both files and keep your secret, you must send me =
+the Bitcoin (BTC) payment.=3CBR=3E
+I give you 72 hou=C9=BCs only to send the Bitcoin transfer.
+=3CBR=3E=3CBR=3E
+If you don't know how to pay with Bitcoin, visit Google and search - how to=
+ buy Bitcoin (BTC).=3CBR=3E
+Visit one of the brokers (Coinbase, Bitstamp, anycoindirect), buy Bitcoin a=
+nd send it to my address.=3CBR=3E
+Only then I will le=C9=91ve you =C9=91lone=21
+=3CBR=3E=3CBR=3E
+At anycoindirect you can buy Bitcoin instantly with SEPA, Giropay, EPS, Myb=
+ank, Sofort, credit cards or Bancontract.
+=3CBR=3E=3CBR=3E
+Here are the payment details:
+=3C/div=3E
+
+=3Cdiv class=3D=22b=22=3E
+Send 2,000 USD =3D =3Cb=3E0.271073 BTC=3C/b=3E=3CBR=3E
+to this Bitcoin address as soon as possible:
+=3CBR=3E=3CBR=3E
+=3Cb=3E3=3Cspan class=3D=22n=22=3E7mUy=3C/span=3E9=3Cspan class=3D=22n=22=
+=3EK9IgN7=3C/span=3E=3Cspan id=3D=22op8rTI1W0VK=22=3Eh=3C/span=3Eh=3Cspan c=
+lass=3D=22QExJaMk=22=3Ei=3C/span=3E=3Cspan class=3D=22HZfSTqwW=22=3EJ=3C/sp=
+an=3E=3Cspan id=3D=222Mida=22=3Ej=3C/span=3EXd=3Cspan class=3D=22VdlLwGZ1uD=
+0p=22=3E=3C/span=3ED=3Cspan class=3D=226s4yHt=22=3E=3C/span=3E4=3Cspan clas=
+s=3D=22o3XqACvPRt=22=3E=3C/span=3Ev=3Cspan id=3D=22ZnsxESMthP3=22=3Ey=3C/sp=
+an=3Eg=3Cspan class=3D=22n=22=3E9yEHl=3C/span=3E=3Cspan class=3D=22tRPAlwLe=
+Og=22=3ER=3C/span=3E=3Cspan class=3D=22m9b5V8KjT=22=3EV=3C/span=3E5=3Cspan =
+class=3D=22n=22=3ERBhXbz=3C/span=3EF=3Cspan class=3D=22n=22=3EJcLigoI1Sh=3C=
+/span=3E=3Cspan id=3D=22WaIlMiftyowC=22=3Eq=3C/span=3E=3Cspan class=3D=221W=
+fxcLIw=22=3E=3C/span=3Eh=3Cspan class=3D=22n2rKobghBHm7=22=3EP=3C/span=3Ei=
+=3Cspan class=3D=22n=22=3EZG=3C/span=3EW=3Cspan class=3D=22n=22=3EEatk=3C/s=
+pan=3EG=3Cspan class=3D=22n=22=3EZOu9RANFqzS=3C/span=3Ea=3Cspan class=3D=22=
+n=22=3EBxvw05g=3C/span=3EB=3Cspan class=3D=22dLMgG=22=3E=3C/span=3Eh=3Cspan=
+ class=3D=22lKBy=22=3Ec=3C/span=3Er=3Cspan class=3D=22n=22=3EYjgT7ZHU0c6=3C=
+/span=3Ex=3Cspan class=3D=22n=22=3Eq=3C/span=3E6=3Cspan class=3D=22CNnu=22=
+=3E=3C/span=3Ep=3Cspan class=3D=22Hvwp=22=3EW=3C/span=3E=3Cspan id=3D=22jE7=
+K8Ms=22=3E4=3C/span=3E=3C/b=3E
+=3CBR=3E=3CBR=3E
+(copy =26 paste address - it's case sensitive)
+=3C/div=3E
+
+=3Cdiv class=3D=22a=22=3E
+1 BTC =3D 7,530 USD right now, so send exactly 0.271073 BTC to my Bitcoin w=
+allet.
+=3CBR=3E=3CBR=3E=3CBR=3E
+Do not try to cheat me=21=3CBR=3E
+As soon as you open this Email I will be notified you opened it.=3CBR=3E
+I am monitoring all actions on your device..
+=3CBR=3E=3CBR=3E
+This Bitcoin address is linked to you only, so I will know immediately when=
+ you send the correct amount.=3CBR=3E
+When you pay in full, I will remove both files (=3Cb=3Eyour m=C9=91sturbati=
+on video and your contact lists=3C/b=3E) and I will deactivate my sneaky pr=
+ogram.=3CBR=3E
+Changing your password will not help you, I will still have access to your =
+device remotely.
+=3CBR=3E=3CBR=3E
+If you choose not to send me the Bitcoin transfer...=3Cbr=3E
+I will send your m=C9=91sturbation video to all your friends and associates=
+ from your contact lists that I downloaded from your device.=3CBR=3E
+Your family members will receive it as well. You will regret it, trust me.
+=3CBR=3E=3CBR=3E
+Here are the payment details again:
+=3C/div=3E
+=3Cdiv class=3D=22b=22=3E
+Send 2,000 USD =3D =3Cb=3E0.271073 BTC=3C/b=3E=3CBR=3E
+to this Bitcoin address as soon as possible:
+=3CBR=3E=3CBR=3E
+=3Cb=3E3=3Cspan class=3D=22n=22=3E7mUy=3C/span=3E9=3Cspan class=3D=22n=22=
+=3EK9IgN7=3C/span=3E=3Cspan id=3D=22op8rTI1W0VK=22=3Eh=3C/span=3Eh=3Cspan c=
+lass=3D=22QExJaMk=22=3Ei=3C/span=3E=3Cspan class=3D=22HZfSTqwW=22=3EJ=3C/sp=
+an=3E=3Cspan id=3D=222Mida=22=3Ej=3C/span=3EXd=3Cspan class=3D=22VdlLwGZ1uD=
+0p=22=3E=3C/span=3ED=3Cspan class=3D=226s4yHt=22=3E=3C/span=3E4=3Cspan clas=
+s=3D=22o3XqACvPRt=22=3E=3C/span=3Ev=3Cspan id=3D=22ZnsxESMthP3=22=3Ey=3C/sp=
+an=3Eg=3Cspan class=3D=22n=22=3E9yEHl=3C/span=3E=3Cspan class=3D=22tRPAlwLe=
+Og=22=3ER=3C/span=3E=3Cspan class=3D=22m9b5V8KjT=22=3EV=3C/span=3E5=3Cspan =
+class=3D=22n=22=3ERBhXbz=3C/span=3EF=3Cspan class=3D=22n=22=3EJcLigoI1Sh=3C=
+/span=3E=3Cspan id=3D=22WaIlMiftyowC=22=3Eq=3C/span=3E=3Cspan class=3D=221W=
+fxcLIw=22=3E=3C/span=3Eh=3Cspan class=3D=22n2rKobghBHm7=22=3EP=3C/span=3Ei=
+=3Cspan class=3D=22n=22=3EZG=3C/span=3EW=3Cspan class=3D=22n=22=3EEatk=3C/s=
+pan=3EG=3Cspan class=3D=22n=22=3EZOu9RANFqzS=3C/span=3Ea=3Cspan class=3D=22=
+n=22=3EBxvw05g=3C/span=3EB=3Cspan class=3D=22dLMgG=22=3E=3C/span=3Eh=3Cspan=
+ class=3D=22lKBy=22=3Ec=3C/span=3Er=3Cspan class=3D=22n=22=3EYjgT7ZHU0c6=3C=
+/span=3Ex=3Cspan class=3D=22n=22=3Eq=3C/span=3E6=3Cspan class=3D=22CNnu=22=
+=3E=3C/span=3Ep=3Cspan class=3D=22Hvwp=22=3EW=3C/span=3E=3Cspan id=3D=22jE7=
+K8Ms=22=3E4=3C/span=3E=3C/b=3E
+=3CBR=3E=3CBR=3E
+(copy =26 paste address - it's case sensitive)
+=3C/div=3E
+=3Cdiv class=3D=22a=22=3E
+=3CBR=3E
+You can visit the police but they will not solve your real problem.=3CBR=3E
+My program will still be installed on your device and I still will own your=
+ m=C9=91sturbation videos.=3CBR=3E
+Police will not catch me anyway. I know what I am doing.
+I do not live in your country and I know how to stay anonymous.
+=3CBR=3E=3CBR=3E
+Don't ever try to deceive me - I will know it. My program is recording all =
+the websites you visit and all your key presses.
+If you try to trick me - I will send this ugly video to everyone you know, =
+including your family members.
+=3CBR=3E=3CBR=3E
+Don't forget the potential shame - your life can be a disaster=21
+=3CBR=3E=3CBR=3E
+I am waiting for your Bitcoin payment.=3CBR=3E
+You have 72 hou=C9=BCs left.
+=3CBR=3E=3CBR=3E
+Anonymous Hacker
+=3CBR=3E=3CBR=3E=3CBR=3E
+=20
+P.S. If you need more time to p=C9=91y, open your notepad on your device an=
+d write '48h more'. Only this way you can contact me. I will consider givin=
+g you more time before I release the video, but only when I see that you ar=
+e really struggling to buy btc. I know you can afford it - so do not try to=
+ trick me=21
+
+=3C/div=3E
+
+=3C/body=3E
+=3C/html=3E
+
+--B_ALT_5de09485abac1--

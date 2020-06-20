@@ -1,0 +1,66 @@
+Return-Path: <>
+Delivered-To: turathal@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id cFLVATqZUV4zmQAAzyXPIA
+	(envelope-from <>)
+	for <turathal@server-fr-sh-1111.alkafeel.info>; Sun, 23 Feb 2020 00:12:26 +0300
+Return-path: <>
+Envelope-to: turathal@server-fr-sh-1111.alkafeel.info
+Delivery-date: Sun, 23 Feb 2020 00:12:26 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1j5c4Y-000AOz-0E
+	for turathal@server-fr-sh-1111.alkafeel.info; Sun, 23 Feb 2020 00:12:26 +0300
+X-Failed-Recipients: locahost@yahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: turathal@server-fr-sh-1111.alkafeel.info
+Content-Type: multipart/report; report-type=delivery-status; boundary=1582405946-eximdsn-407989576
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1j5c4Y-000AOz-0E@server-fr-sh-1111.alkafeel.info>
+Date: Sun, 23 Feb 2020 00:12:26 +0300
+
+--1582405946-eximdsn-407989576
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  locahost@yahoo.com
+    host mta6.am0.yahoodns.net [98.136.96.75]
+    SMTP error from remote mail server after end of data:
+    554 delivery error: dd Sorry, your message to locahost@yahoo.com cannot be delivered. This mailbox is disabled (554.30). - mta4055.mail.ne1.yahoo.com
+
+--1582405946-eximdsn-407989576
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;locahost@yahoo.com
+Status: 5.0.0
+Remote-MTA: dns; mta6.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd Sorry, your message to locahost@yahoo.com cannot be delivered. This mailbox is disabled (554.30). - mta4055.mail.ne1.yahoo.com
+
+--1582405946-eximdsn-407989576
+Content-type: message/rfc822
+
+Return-path: <turathal@server-fr-sh-1111.alkafeel.info>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <turathal@server-fr-sh-1111.alkafeel.info>)
+	id 1j5c4V-000AOD-Bl
+	for locahost@yahoo.com; Sun, 23 Feb 2020 00:12:23 +0300
+To: locahost@yahoo.com
+Subject: alkafeelblog.edu.turathalanbiaa.com/aqlam/image/led/symsaEn.php
+X-PHP-Script: alkafeelblog.edu.turathalanbiaa.com/aqlam/image/led/symsaEn.php for 37.237.72.37
+X-PHP-Originating-Script: 1096:symsaEn.php(1) : eval()'d code
+Message-Id: <E1j5c4V-000AOD-Bl@server-fr-sh-1111.alkafeel.info>
+From: turathal@server-fr-sh-1111.alkafeel.info
+Date: Sun, 23 Feb 2020 00:12:23 +0300
+
+alkafeelblog.edu.turathalanbiaa.com/aqlam/image/led/symsaEn.php
+
+--1582405946-eximdsn-407989576--

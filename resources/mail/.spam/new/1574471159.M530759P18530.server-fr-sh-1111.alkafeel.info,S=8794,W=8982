@@ -1,0 +1,188 @@
+Return-Path: <kasey.tom@scenery.analogize.icu>
+Delivered-To: turathal+spam@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id 87RXH/eF2F1iSAAAzyXPIA
+	(envelope-from <kasey.tom@scenery.analogize.icu>)
+	for <turathal+spam@server-fr-sh-1111.alkafeel.info>; Sat, 23 Nov 2019 04:05:59 +0300
+Return-path: <kasey.tom@scenery.analogize.icu>
+Envelope-to: webmaster@turathalanbiaa.com
+Delivery-date: Sat, 23 Nov 2019 04:05:59 +0300
+Received: from mx.scenery.analogize.icu ([159.89.140.131]:40024)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <kasey.tom@scenery.analogize.icu>)
+	id 1iYJs5-0004jw-Ng
+	for webmaster@turathalanbiaa.com; Sat, 23 Nov 2019 04:05:59 +0300
+Received: from mx.scenery.analogize.icu (mx.scenery.analogize.icu [127.0.0.1])
+	by mx.scenery.analogize.icu (Postfix) with ESMTP id 47KZpg3mQWz24Kh
+	for <webmaster@turathalanbiaa.com>; Sat, 23 Nov 2019 01:05:15 +0000 (UTC)
+Authentication-Results: mx.scenery.analogize.icu (amavisd-new);
+	dkim=pass (1024-bit key) reason="pass (just generated, assumed good)"
+	header.d=scenery.analogize.icu
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=
+	scenery.analogize.icu; h=content-transfer-encoding:content-type
+	:content-type:mime-version:message-id:x-mailer:user-agent
+	:reply-to:list-unsubscribe:subject:subject:to:from:from:date
+	:date; s=dkim; t=1574471115; x=1577063116; bh=VkTmXou4CGB0LE0fEF
+	1QNsdmOrxvf4B8RyI8VdHPKwo=; b=eJkXcdBxA8Ig33cS7Ib+3YbBpS8c+6GNqx
+	3JlSdPGPQwMYwh/JISdfaPno9fkmULrKiYUR7SpNWYyGbNB+kDY6bGcZcbm1OS+x
+	6bpc1Xj4QqPX4abPjihWmxMIPK2X87sdCyqMu0qSUJmUY6ifvcApnUnqfoBVOCXj
+	Klpge8QC8=
+X-Virus-Scanned: Debian amavisd-new at mx.scenery.analogize.icu
+Received: from mx.scenery.analogize.icu ([127.0.0.1])
+	by mx.scenery.analogize.icu (mx.scenery.analogize.icu [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id WoDnrcn9RqC1 for <webmaster@turathalanbiaa.com>;
+	Sat, 23 Nov 2019 01:05:15 +0000 (UTC)
+Received: from [127.0.0.1] (mx.scenery.analogize.icu [127.0.0.1])
+	by mx.scenery.analogize.icu (Postfix) with ESMTP id 47KZYw13tkz24Kl
+	for <webmaster@turathalanbiaa.com>; Sat, 23 Nov 2019 00:54:12 +0000 (UTC)
+Date: Sat, 23 Nov 2019 00:54:11 +0000
+From: "Anonymous Hacker - Kasey" <kasey.tom@scenery.analogize.icu>
+To: webmaster@turathalanbiaa.com
+List-Unsubscribe: <http://scenery.analogize.icu/unsub/Q3Y5U09EZjdzOEgzOE44eTFYTElZQ0gwazdjTWsyQlVWZ3ZMWUl1Z0Q1a09hdjVXNVI0TVU4Zmg0UUFRRDNDSWtJQnZmc2MwUmZnUkNRUzBtSTJtY0svNVdFcldvZnhKeFFSSUMwVkFmemp1NDZYS25JQjJkTVFWYWd1SW94SmU=>
+Reply-To: <kasey.tom@scenery.analogize.icu>
+User-Agent: CodeIgniter
+X-Sender: kasey.tom@scenery.analogize.icu
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: <5dd88333ee8e6@scenery.analogize.icu>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: Yes, score=24.8
+X-Spam-Score: 248
+X-Spam-Bar: ++++++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ATTENTION: webmaster@turathalanbiaa.com The last time you
+   visited a porn website with teenagers, you silently downloaded and installed
+    the software I developed. My software has turned on your camera and recorded
+    both your screen and an act of your mɑsturbation.. 
+ Content analysis details:   (24.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: analogize.icu]
+  3.6 RCVD_IN_SBL_CSS        RBL: Received via a relay in Spamhaus SBL-CSS
+                             [159.89.140.131 listed in zen.spamhaus.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 TRACKER_ID             BODY: Incorporates a tracking ID number
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [159.89.140.131 listed in psbl.surriel.com]
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  5.0 URIBL_BLACK            Contains an URL listed in the URIBL blacklist
+                             [URIs: analogize.icu]
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.5 FROM_SUSPICIOUS_NTLD   From abused NTLD
+  1.6 FROM_SUSPICIOUS_NTLD_FP From abused NTLD
+  5.0 KAM_VERY_BLACK_DBL     Email that hits both URIBL Black and Spamhaus
+                              DBL
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?Q?IMPORTANT!=20I=20recorded=20you=20m=C9=91sturbating!=20I=20hav?= =?UTF-8?Q?e=20Webmaster.mp4=20video=20file!?=
+
+ATTENTION: webmaster@turathalanbiaa.com
+
+The last time you visited a porn website with teenagers, you silently
+downloaded and installed the software I developed.
+
+My software has turned on your camera and recorded both your screen and an
+act of your mɑsturbation..
+
+My sneaky program also downloaded all your email contact lists and a list of
+your friends from social networks.
+
+I have the - Webmaster.mp4 video file - with you jerking off to teenagers,
+as well as a file with your relatives and associates email addresses.
+
+After downloading those files let me say one thing: your fantasies are far
+beyond the normal!
+
+
+If you want me to delete both files and keep your secret, you must send me
+the Litecoin (LTC) payment.
+Litecoin is a secure cryptocurrency, very similar to BTC.
+I give you 72 houɼs only to send the Litecoin transfer.
+
+If you don't know how to pay with Litecoin, visit Google and search - how to
+buy Litecoin (LTC).
+Visit one of the brokers (Coinbase, Bitstamp, anycoindirect), buy Litecoin
+(LTC) and send it to my address.
+Only then I will leɑve you ɑlone!
+
+At anycoindirect you can pay instantly with SEPA, Giropay, EPS, Mybank,
+Sofort, credit cards or Bancontract.
+
+******************************************
+Send 2,000 USD (42.814671 LTC) to this Litecoin address as soon as possible:
+
+MSxeh6As4BbZRxzJLDcL4tfB7NqEpAjJZU
+(copy & paste - it's case sensitive)
+
+1 LTC = 46,73 USD right now, so send exactly 42.814671 LTC to my Litecoin
+wallet.
+******************************************
+
+Do not try to cheat me!
+As soon as you open this Email I will be notified you opened it.
+I am monitoring all actions on your device..
+
+This Litecoin address is linked to you only, so I will know immediately when
+you send the correct amount.
+When you pay in full, I will remove both files (your mɑsturbation video and
+your contact lists) and I will deactivate my sneaky program.
+Changing your password will not help you, I will still have access to your
+device remotely.
+
+If you choose not to send me the Litecoin transfer...
+I will send your mɑsturbation video to all your friends and associates from
+your contact lists that I downloaded from your device.
+Your family members will receive it as well. You will regret it, trust me.
+
+Here are the payment details again:
+
+******************************************
+Send 2,000 USD (42.814671 LTC) to this Litecoin wallet:
+
+MSxeh6As4BbZRxzJLDcL4tfB7NqEpAjJZU
+
+(copy & paste - it's case sensitive)
+******************************************
+
+
+
+You can visit police but they will not help you with solving the problem.
+My program will still be installed on your device and I still will own your
+mɑsturbation videos.
+Police will not catch me anyway. I know what I am doing.
+I do not live in your country and I know how to stay anonymous.
+
+Don't ever try to deceive me - I will know it. My program is recording all
+the websites you visit and all your key presses.
+If you try to trick me - I will send this ugly video to everyone you know,
+including your family members.
+
+Don't forget the potential shame - your life can be a disaster.
+
+I am waiting for your Litecoin payment.
+You have 72 houɼs left.
+
+
+Anonymous Hacker
+
+
+P.S. If you need more time to buy and send me Litecoin (LTC), open your
+notepad on your device and write '48h more'. Only this way you can contact
+me. I will consider giving you more time before I release the video, but
+only when I see that you are really struggling to buy and send Litecoin. I
+know you can afford it - so do not trick me.
+

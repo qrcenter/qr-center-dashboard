@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id Wgw7ISn00l2GNAAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Mon, 18 Nov 2019 22:42:33 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Mon, 18 Nov 2019 22:42:33 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1iWmuv-0003b7-HD
+	for info@turathalanbiaa.com; Mon, 18 Nov 2019 22:42:33 +0300
+X-Failed-Recipients: haider.abood17@yahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1574106153-eximdsn-1276452387
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iWmuv-0003b7-HD@server-fr-sh-1111.alkafeel.info>
+Date: Mon, 18 Nov 2019 22:42:33 +0300
+
+--1574106153-eximdsn-1276452387
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  haider.abood17@yahoo.com
+    host mta7.am0.yahoodns.net [67.195.204.74]
+    SMTP error from remote mail server after end of data:
+    554 delivery error: dd Sorry, your message to haider.abood17@yahoo.com cannot be delivered. This mailbox is disabled (554.30). - mta4214.mail.bf1.yahoo.com
+
+--1574106153-eximdsn-1276452387
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;haider.abood17@yahoo.com
+Status: 5.0.0
+Remote-MTA: dns; mta7.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd Sorry, your message to haider.abood17@yahoo.com cannot be delivered. This mailbox is disabled (554.30). - mta4214.mail.bf1.yahoo.com
+
+--1574106153-eximdsn-1276452387
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1iWmut-0003ah-H1
+	for haider.abood17@yahoo.com; Mon, 18 Nov 2019 22:42:31 +0300
+To: haider.abood17@yahoo.com
+Subject: Reset Password
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 8.41.39.72
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Mon, 18 Nov 2019 19:42:31 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <f7af3dccbc939141a31eead3e1dcefc9@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/image"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<h3>haider.abood17@yahoo.com</h3>
+<a href="http://www.edu.turathalanbiaa.com/reset_password/K3Lwc3JAGa92dJuBMgEc5IzvW053XjyDyhHvSYDN2lt6IuU2UNpu2QF2EnqTC18EVEDJx9Vpaglb6kapqKIktajYbVqgX95XjbgmrtfIndTBZf23fMtF5Mt5iCARM0OF" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغير كلمة المرور</a>
+
+
+--1574106153-eximdsn-1276452387--

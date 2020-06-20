@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id BrtyOcee9F0CeAAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Sat, 14 Dec 2019 11:35:19 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Sat, 14 Dec 2019 11:35:19 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1ig2tT-0007zP-UA
+	for info@turathalanbiaa.com; Sat, 14 Dec 2019 11:35:19 +0300
+X-Failed-Recipients: sarachemi@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1576312519-eximdsn-1213446676
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ig2tT-0007zP-UA@server-fr-sh-1111.alkafeel.info>
+Date: Sat, 14 Dec 2019 11:35:19 +0300
+
+--1576312519-eximdsn-1213446676
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  sarachemi@gmail.com
+    host gmail-smtp-in.l.google.com [108.177.15.27]
+    SMTP error from remote mail server after RCPT TO:<sarachemi@gmail.com>:
+    550-5.1.1 The email account that you tried to reach does not exist. Please try
+    550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. Learn more at
+    550 5.1.1  https://support.google.com/mail/?p=NoSuchUser u12si11313416wro.136 - gsmtp
+
+--1576312519-eximdsn-1213446676
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;sarachemi@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser u12si11313416wro.136 - gsmtp
+
+--1576312519-eximdsn-1213446676
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1ig2tT-0007zF-MH
+	for sarachemi@gmail.com; Sat, 14 Dec 2019 11:35:19 +0300
+To: sarachemi@gmail.com
+Subject: Reset Password
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.238.138.21, 136.243.47.220
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Sat, 14 Dec 2019 08:35:19 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <cb516080430c13657eb10e36379488ba@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://edu.turathalanbiaa.com/assets/image"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<h3>sarachemi@gmail.com</h3>
+<a href="http://edu.turathalanbiaa.com/reset_password/Q61hD0VbthZxBmlVevCl8cKGCeAykkbYhgg2WX0hE6ITlm2uRyB0AGyouOrl50lT6BzWre19z8PoQ0D6nwDYiO85bFxSbUW2TMaLUT2rkZaUwVbAt60f13KfbDD2AyUm" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغير كلمة المرور</a>
+
+
+--1576312519-eximdsn-1213446676--

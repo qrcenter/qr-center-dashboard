@@ -1,0 +1,188 @@
+Return-Path: <maryjomcneely@paxwaxes.ungainable.xyz>
+Delivered-To: turathal+spam@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id IyEWJWOPfl0aFAAAzyXPIA
+	(envelope-from <maryjomcneely@paxwaxes.ungainable.xyz>)
+	for <turathal+spam@server-fr-sh-1111.alkafeel.info>; Sun, 15 Sep 2019 21:22:11 +0200
+Return-path: <maryjomcneely@paxwaxes.ungainable.xyz>
+Envelope-to: webmaster@turathalanbiaa.com
+Delivery-date: Sun, 15 Sep 2019 21:22:11 +0200
+Received: from mx.paxwaxes.ungainable.xyz ([165.22.85.34]:53988)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <maryjomcneely@paxwaxes.ungainable.xyz>)
+	id 1i9a65-0001GN-Ok
+	for webmaster@turathalanbiaa.com; Sun, 15 Sep 2019 21:22:11 +0200
+Received: from mx.paxwaxes.ungainable.xyz (mx.paxwaxes.ungainable.xyz [127.0.0.1])
+	by mx.paxwaxes.ungainable.xyz (Postfix) with ESMTP id 46WfM86zDjz22ND
+	for <webmaster@turathalanbiaa.com>; Sun, 15 Sep 2019 19:19:32 +0000 (UTC)
+Authentication-Results: mx.paxwaxes.ungainable.xyz (amavisd-new);
+	dkim=pass (1024-bit key) reason="pass (just generated, assumed good)"
+	header.d=paxwaxes.ungainable.xyz
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=
+	paxwaxes.ungainable.xyz; h=content-transfer-encoding
+	:content-type:content-type:mime-version:message-id:x-mailer
+	:user-agent:reply-to:list-unsubscribe:subject:subject:to:from
+	:from:date:date; s=dkim; t=1568575172; x=1571167173; bh=dZLrmXlq
+	47Asczb8gPJLRO0vlyeqyi/8wpX+eO7TDlk=; b=kN2v8AxM8lquBn8/Xe/vN7ho
+	PGxV8u00ztRId4Z37IWVpFK6YAMN8Utorfg9sEvyBT0fDTheq/izbKceHaNJXSw4
+	sL6AC+vCUq6BDt1ixywS8WwDyyy4nqZeu99AZnkS6nR88aTcpsQu0Gn9g47WLkgF
+	WDLBQQWBHHt/0Z1KVXA=
+X-Virus-Scanned: Debian amavisd-new at mx.paxwaxes.ungainable.xyz
+Received: from mx.paxwaxes.ungainable.xyz ([127.0.0.1])
+	by mx.paxwaxes.ungainable.xyz (mx.paxwaxes.ungainable.xyz [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0h1LjKAb70yq for <webmaster@turathalanbiaa.com>;
+	Sun, 15 Sep 2019 19:19:32 +0000 (UTC)
+Received: from [127.0.0.1] (mx.paxwaxes.ungainable.xyz [127.0.0.1])
+	by mx.paxwaxes.ungainable.xyz (Postfix) with ESMTP id 46Wf6Z469Bz22yr
+	for <webmaster@turathalanbiaa.com>; Sun, 15 Sep 2019 19:08:38 +0000 (UTC)
+Date: Sun, 15 Sep 2019 20:08:37 +0100
+From: "The Virus Developer" <maryjomcneely@paxwaxes.ungainable.xyz>
+To: webmaster@turathalanbiaa.com
+List-Unsubscribe: <http://paxwaxes.ungainable.xyz/unsubscribe/Q3Y5U09EZjdzOEgzOE44eTFYTElZQ0gwazdjTWsyQlVWZ3ZMWUl1Z0Q1a09hdjVXNVI0TVU4Zmg0UUFRRDNDSUp0SG85RXhNRms1K25BWkxiK0oybjlhQW9CUVB6eDhtcFo4RWI5TCs3bWxLSytWdWYxQXBibjNyb1RQZTQ5aVo=>
+Reply-To: <maryjomcneely@paxwaxes.ungainable.xyz>
+User-Agent: CodeIgniter
+X-Sender: maryjomcneely@paxwaxes.ungainable.xyz
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: <5d7e8c364d5ef@paxwaxes.ungainable.xyz>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: Yes, score=29.3
+X-Spam-Score: 293
+X-Spam-Bar: +++++++++++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Confidential message for: webmaster@turathalanbiaa.com Recently
+    you visited one of the porn websites I attacked with my Xploıt. When you
+    started watching videos it executed payload on your device and installed
+   a ʋirus I developed. 
+ Content analysis details:   (29.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.9 URIBL_ABUSE_SURBL      Contains an URL listed in the ABUSE SURBL
+                             blocklist
+                             [URIs: ungainable.xyz]
+  2.1 CPANEL_XYZ             .XYZ domain mostly used by spammers
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: ungainable.xyz]
+  3.6 RCVD_IN_SBL_CSS        RBL: Received via a relay in Spamhaus SBL-CSS
+                             [165.22.85.34 listed in zen.spamhaus.org]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [165.22.85.34 listed in psbl.surriel.com]
+  5.0 URIBL_BLACK            Contains an URL listed in the URIBL blacklist
+                             [URIs: ungainable.xyz]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 TRACKER_ID             BODY: Incorporates a tracking ID number
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.5 FROM_SUSPICIOUS_NTLD   From abused NTLD
+  2.0 PDS_BTC_NTLD           Bitcoin suspect NTLD
+  5.0 KAM_VERY_BLACK_DBL     Email that hits both URIBL Black and Spamhaus
+                              DBL
+  2.0 FROM_SUSPICIOUS_NTLD_FP From abused NTLD
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?Q?=F0=9F=8D=86=E2=9C=8A=F0=9F=92=A6=20My=20=CA=8Birus=20recorded?= =?UTF-8?Q?=20you=20M=C9=85STURBATING!?=
+
+Confidential message for: webmaster@turathalanbiaa.com
+
+Recently you visited one of the porn websites I attacked with my Xploıt.
+When you started watching videos it executed payload on your device and
+installed a ʋirus I developed.
+
+As soon as I ίɳfected your ɗevίce, it started to act like a remote
+desktop with full read/write access.
+I gained access to your files, your email, contact lists and most
+importantly - your camera!
+
+My ʋirus started recording your web browser and your camera every time you
+ɱαstuŗbαted during last 2 weeks.
+While my ʋirus is not perfect it managed to record 6 videos clearly showing
+you ɱαstuŗbαting..
+
+Call me whatever you want, a criminal or a dick, but this is just my job.
+I do this on regular basis and I recorded hundreds of people, but you are
+SPECIAL.
+Why? Because of the aberrant and perverse videos you were watching while
+ɱαstuŗbαting - you know what I mean!
+
+Now I am your master, and you are my slave..
+
+
+Let me ask you a question.
+
+How would you feel if I upload to pornhub all the videos with you
+ɱαstuŗbαting and send the links to everyone on your contact lists -
+including your family and business partners?
+
+You don't want me to do this, right ?
+
+There is only one way you can stop me from exposing your fantasies. You have
+to pαy.
+
+
+Let me be straightforward with you.
+
+You know what Bitcoin is, right?
+Buy 2,000 USD worth of Bitcoin and send it to me immediately.
+
+You can buy Bitcoin in many places like Coinbase, CoinMama, Binance..
+Google for 'how to buy cryptocurrencies'. You can use your credit card or
+bank transfer.
+
+I am giving you 3 days to complete this payment, after which I will start
+uploading and sending your ɱαstuŗbαtion videos.
+Just imagine your family and collegues reaction to those videos 🤣
+
+Save your life now!
+Transaction details are below:
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Send exαctly 0.200784 BTC
+
+to this Bitcoin address:
+
+32xLw1VYMMxSct2KdxAfZPa5oxioeig7KA
+
+Copy the address, it's case sensitive.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+2,000 USD = 0.200784 BTC
+
+
+Make sure to send exactly 0.200784 BTC to the address above so I know the
+payment is coming from you.
+
+As soon as you pαy I will deactivate the ʋirus and delete the compromising
+videos, I will not bother you again. I promise.
+
+But what if you do not pay?
+
+Well, running antiʋirus software will NOT help you.
+I already downloaded your contact lists, browsing history and your
+ɱαstuŗbαtion videos.
+You can be sure that I will use this material if I do not receive a payment
+from you.
+It will be fun to watch!
+
+Now move your ass and send the Bitcoin payment to me.
+
+If you need more time - just continue buying Bitcoin and sending
+transactions.
+Remember I have full access to your device and I am watching you!
+
+The Virus Developer
+
+Oh.. One more thing. Do NOT contact police - as soon as you do, I will
+immediately release the videos.
+You will be fucked and they will not find me - I know what I am doing.
+

@@ -1,0 +1,46 @@
+Return-Path: <spftest@t01.036082.036082.daisy.spf-test.dns-lab.org>
+Delivered-To: turathal+spam@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id 2O3yKwwaul1OAwAAzyXPIA
+	(envelope-from <spftest@t01.036082.036082.daisy.spf-test.dns-lab.org>)
+	for <turathal+spam@server-fr-sh-1111.alkafeel.info>; Thu, 31 Oct 2019 00:17:32 +0100
+Return-path: <spftest@t01.036082.036082.daisy.spf-test.dns-lab.org>
+Envelope-to: postmaster@turathalanbiaa.com
+Delivery-date: Thu, 31 Oct 2019 00:17:32 +0100
+Received: from c.dns-lab.org ([128.187.82.252]:44616 helo=helo.t01.036082.036082.daisy.spf-test.dns-lab.org)
+	by server-fr-sh-1111.alkafeel.info with esmtp (Exim 4.92)
+	(envelope-from <spftest@t01.036082.036082.daisy.spf-test.dns-lab.org>)
+	id 1iPxDW-00009G-PL
+	for postmaster@turathalanbiaa.com; Thu, 31 Oct 2019 00:17:32 +0100
+X-Spam-Status: Yes, score=18.3
+X-Spam-Score: 183
+X-Spam-Bar: ++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  
+ Content analysis details:   (18.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  3.6 RCVD_IN_SBL_CSS        RBL: Received via a relay in Spamhaus SBL-CSS
+                             [128.187.82.252 listed in zen.spamhaus.org]
+  1.2 MISSING_HEADERS        Missing To: header
+  4.0 SPF_FAIL               SPF: sender does not match SPF record (fail)
+ [SPF failed: Please see http://www.openspf.org/Why?s=mfrom;id=spftest%40t01.036082.036082.daisy.spf-test.dns-lab.org;ip=128.187.82.252;r=server-fr-sh-1111.alkafeel.info]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  1.0 FORGED_SPF_HELO        No description available.
+  2.3 EMPTY_MESSAGE          Message appears to have no textual parts and no
+                             Subject: text
+  1.0 MISSING_FROM           Missing From: header
+  1.4 MISSING_DATE           Missing Date: header
+  1.8 MISSING_SUBJECT        Missing Subject: header
+X-Spam-Flag: YES
+Subject:  ***SPAM*** 
+
+

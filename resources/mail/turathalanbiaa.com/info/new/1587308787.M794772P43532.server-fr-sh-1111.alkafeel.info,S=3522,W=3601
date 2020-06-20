@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id eChTL/NonF4MqgAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Sun, 19 Apr 2020 18:06:27 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Sun, 19 Apr 2020 18:06:27 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jQBWd-000BLY-Or
+	for info@turathalanbiaa.com; Sun, 19 Apr 2020 18:06:27 +0300
+X-Failed-Recipients: yaabasalh212@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1587308787-eximdsn-1637741061
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jQBWd-000BLY-Or@server-fr-sh-1111.alkafeel.info>
+Date: Sun, 19 Apr 2020 18:06:27 +0300
+
+--1587308787-eximdsn-1637741061
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  yaabasalh212@gmail.com
+    host alt4.gmail-smtp-in.l.google.com [74.125.28.27]
+    SMTP error from remote mail server after RCPT TO:<yaabasalh212@gmail.com>:
+    452-4.2.2 The email account that you tried to reach is over quota. Please direct
+    452-4.2.2 the recipient to
+    452 4.2.2  https://support.google.com/mail/?p=OverQuotaTemp c185si22255692pga.290 - gsmtp:
+    retry timeout exceeded
+
+--1587308787-eximdsn-1637741061
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;yaabasalh212@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; alt4.gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 452-4.2.2 The email account that you tried to reach is over quota. Please direct
+ 452-4.2.2 the recipient to
+ 452 4.2.2  https://support.google.com/mail/?p=OverQuotaTemp c185si22255692pga.290 - gsmtp: retry timeout exceeded
+
+--1587308787-eximdsn-1637741061
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jOjYK-0001yf-GC
+	for yaabasalh212@gmail.com; Wed, 15 Apr 2020 18:02:12 +0300
+To: yaabasalh212@gmail.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.239.74.20
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Wed, 15 Apr 2020 15:02:12 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <7c0cedea5741f60dc324815b7f6b92ce@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/6239/9acb3ed8c7d74f97158f3656e0f13a59" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1587308787-eximdsn-1637741061--

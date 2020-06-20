@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id MwTMLNbalF4QUwAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Tue, 14 Apr 2020 00:34:14 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Tue, 14 Apr 2020 00:34:14 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jO6ic-0005Ws-NH
+	for info@turathalanbiaa.com; Tue, 14 Apr 2020 00:34:14 +0300
+X-Failed-Recipients: www.altaleb@yasin.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1586813654-eximdsn-648905336
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jO6ic-0005Ws-NH@server-fr-sh-1111.alkafeel.info>
+Date: Tue, 14 Apr 2020 00:34:14 +0300
+
+--1586813654-eximdsn-648905336
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  www.altaleb@yasin.com
+    host mx1.icoremail.net [52.137.64.253]
+    SMTP error from remote mail server after RCPT TO:<www.altaleb@yasin.com>:
+    550 User not found: www.altaleb@yasin.com
+
+--1586813654-eximdsn-648905336
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;www.altaleb@yasin.com
+Status: 5.0.0
+Remote-MTA: dns; mx1.icoremail.net
+Diagnostic-Code: smtp; 550 User not found: www.altaleb@yasin.com
+
+--1586813654-eximdsn-648905336
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jO6iX-0005Ub-5u
+	for www.altaleb@yasin.com; Tue, 14 Apr 2020 00:34:09 +0300
+To: www.altaleb@yasin.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 185.95.204.125
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Mon, 13 Apr 2020 21:34:09 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <8f78a48db42e3ef8b428b932a6d7b550@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/6141/753c93cc25c1ddd301dd5ead27a2b771" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1586813654-eximdsn-648905336--

@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id BvaeMLmVb132eAAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Wed, 04 Sep 2019 12:45:13 +0200
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Wed, 04 Sep 2019 12:45:13 +0200
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1i5Smn-00083G-PA
+	for info@turathalanbiaa.com; Wed, 04 Sep 2019 12:45:13 +0200
+X-Failed-Recipients: alselawyly781@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1567593913-eximdsn-1667682373
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1i5Smn-00083G-PA@server-fr-sh-1111.alkafeel.info>
+Date: Wed, 04 Sep 2019 12:45:13 +0200
+
+--1567593913-eximdsn-1667682373
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  alselawyly781@gmail.com
+    host gmail-smtp-in.l.google.com [64.233.167.27]
+    SMTP error from remote mail server after RCPT TO:<alselawyly781@gmail.com>:
+    550-5.1.1 The email account that you tried to reach does not exist. Please try
+    550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. Learn more at
+    550 5.1.1  https://support.google.com/mail/?p=NoSuchUser b200si2000240wme.72 - gsmtp
+
+--1567593913-eximdsn-1667682373
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;alselawyly781@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try
+ 550-5.1.1 double-checking the recipient's email address for typos or
+ 550-5.1.1 unnecessary spaces. Learn more at
+ 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser b200si2000240wme.72 - gsmtp
+
+--1567593913-eximdsn-1667682373
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1i5Smn-00082q-H9
+	for alselawyly781@gmail.com; Wed, 04 Sep 2019 12:45:13 +0200
+To: alselawyly781@gmail.com
+Subject: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.237.199.42
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Wed, 4 Sep 2019 10:45:13 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <2df0f98113e7d4d238757f82f7fee08c@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>مرحبا بك , لقد تم تسجيلك بنجاح</h1>
+<a href="http://www.turath.dev" style="text-decoration: none;font-size: 18px;">الذهاب الي الموقع</a>
+
+
+--1567593913-eximdsn-1667682373--

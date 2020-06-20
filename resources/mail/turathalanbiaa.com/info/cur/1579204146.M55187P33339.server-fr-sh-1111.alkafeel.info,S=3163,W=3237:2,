@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id oBdAAzK+IF47ggAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Thu, 16 Jan 2020 22:49:06 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Thu, 16 Jan 2020 22:49:06 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1isB8c-0008n7-0y
+	for info@turathalanbiaa.com; Thu, 16 Jan 2020 22:49:06 +0300
+X-Failed-Recipients: h12_a12@yahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1579204146-eximdsn-1173581769
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1isB8c-0008n7-0y@server-fr-sh-1111.alkafeel.info>
+Date: Thu, 16 Jan 2020 22:49:06 +0300
+
+--1579204146-eximdsn-1173581769
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  h12_a12@yahoo.com
+    host mta6.am0.yahoodns.net [98.136.96.74]
+    SMTP error from remote mail server after end of data:
+    554 delivery error: dd Requested mail action aborted - mta4406.mail.ne1.yahoo.com
+
+--1579204146-eximdsn-1173581769
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;h12_a12@yahoo.com
+Status: 5.0.0
+Remote-MTA: dns; mta6.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd Requested mail action aborted - mta4406.mail.ne1.yahoo.com
+
+--1579204146-eximdsn-1173581769
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1isB8Y-0008mV-Kk
+	for h12_a12@yahoo.com; Thu, 16 Jan 2020 22:49:02 +0300
+To: h12_a12@yahoo.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.239.133.11
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Thu, 16 Jan 2020 19:49:02 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <612e5e4182186a8ee881503b68c29957@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/5838/c42defe8ce4b5487ad2ada9d7cd7f544" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1579204146-eximdsn-1173581769--

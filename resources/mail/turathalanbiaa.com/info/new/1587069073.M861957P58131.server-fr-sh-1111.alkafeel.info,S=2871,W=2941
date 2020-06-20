@@ -1,0 +1,70 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id dO0BM5HAmF4T4wAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Thu, 16 Apr 2020 23:31:13 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Thu, 16 Apr 2020 23:31:13 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jPBAH-000F7T-Qf
+	for info@turathalanbiaa.com; Thu, 16 Apr 2020 23:31:13 +0300
+X-Failed-Recipients: duhahamood@gmial.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1587069073-eximdsn-1580269665
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jPBAH-000F7T-Qf@server-fr-sh-1111.alkafeel.info>
+Date: Thu, 16 Apr 2020 23:31:13 +0300
+
+--1587069073-eximdsn-1580269665
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  duhahamood@gmial.com
+    retry timeout exceeded
+
+--1587069073-eximdsn-1580269665
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;duhahamood@gmial.com
+Status: 5.0.0
+
+--1587069073-eximdsn-1580269665
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jNj1f-0005HO-MW
+	for duhahamood@gmial.com; Sun, 12 Apr 2020 23:16:19 +0300
+To: duhahamood@gmial.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.238.236.39
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Sun, 12 Apr 2020 20:16:19 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <5e48049499097e0e26c55ba8f2e201cb@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/6021/4fb4d2ace79717eaf9b8a5c0ea30cded" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1587069073-eximdsn-1580269665--

@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id +KJPLjWGll4ktgAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Wed, 15 Apr 2020 06:57:41 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Wed, 15 Apr 2020 06:57:41 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jOZBF-000CKl-OI
+	for info@turathalanbiaa.com; Wed, 15 Apr 2020 06:57:41 +0300
+X-Failed-Recipients: Zaenab@yahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1586923061-eximdsn-179880338
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jOZBF-000CKl-OI@server-fr-sh-1111.alkafeel.info>
+Date: Wed, 15 Apr 2020 06:57:41 +0300
+
+--1586923061-eximdsn-179880338
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  Zaenab@yahoo.com
+    host mta7.am0.yahoodns.net [67.195.228.110]
+    SMTP error from remote mail server after end of data:
+    554 delivery error: dd Not a valid recipient - atlas225.free.mail.gq1.yahoo.com
+
+--1586923061-eximdsn-179880338
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;Zaenab@yahoo.com
+Status: 5.0.0
+Remote-MTA: dns; mta7.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd Not a valid recipient - atlas225.free.mail.gq1.yahoo.com
+
+--1586923061-eximdsn-179880338
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jOZBA-000CIs-8O
+	for Zaenab@yahoo.com; Wed, 15 Apr 2020 06:57:36 +0300
+To: Zaenab@yahoo.com
+Subject: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 151.236.180.253
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Wed, 15 Apr 2020 03:57:36 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <3dda734d1d6b1339924d493f27671752@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>مرحبا بك , لقد تم تسجيلك بنجاح</h1>
+<a href="http://www.turath.dev" style="text-decoration: none;font-size: 18px;">الذهاب الي الموقع</a>
+
+
+--1586923061-eximdsn-179880338--

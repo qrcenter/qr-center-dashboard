@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id IHqfB6GQoV4cvwAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Thu, 23 Apr 2020 15:57:05 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Thu, 23 Apr 2020 15:57:05 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jRbPd-000D3a-3L
+	for info@turathalanbiaa.com; Thu, 23 Apr 2020 15:57:05 +0300
+X-Failed-Recipients: q3edhi152@alkadhum-col.edu.iq
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1587646625-eximdsn-1044380841
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jRbPd-000D3a-3L@server-fr-sh-1111.alkafeel.info>
+Date: Thu, 23 Apr 2020 15:57:05 +0300
+
+--1587646625-eximdsn-1044380841
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  q3edhi152@alkadhum-col.edu.iq
+    host mail.alkadhum-col.edu.iq [192.185.96.247]
+    SMTP error from remote mail server after RCPT TO:<q3edhi152@alkadhum-col.edu.iq>:
+    550 No Such User Here"
+
+--1587646625-eximdsn-1044380841
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;q3edhi152@alkadhum-col.edu.iq
+Status: 5.0.0
+Remote-MTA: dns; mail.alkadhum-col.edu.iq
+Diagnostic-Code: smtp; 550 No Such User Here"
+
+--1587646625-eximdsn-1044380841
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jRbPR-000Czo-Br
+	for q3edhi152@alkadhum-col.edu.iq; Thu, 23 Apr 2020 15:56:53 +0300
+To: q3edhi152@alkadhum-col.edu.iq
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 151.236.178.191
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Thu, 23 Apr 2020 12:56:53 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <abf39bbc51762a8f79b1f3d84830ceeb@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/6535/536be2bfc32955521ec19a74b646bbf4" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1587646625-eximdsn-1044380841--

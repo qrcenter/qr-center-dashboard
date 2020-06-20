@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id qOiwE8QT0V01PAAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Sun, 17 Nov 2019 12:32:52 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Sun, 17 Nov 2019 12:32:52 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1iWGvM-00040k-9u
+	for info@turathalanbiaa.com; Sun, 17 Nov 2019 12:32:52 +0300
+X-Failed-Recipients: ssamer885@yahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1573983172-eximdsn-1577178696
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iWGvM-00040k-9u@server-fr-sh-1111.alkafeel.info>
+Date: Sun, 17 Nov 2019 12:32:52 +0300
+
+--1573983172-eximdsn-1577178696
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ssamer885@yahoo.com
+    host mta7.am0.yahoodns.net [98.136.96.91]
+    SMTP error from remote mail server after end of data:
+    554 delivery error: dd Sorry, your message to ssamer885@yahoo.com cannot be delivered. This mailbox is disabled (554.30). - mta4118.mail.ne1.yahoo.com
+
+--1573983172-eximdsn-1577178696
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;ssamer885@yahoo.com
+Status: 5.0.0
+Remote-MTA: dns; mta7.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd Sorry, your message to ssamer885@yahoo.com cannot be delivered. This mailbox is disabled (554.30). - mta4118.mail.ne1.yahoo.com
+
+--1573983172-eximdsn-1577178696
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1iWGvJ-00040J-VQ
+	for ssamer885@yahoo.com; Sun, 17 Nov 2019 12:32:49 +0300
+To: ssamer885@yahoo.com
+Subject: Reset Password
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 68.183.32.195
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Sun, 17 Nov 2019 09:32:49 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <6886f8e19827295cd4f1551e555daeee@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="https://edu.turathalanbiaa.com/assets/image"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<h3>ssamer885@yahoo.com</h3>
+<a href="https://edu.turathalanbiaa.com/reset_password/3kWOEKDpAcbhTINTyd2ZkU78glYu23TmxiKarstQNVn17qjPI0lWChol0blKUr0w7HH7khgoDK3TQj2KWx0IvtALfJmSViprUitgovHYg2yW6278upPUEO9DYJnI4riU" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغير كلمة المرور</a>
+
+
+--1573983172-eximdsn-1577178696--

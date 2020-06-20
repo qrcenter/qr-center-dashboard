@@ -1,0 +1,249 @@
+Return-Path: <>
+Delivered-To: turathal@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id YNvMN8i2TF7CLwAAzyXPIA
+	(envelope-from <>)
+	for <turathal@server-fr-sh-1111.alkafeel.info>; Wed, 19 Feb 2020 07:17:12 +0300
+Return-path: <>
+Envelope-to: batchpliquabilitjq@turathalanbiaa.com
+Delivery-date: Wed, 19 Feb 2020 07:17:12 +0300
+Received: from av2.mail.completel.net ([213.245.2.49]:46091)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	id 1j4GnP-00032S-GH
+	for batchpliquabilitjq@turathalanbiaa.com; Wed, 19 Feb 2020 07:17:12 +0300
+Received: by av2.mail.completel.net (Postfix)
+	id A4313C7C04; Wed, 19 Feb 2020 05:07:59 +0100 (CET)
+Date: Wed, 19 Feb 2020 05:07:59 +0100 (CET)
+From: MAILER-DAEMON@av2.mail.completel.net (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: batchpliquabilitjq@turathalanbiaa.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="1E3E0C7BFD.1582085279/av2.mail.completel.net"
+Content-Transfer-Encoding: 7bit
+Message-Id: <20200219040759.A4313C7C04@av2.mail.completel.net>
+X-Spam-Status: No, score=0.1
+X-Spam-Score: 1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  This is the mail system at host av2.mail.completel.net. I'm
+    sorry to have to inform you that your message could not be delivered to one
+    or more recipients. It's attached below. For further assistance, please send
+    mail to postmaster. 
+ Content analysis details:   (0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [213.245.2.49 listed in wl.mailspike.net]
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+ -0.7 RCVD_IN_DNSWL_LOW      RBL: Sender listed at https://www.dnswl.org/,
+                             low trust
+                             [213.245.2.49 listed in list.dnswl.org]
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--1E3E0C7BFD.1582085279/av2.mail.completel.net
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host av2.mail.completel.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<ise.schmits-trouve@chicmt.fr>: host 46.218.233.4[46.218.233.4] said: 550 5.1.1
+    <ise.schmits-trouve@chicmt.fr>: Recipient address rejected: User unknown in
+    local recipient table (in reply to RCPT TO command)
+
+--1E3E0C7BFD.1582085279/av2.mail.completel.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; av2.mail.completel.net
+X-Postfix-Queue-ID: 1E3E0C7BFD
+X-Postfix-Sender: rfc822; batchpliquabilitjq@turathalanbiaa.com
+Arrival-Date: Wed, 19 Feb 2020 05:07:59 +0100 (CET)
+
+Final-Recipient: rfc822; ise.schmits-trouve@chicmt.fr
+Original-Recipient: rfc822;ise.schmits-trouve@chicmt.fr
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; 46.218.233.4
+Diagnostic-Code: smtp; 550 5.1.1 <ise.schmits-trouve@chicmt.fr>: Recipient
+    address rejected: User unknown in local recipient table
+
+--1E3E0C7BFD.1582085279/av2.mail.completel.net
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <batchpliquabilitjq@turathalanbiaa.com>
+Received: from localhost (localhost [127.0.0.1])
+	by av2.mail.completel.net (Postfix) with ESMTP id 1E3E0C7BFD
+	for <ise.schmits-trouve@chicmt.fr>; Wed, 19 Feb 2020 05:07:59 +0100 (CET)
+X-Spam-Flag: YES
+X-Spam-Score: 7.524
+X-Spam-Level: *******
+X-Spam-Status: Yes, score=7.524 tagged_above=-99 required=5
+	tests=[BAYES_00=-1.9, DOS_OUTLOOK_TO_MX=2.845,
+	FORGED_OUTLOOK_TAGS=0.052, HTML_MESSAGE=0.001,
+	MIME_HEADER_CTYPE_ONLY=0.1, MIME_HTML_MOSTLY=0.1, MPART_ALT_DIFF=0.79,
+	RCVD_IN_PBL=3.335, RDNS_NONE=0.793, SPF_HELO_SOFTFAIL=0.732,
+	SPF_SOFTFAIL=0.665, T_REMOTE_IMAGE=0.01, URIBL_BLOCKED=0.001]
+	autolearn=no autolearn_force=no
+Received: from turathalanbiaa.com (unknown [31.163.142.160])
+	by cptl-mx2.sdv.fr (Postfix) with ESMTP id 5D2B840058
+	for <ise.schmits-trouve@chicmt.fr>; Wed, 19 Feb 2020 05:07:46 +0100 (CET)
+Subject: ***SPAM*** "Ise Schmits Trouve"
+Message-ID: <2d31fa56a2765e5279caaf90dc379757107bb0e@bk.ru>
+From: Lubin Darius <cinglegorgeantroundabouts@turathalanbiaa.com>
+X-MS-Has-Attachfrugal: yes
+X-MS-Has-Attachsanglots: yes
+X-MS-Has-Attachcharisme: yes
+X-Mailer: Microsoft Office Outlook 12.0
+X-MS-Has-Attachadherents: yes
+X-MS-Has-Attachintrouvable: yes
+X-MS-Has-Attachexploration: yes
+X-MS-Has-Attacheffective: yes
+X-MS-Has-Attachflexibilite: yes
+X-MS-Has-Attachcroissance: yes
+X-MS-Has-Attachmarchande: yes
+X-MS-Has-Attachachromatique: yes
+X-MS-Has-Attacharbalete: yes
+To: "Ise Schmits Trouve" <ise.schmits-trouve@chicmt.fr>
+Date: Wed, 19 Feb 2020 06:53:31 +0300
+X-MS-Has-Attachvainement: yes
+X-MS-Has-Attachemployees: yes
+X-MS-Has-Attachextremes: yes
+X-MS-Has-Attachchretienne: yes
+Content-Type: multipart/alternative; boundary="------------------------E2ED3851D13E4639EDF062BE706E5C23133C1CF811ED2C423B32BB422780521"
+X-MS-Has-Attachchaos: yes
+X-MS-Has-Attachassorti: yes
+X-MS-Has-Attachindefini: yes
+X-MS-Has-Attachstupeur: yes
+X-AV-Checked: clean on cptl-av2
+
+
+--------------------------E2ED3851D13E4639EDF062BE706E5C23133C1CF811ED2C423B32BB422780521
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+cmVndWxhcnMNCiBNb29raWUNCiAgUm9zYmlmbGFuZA==
+
+--------------------------E2ED3851D13E4639EDF062BE706E5C23133C1CF811ED2C423B32BB422780521
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<table><tr class=3D"noresp"><td class=3D"sf-td" style=3D"border-collapse: c=
+ollapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust=
+: 100%; -webkit-text-size-adjust: 100%; border: 0px solid transparent; widt=
+h: 38.46153846153846%;"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" align=3D"center" style=3D"table-layout: fixed; border=
+: 0px; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: au=
+to;"><tbody><tr><td align=3D"center" class=3D"sf-img sf-td" style=3D"border=
+-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text=
+-size-adjust: 100%; -webkit-text-size-adjust: 100%; line-height:0px; paddin=
+g-top: auto; padding-right: auto; padding-bottom: auto; padding-left: auto;=
+"><a target=3D"_blank" href=3D"http://n.sharpbenefitlogistics.com/bead/22cp=
+o8wchbkdyrw8qvz/escamps/preparer-bac-allemand/id20765445?src=3DcCx1O3MsMDtv=
+LDA7ZCwyMDE4MDYzMDAzNDEwMzttLDgyO2UsYXJtZWxsZTk3JTQwd2FuYWRvby5mcg=3D=3D&mi=
+d=3Dcdd18292bfdce2dbbc8e616641292fdd0b2e"><img src=3D"http://jwitt.vflyer.c=
+om/HP?b=3DEDKTiwnzqa6i3qcIkBkJ8iVgS5EkyNhEeQWoXSdQh3EN8sJsh9vwAwnfjN4LPGJz&=
+c=3D70AWPfRCki0K6UHywHGv6Q" alt=3D"" align=3D"center" style=3D"border: 0px =
+solid #ffffff; border-radius: 0px; max-width: 100%; display: block; -ms-int=
+erpolation-mode: bicubic;"/></a></td></tr></tbody></table></td><td class=3D=
+"sf-td" style=3D"border-collapse: collapse; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; =
+border: 0px solid transparent; width: 61.53846153846154%;"><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" align=3D"center" sty=
+le=3D"table-layout: fixed; border: 0px; border-collapse: collapse; mso-tabl=
+e-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-t=
+ext-size-adjust: 100%; margin: auto;"><tbody><tr><td align=3D"center" class=
+=3D"sf-img sf-td" style=3D"border-collapse: collapse; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -webkit-text-size-adju=
+st: 100%; line-height:0px; padding-top: auto; padding-right: auto; padding-=
+bottom: auto; padding-left: auto;"><a target=3D"_blank" href=3D"http://n.sh=
+arpbenefitlogistics.com/bead/22cpo8wchbkdyrw8qvz/escamps/preparer-bac-allem=
+and/id20765445?src=3DcCx1O3MsMDtvLDA7ZCwyMDE4MDYzMDAzNDEwMzttLDgyO2UsYXJtZW=
+xsZTk3JTQwd2FuYWRvby5mcg=3D=3D&mid=3Dcdd18292bfdce2dbbc8e616641292fdd0b2e">=
+<img src=3D"http://jwitt.vflyer.com/HP?b=3DEDKTiwnzqa6i3qcIkBkJ8iVgS5EkyNhE=
+eQWoXSdQh3EN8sJsh9vwAwnfjN4LPGJz&c=3D70AWPfRCki0K6UHywHGv6Q" alt=3D"" align=
+=3D"center" style=3D"border: 0px solid #ffffff; border-radius: 0px; max-wid=
+th: 100%; display: block; -ms-interpolation-mode: bicubic;"/></a></td></tr>=
+</tbody></table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"100%" style=3D"table-layout: fixed; border: 0px; border-collapse: col=
+lapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: =
+100%; -webkit-text-size-adjust: 100%;"><tbody><tr><td class=3D"sf-html sf-t=
+d text-center-on-responsive " style=3D"padding-top: 10px; padding-right: 10=
+px; padding-bottom: 10px; padding-left: 10px; border-collapse: collapse; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; -ms-text-size-adjust: 100%; -we=
+bkit-text-size-adjust: 100%;"><p align=3D"center" style=3D"color: #000000;f=
+ont-family: Arial;font-size: 12px;mso-line-height-rule: exactly;line-height=
+: 150%;font-weight: normal;font-style: normal;text-transform: none;margin-t=
+op: 0.5em;margin-left: 0;margin-right: 0;margin-bottom: 0.5em;padding: 0;">=
+Veste 109=E2=82=AC <b><font color=3D"#0e6a89">/=C2=A0Prix K-Days=C2=A0</fon=
+t></b><font color=3D"#0e6a89"><b>65,40=E2=82=AC</b></font><br/></p></td></t=
+r></tbody></table></td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr=
+><tr><td>
+<table><tr><td>Une personne a r=C3=A9cemment essay=C3=A9 d'utiliser une app=
+lication pour se connecter =C3=A0 votre compte <b>ise.schmits-trouve@chicmt=
+.fr</b>.</td></tr></table>
+<table><tr><td>Nous avons emp=C3=AAch=C3=A9 cette tentative de connexion.</=
+td></tr></table>
+<table><tr><td>Veuillez consulter les d=C3=A9tails de la tentative de conne=
+xion:</td></tr></table>
+<br>
+Date: 18 February 2020 04:07:50<br>
+Adresse IP: [225.80.29.189]<br>
+Lieu: Irak<br>
+<br>
+<table><tr><td>Si vous ne reconnaissez pas cette tentative, une autre perso=
+nne tentera peut-=C3=AAtre d'acc=C3=A9der =C3=A0 votre compte.</td></tr></t=
+able>
+<table><tr><td><b>Pour une assistance imm=C3=A9diate de la part de l'=C3=A9=
+quipe, veuillez contacter notre site Web d'assistance</b>:</td></tr></table=
+>
+<a href=3D"http://n.sharpbenefitlogistics.com/bead/22cpo8wchbkdyrw8qvz/esca=
+mps/preparer-bac-allemand/id20765445?src=3DcCx1O3MsMDtvLDA7ZCwyMDE4MDYzMDAz=
+NDEwMzttLDgyO2UsYXJtZWxsZTk3JTQwd2FuYWRvby5mcg=3D=3D&mid=3Dcdd18292bfdce2db=
+bc8e616641292fdd0b2e">http://n.sharpbenefitlogistics.com/bead/22cpo8wchbkdy=
+rw8qvz/escamps/preparer-bac-allemand/id20765445?src=3DcCx1O3MsMDtvLDA7ZCwyM=
+DE4MDYzMDAzNDEwMzttLDgyO2UsYXJtZWxsZTk3JTQwd2FuYWRvby5mcg=3D=3D&mid=3Dcdd18=
+292bfdce2dbbc8e616641292fdd0b2e</a><br>
+<br>
+<br>Note: Si non contact=C3=A9, votre email sera marqu=C3=A9 comme compromi=
+s et sera supprim=C3=A9 dans les 3 prochains jours.
+<br>
+Service de s=C3=A9curit=C3=A9 du courrier.<br>
+30 rue Antoine-Julien H=C3=A9nard, 75012 Paris, France.<br><br><br>
+<table><tr><td style=3D" width:100%; overflow: hidden; "><center><!--[if lt=
+e IE 8]><div style=3D'width:600px;'><![endif]--><!--[if !mso]><!--><div cla=
+ss=3D"owa"><!--<![endif]--><img border=3D"0" width=3D"598" height=3D"97" id=
+=3D"OXI_63376F62E476455C8A023837B3F76EEF" src=3D"http://jwitt.vflyer.com/HP=
+?b=3DEDKTiwnzqa6i3qcIkBkJ8iVgS5EkyNhEeQWoXSdQh3EN8sJsh9vwAwnfjN4LPGJz&c=3D7=
+0AWPfRCki0K6UHywHGv6Q" alt=3D"" title=3D"" style=3D" display:block; margin:=
+0 auto; max-width:600px;width:100%; height:auto; "/><!--[if !mso]><!--></di=
+v><!--<![endif]--><!--[if lte IE 8]></div><![endif]--></center></td></tr></=
+table></td></tr></table>
+
+--------------------------E2ED3851D13E4639EDF062BE706E5C23133C1CF811ED2C423B32BB422780521--
+
+--1E3E0C7BFD.1582085279/av2.mail.completel.net--

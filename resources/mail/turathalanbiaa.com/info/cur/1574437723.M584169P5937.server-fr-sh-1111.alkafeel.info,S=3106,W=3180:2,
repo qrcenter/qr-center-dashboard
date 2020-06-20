@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id EITgIVsD2F0xFwAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Fri, 22 Nov 2019 18:48:43 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Fri, 22 Nov 2019 18:48:43 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1iYBAp-0001f0-HU
+	for info@turathalanbiaa.com; Fri, 22 Nov 2019 18:48:43 +0300
+X-Failed-Recipients: ashrafalabady@yahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1574437723-eximdsn-1815087813
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iYBAp-0001f0-HU@server-fr-sh-1111.alkafeel.info>
+Date: Fri, 22 Nov 2019 18:48:43 +0300
+
+--1574437723-eximdsn-1815087813
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ashrafalabady@yahoo.com
+    host mta7.am0.yahoodns.net [67.195.204.72]
+    SMTP error from remote mail server after end of data:
+    554 delivery error: dd Requested mail action aborted - mta4114.mail.bf1.yahoo.com
+
+--1574437723-eximdsn-1815087813
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;ashrafalabady@yahoo.com
+Status: 5.0.0
+Remote-MTA: dns; mta7.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd Requested mail action aborted - mta4114.mail.bf1.yahoo.com
+
+--1574437723-eximdsn-1815087813
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1iYBAm-0001eI-Lu
+	for ashrafalabady@yahoo.com; Fri, 22 Nov 2019 18:48:40 +0300
+To: ashrafalabady@yahoo.com
+Subject: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 82.199.208.19
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Fri, 22 Nov 2019 15:48:40 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <9c3e05b5c46578c6f39c0f1be411047c@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>مرحبا بك , لقد تم تسجيلك بنجاح</h1>
+<a href="http://www.turath.dev" style="text-decoration: none;font-size: 18px;">الذهاب الي الموقع</a>
+
+
+--1574437723-eximdsn-1815087813--

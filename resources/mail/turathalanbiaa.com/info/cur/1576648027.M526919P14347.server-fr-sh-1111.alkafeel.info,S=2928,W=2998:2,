@@ -1,0 +1,70 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id oEAjH1u9+V0LOAAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Wed, 18 Dec 2019 08:47:07 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Wed, 18 Dec 2019 08:47:07 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1ihSAt-0003nn-G5
+	for info@turathalanbiaa.com; Wed, 18 Dec 2019 08:47:07 +0300
+X-Failed-Recipients: Nidalabdullah0@gemail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1576648027-eximdsn-1517910224
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ihSAt-0003nn-G5@server-fr-sh-1111.alkafeel.info>
+Date: Wed, 18 Dec 2019 08:47:07 +0300
+
+--1576648027-eximdsn-1517910224
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  Nidalabdullah0@gemail.com
+    retry timeout exceeded
+
+--1576648027-eximdsn-1517910224
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;Nidalabdullah0@gemail.com
+Status: 5.0.0
+
+--1576648027-eximdsn-1517910224
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1ig02m-0003rR-1D
+	for Nidalabdullah0@gemail.com; Sat, 14 Dec 2019 08:32:44 +0300
+To: Nidalabdullah0@gemail.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 37.236.140.56
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Sat, 14 Dec 2019 05:32:44 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <21d9dd967ee417d90750a6095cfe19a8@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/5681/k5oOVEHdGivg9uOf5FP4Tk2uc5SMBxJsikx5WyYiE3uKE1cPke5MRjHqNC8nZgsN" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1576648027-eximdsn-1517910224--

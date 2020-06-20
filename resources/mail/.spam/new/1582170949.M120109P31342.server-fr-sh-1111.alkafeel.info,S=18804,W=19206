@@ -1,0 +1,402 @@
+Return-Path: <>
+Delivered-To: turathal+spam@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id cofQBkUDTl5uegAAzyXPIA
+	(envelope-from <>)
+	for <turathal+spam@server-fr-sh-1111.alkafeel.info>; Thu, 20 Feb 2020 06:55:49 +0300
+Return-path: <>
+Envelope-to: faixanglosaxonn@turathalanbiaa.com
+Delivery-date: Thu, 20 Feb 2020 06:55:49 +0300
+Received: from mailgate.idline.fr ([109.239.113.57]:34141)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	id 1j4cwF-0007yk-IS
+	for faixanglosaxonn@turathalanbiaa.com; Thu, 20 Feb 2020 06:55:49 +0300
+Received: from mail.cerfrancedordogne.fr (unknown [109.239.118.151])
+	by mailgate.idline.fr (Postfix) with ESMTP id 39C8120054
+	for <faixanglosaxonn@turathalanbiaa.com>; Thu, 20 Feb 2020 04:48:52 +0100 (CET)
+MIME-Version: 1.0
+From: <info@24.cerfrance.fr>
+To: <faixanglosaxonn@turathalanbiaa.com>
+Date: Thu, 20 Feb 2020 04:48:51 +0100
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="d4b32f5d-b47d-452e-846d-c7b051096e1c"
+Content-Language: fr-FR
+Message-ID: <7be83843-7db8-4a3f-9b8c-acba8ffa0f92@24.cerfrance.fr>
+In-Reply-To: <1541580719.gy2doljrgu4tcmzufuztknjtgq4q@mail.puresante.info>
+References: <1541580719.gy2doljrgu4tcmzufuztknjtgq4q@mail.puresante.info>
+X-Spam-Status: Yes, score=8.0
+X-Spam-Score: 80
+X-Spam-Bar: ++++++++
+X-Spam-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Échec de la remise pour ces destinataires ou groupes : Guillory
+    (guillory@24.cerfrance.fr)<mailto:guillory@24.cerfrance.fr> L'adresse de
+   messagerie que vous avez entrée est introuvable. Vérifiez l'adresse de messagerie
+    du destinataire et essayez de renvoy [...] 
+ Content analysis details:   (8.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: dupontauto.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  1.5 KAM_MXURI              URI: URI begins with a mail exchange prefix, i.e.
+                             mx.[...]
+  2.0 BASE64_LENGTH_79_INF   BODY: base64 encoded email part uses line
+                             length greater than 79 characters
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Non remis : *****SPAM*****guillory@24.cerfrance.fr
+
+--d4b32f5d-b47d-452e-846d-c7b051096e1c
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="36faf3a4-e49e-4ee3-9c8e-afa638c2802c"
+
+--36faf3a4-e49e-4ee3-9c8e-afa638c2802c
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+=C9chec de la remise pour ces destinataires ou groupes :
+
+Guillory (guillory@24.cerfrance.fr)<mailto:guillory@24.cerfrance.fr>
+L'adresse de messagerie que vous avez entr=E9e est introuvable. V=E9rifiez =
+l'adresse de messagerie du destinataire et essayez de renvoyer le message. =
+Si le probl=E8me persiste, contactez le support technique.
+
+
+
+
+
+
+
+Informations de diagnostic pour les administrateurs :
+
+G=E9n=E9ration du serveur : 24.cerfrance.fr
+
+guillory@24.cerfrance.fr
+#550 5.1.1 RESOLVER.ADR.RecipNotFound; not found ##rfc822;guillory@24.cerfr=
+ance.fr
+
+En-t=EAtes de message d'origine :
+
+Received: from mail.cerfrancedordogne.fr (192.168.24.42) by
+ EXCHANGE2010.ABCD.LAN (192.168.24.47) with Microsoft SMTP Server id
+ 14.3.294.0; Thu, 20 Feb 2020 04:48:51 +0100
+Received: from localhost (localhost [127.0.0.1])        by mail.cerfrancedo=
+rdogne.fr
+ (Postfix) with ESMTP id B31DB4050F     for <guillory@24.cerfrance.fr>; Thu=
+, 20
+ Feb 2020 04:10:13 +0100 (CET)
+X-Spam-Flag: YES
+X-Spam-Score: 6.149
+X-Spam-Level: ******
+X-Spam-Status: Yes, score=3D6.149 tagged_above=3D5 required=3D5
+        tests=3D[BASE64_LENGTH_79_INF=3D1.502, BAYES_00=3D-1.9, HTML_MESSAG=
+E=3D0.001,
+        MIME_HTML_ONLY=3D0.1, RAZOR2_CF_RANGE_51_100=3D1.886, RAZOR2_CHECK=
+=3D0.922,
+        RCVD_IN_BL_SPAMCOP_NET=3D1.347, RDNS_NONE=3D0.793,
+        SPF_HELO_SOFTFAIL=3D0.732, SPF_SOFTFAIL=3D0.665, TO_IN_SUBJ=3D0.1,
+        URIBL_BLOCKED=3D0.001] autolearn=3Dno autolearn_force=3Dno
+Received: from mail.cerfrancedordogne.fr ([127.0.0.1])  by localhost
+ (mail.cerfrancedordogne.fr [127.0.0.1]) (amavisd-new, port 10024)      wit=
+h ESMTP
+ id QY5p1z_jrWSx for <guillory@24.cerfrance.fr>;        Thu, 20 Feb 2020 04=
+:10:12
+ +0100 (CET)
+Received: from turathalanbiaa.com (unknown [37.114.185.91])     by
+ mail.cerfrancedordogne.fr (Postfix) with ESMTP id A961240028   for
+ <guillory@24.cerfrance.fr>; Thu, 20 Feb 2020 04:10:11 +0100 (CET)
+MIME-Version: 1.0
+Date: Thu, 20 Feb 2020 06:33:42 +0300
+Message-ID: <1541580719.gy2doljrgu4tcmzufuztknjtgq4q@mail.puresante.info>
+Content-Type: multipart/mixed; boundary=3D"_----------=3D_15185869421056773=
+"
+Subject: *****SPAM*****guillory@24.cerfrance.fr
+From: Antonin Tellier <modelSalaupardsrabattra@turathalanbiaa.com>
+To: Guillory <guillory@24.cerfrance.fr>
+List-Unsubscribe-Post: List-Unsubscribe=3DOne-Click
+List-Unsubscribe: <mailto:LU=3DcKn=3DsIV4zboq-IKYs8LzaYVIsa=3Did=3DmFU=3D4f=
+ad1136@f.turathalanbiaa.com>,
+ <http://links.clic.turathalanbiaa.com/u/cKn/sIV4zboq-IKYs8LzaYVIsa/id/mFU/=
+F/727c2389>
+X-Message-Type: newsletter
+Return-Path: faixanglosaxonn@turathalanbiaa.com
+
+
+--36faf3a4-e49e-4ee3-9c8e-afa638c2802c
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">=C9chec de la remis=
+e pour ces destinataires ou groupes=A0:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:gui=
+llory@24.cerfrance.fr">Guillory (guillory@24.cerfrance.fr)</a><br>
+L'adresse de messagerie que vous avez entr=E9e est introuvable. V=E9rifiez =
+l'adresse de messagerie du destinataire et essayez de renvoyer le message. =
+Si le probl=E8me persiste, contactez le support technique.<br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Informations de di=
+agnostic pour les administrateurs :</b></p>
+<p>G=E9n=E9ration du serveur : 24.cerfrance.fr</p>
+<p>guillory@24.cerfrance.fr<br>
+ #550 5.1.1 RESOLVER.ADR.RecipNotFound; not found ##rfc822;guillory@24.cerf=
+rance.fr</p>
+<p>En-t=EAtes de message d'origine :</p>
+<pre>Received: from mail.cerfrancedordogne.fr (192.168.24.42) by
+ EXCHANGE2010.ABCD.LAN (192.168.24.47) with Microsoft SMTP Server id
+ 14.3.294.0; Thu, 20 Feb 2020 04:48:51 +0100
+Received: from localhost (localhost [127.0.0.1])	by mail.cerfrancedordogne.=
+fr
+ (Postfix) with ESMTP id B31DB4050F	for &lt;guillory@24.cerfrance.fr&gt;; T=
+hu, 20
+ Feb 2020 04:10:13 +0100 (CET)
+X-Spam-Flag: YES
+X-Spam-Score: 6.149
+X-Spam-Level: ******
+X-Spam-Status: Yes, score=3D6.149 tagged_above=3D5 required=3D5
+	tests=3D[BASE64_LENGTH_79_INF=3D1.502, BAYES_00=3D-1.9, HTML_MESSAGE=3D0.0=
+01,
+	MIME_HTML_ONLY=3D0.1, RAZOR2_CF_RANGE_51_100=3D1.886, RAZOR2_CHECK=3D0.922=
+,
+	RCVD_IN_BL_SPAMCOP_NET=3D1.347, RDNS_NONE=3D0.793,
+	SPF_HELO_SOFTFAIL=3D0.732, SPF_SOFTFAIL=3D0.665, TO_IN_SUBJ=3D0.1,
+	URIBL_BLOCKED=3D0.001] autolearn=3Dno autolearn_force=3Dno
+Received: from mail.cerfrancedordogne.fr ([127.0.0.1])	by localhost
+ (mail.cerfrancedordogne.fr [127.0.0.1]) (amavisd-new, port 10024)	with ESM=
+TP
+ id QY5p1z_jrWSx for &lt;guillory@24.cerfrance.fr&gt;;	Thu, 20 Feb 2020 04:=
+10:12
+ +0100 (CET)
+Received: from turathalanbiaa.com (unknown [37.114.185.91])	by
+ mail.cerfrancedordogne.fr (Postfix) with ESMTP id A961240028	for
+ &lt;guillory@24.cerfrance.fr&gt;; Thu, 20 Feb 2020 04:10:11 +0100 (CET)
+MIME-Version: 1.0
+Date: Thu, 20 Feb 2020 06:33:42 +0300
+Message-ID: &lt;1541580719.gy2doljrgu4tcmzufuztknjtgq4q@mail.puresante.info=
+&gt;
+Content-Type: multipart/mixed; boundary=3D&quot;_----------=3D_151858694210=
+56773&quot;
+Subject: *****SPAM*****guillory@24.cerfrance.fr
+From: Antonin Tellier &lt;modelSalaupardsrabattra@turathalanbiaa.com&gt;
+To: Guillory &lt;guillory@24.cerfrance.fr&gt;
+List-Unsubscribe-Post: List-Unsubscribe=3DOne-Click
+List-Unsubscribe: &lt;mailto:LU=3DcKn=3DsIV4zboq-IKYs8LzaYVIsa=3Did=3DmFU=
+=3D4fad1136@f.turathalanbiaa.com&gt;,
+ &lt;http://links.clic.turathalanbiaa.com/u/cKn/sIV4zboq-IKYs8LzaYVIsa/id/m=
+FU/F/727c2389&gt;
+X-Message-Type: newsletter
+Return-Path: faixanglosaxonn@turathalanbiaa.com
+</pre>
+</font>
+</body>
+</html>=
+
+--36faf3a4-e49e-4ee3-9c8e-afa638c2802c--
+
+--d4b32f5d-b47d-452e-846d-c7b051096e1c
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;24.cerfrance.fr
+Received-From-MTA: dns;mail.cerfrancedordogne.fr
+Arrival-Date: Thu, 20 Feb 2020 03:48:51 +0000
+
+Original-Recipient: rfc822;guillory@24.cerfrance.fr
+Final-Recipient: rfc822;guillory@24.cerfrance.fr
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+X-Display-Name: Guillory
+
+
+--d4b32f5d-b47d-452e-846d-c7b051096e1c
+Content-Type: message/rfc822
+
+Received: from mail.cerfrancedordogne.fr (192.168.24.42) by
+ EXCHANGE2010.ABCD.LAN (192.168.24.47) with Microsoft SMTP Server id
+ 14.3.294.0; Thu, 20 Feb 2020 04:48:51 +0100
+Received: from localhost (localhost [127.0.0.1])	by mail.cerfrancedordogne.fr
+ (Postfix) with ESMTP id B31DB4050F	for <guillory@24.cerfrance.fr>; Thu, 20
+ Feb 2020 04:10:13 +0100 (CET)
+X-Spam-Flag: YES
+X-Spam-Score: 6.149
+X-Spam-Level: ******
+X-Spam-Status: Yes, score=6.149 tagged_above=5 required=5
+	tests=[BASE64_LENGTH_79_INF=1.502, BAYES_00=-1.9, HTML_MESSAGE=0.001,
+	MIME_HTML_ONLY=0.1, RAZOR2_CF_RANGE_51_100=1.886, RAZOR2_CHECK=0.922,
+	RCVD_IN_BL_SPAMCOP_NET=1.347, RDNS_NONE=0.793,
+	SPF_HELO_SOFTFAIL=0.732, SPF_SOFTFAIL=0.665, TO_IN_SUBJ=0.1,
+	URIBL_BLOCKED=0.001] autolearn=no autolearn_force=no
+Received: from mail.cerfrancedordogne.fr ([127.0.0.1])	by localhost
+ (mail.cerfrancedordogne.fr [127.0.0.1]) (amavisd-new, port 10024)	with ESMTP
+ id QY5p1z_jrWSx for <guillory@24.cerfrance.fr>;	Thu, 20 Feb 2020 04:10:12
+ +0100 (CET)
+Received: from turathalanbiaa.com (unknown [37.114.185.91])	by
+ mail.cerfrancedordogne.fr (Postfix) with ESMTP id A961240028	for
+ <guillory@24.cerfrance.fr>; Thu, 20 Feb 2020 04:10:11 +0100 (CET)
+MIME-Version: 1.0
+Date: Thu, 20 Feb 2020 06:33:42 +0300
+Message-ID: <1541580719.gy2doljrgu4tcmzufuztknjtgq4q@mail.puresante.info>
+Content-Type: multipart/mixed; boundary="_----------=_15185869421056773"
+Subject: *****SPAM*****guillory@24.cerfrance.fr
+From: Antonin Tellier <modelSalaupardsrabattra@turathalanbiaa.com>
+To: Guillory <guillory@24.cerfrance.fr>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <mailto:LU=cKn=sIV4zboq-IKYs8LzaYVIsa=id=mFU=4fad1136@f.turathalanbiaa.com>,
+ <http://links.clic.turathalanbiaa.com/u/cKn/sIV4zboq-IKYs8LzaYVIsa/id/mFU/F/727c2389>
+X-Message-Type: newsletter
+Return-Path: faixanglosaxonn@turathalanbiaa.com
+
+--_----------=_15185869421056773
+Content-Type: multipart/mixed; boundary="_----------=_MCPart_8805010"
+
+--_----------=_MCPart_8805010
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+
+SWwgYSBzdXJ0b3V0IGFubm9uY8OpIHF1J2lsIGFsbGFpdCBmYWlyZSBjb252ZXJnZXIgbGEgZmlzY2FsaXTDqSBkdSBkaWVzZWwgYXZlYyBjZWxsZSBkZSBsJ2Vzc2VuY2UgZGFucyB1biBob3Jpem9uIGFzc2V6IHByb2NoZS4gQ2EgbWUgc2VtYmxlIMOqdHJlIGxhIGZhw6dvbiBsYSBwbHVzIGludGVsbGlnZW50ZSBkZSBzb3J0aXIgcHJvZ3Jlc3NpdmVtZW50IGR1IGRpZXNlbC4gDQpNb250ZWJvdXJnLCBlbiBlZmZldCwgamUgbid5IGF2YWlzIHBhcyBwZW5zw6kgYWxvcnMgcXVlIMOnYSB0b21iZSBzb3VzIGxlIHNlbnMuIEJpZW4gZW50ZW5kdSwgb24gY29udGludWVyYSBkZSB0cm91dmVyIHF1ZSBjZXJ0YWluKGUpcyB2b2llbnQgZHUgc2V4aXNtZSBwYXJ0b3V0LiBFbiB0b3V0IGNhcyBSb3lhbCBuJ2EgamFtYWlzIHBvcnTDqSBwbGFpbnRlIGNvbnRyZSBxdWljb25xdWUgc3VyIGNlIG1vdGlmLCBjb250cmFpcmVtZW50IMOgIGQnYXV0cmVzLg0KQWggb3VpIGMnZXN0IHZyYWkuIFQnYXMgbWlzIGxhIGNhc3F1ZXR0ZSBkZSBza2F0ZXIgcXVpIHZhIGF2ZWMgPw0K
+
+--_----------=_MCPart_8805010
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+
+U3VydG91dCBxdWUgdHUgbidhcHByZW5kcyBwYXMgYSAicGFybGVyIiBsYXRpbiwgZG9uYyBsJ3V0aWxpc2F0aW9uIGRlcyBjYXMgZGFucyB1bmUgcGhyYXNlIG4nZXN0IHBhcyBzdXBlciBpbnR1aXRpdmUgYXByZXMgMyBhbnMgZGUgbGF0aW4NCkxlIHByaW5jaXBhbCBpbnTDqXJlc3PDqSByZWNvbm5hw650IGx1aSBtw6ptZSBxdSdpbCBuZSBzJ2FnaXNzYWl0IHBhcyBkZSBjZW5zdXJlLiANCkp1c3RlbWVudCwgamUgdm9pcyBwYXMgZW4gcXVvaSBzb3J0aXIgbCdhcmd1bWVudCBkZSBsZSBwcmVzY3JpcHRpb24gZXN0IHBlcnRpbmVudCBhbG9ycy4NCg==
+
+--_----------=_MCPart_8805010
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head>
+    <meta charset=3D"UTF-8"/>
+   =20
+
+<style type=3D"text/css">
+		a{
+			color:#000 !important;
+			text-decoration:none;
+		}
+	@media (max-width:600px){
+		#tab-1{
+			width:100%;
+		}
+
+}	@media (max-width:600px){
+		.img-1{
+			width:auto;
+			height:auto;
+			max-width:90%;
+		}
+
+}	@media (max-width:600px){
+		.padd-1{
+			padding-left:15px !important;
+			padding-right:15px !important;
+		}
+
+}	@media (max-width:600px){
+		.display-block{
+			display:block;
+		}
+
+}	@media (max-width:600px){
+		.text-left{
+			text-align:left !important;
+			padding-left:20px;
+			padding-bottom:15px;
+		}
+
+}</style></head>
+<body style=3D"padding: 0; margin: 0">
+<table><tr><td><table><tr><td align=3D"left" valign=3D"top" height=3D"50" w=
+idth=3D"295" class=3D"resize80" style=3D"font-family:Arial, Helvetica, sans=
+-serif; font-size:16px; color:#404040; line-height:normal;"><b>Quint=C3=A9 =
+mercredi 17/07 : Crack Money seul au monde</b></td></tr><tr><td align=3D"le=
+ft" valign=3D"top" height=3D"110" width=3D"295" class=3D"resize80" style=3D=
+"font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#404040; l=
+ine-height:1.3;">
+                                                                           =
+                                                                         Un=
+e fois n=E2=80=99est pas coutume, c=E2=80=99est =C3=A0 Argentan qu=E2=80=99=
+avait lieu l=E2=80=99=C3=A9v=C3=A9nement de ce mercredi 17 juillet, le Prix=
+ =C2=AB Vivez le R=C3=AAve du Propri=C3=A9taire =C2=BB, une =C3=A9preuve qu=
+i r=C3=A9unissait seize trotteurs de 6 =C3=A0 9 ans su1
+                                                                           =
+                                                                 </td></tr>=
+<tr><td align=3D"left" valign=3D"top" height=3D"27" style=3D"font-family:Ar=
+ial, Helvetica, sans-serif; font-size:13px; color:#404040;" width=3D"295" c=
+lass=3D"resize80"><a href=3D"http://cv.dupontauto.com/c/2zL/0p9/NOQK4wIPLIX=
+Wn_W0ZnX5IQ/m/FRs3/F/e90c7/4biudhgc0ep6zlc0wzg/fae" style=3D"font-family:Ar=
+ial, Helvetica, sans-serif; font-size:13px; color:#404040; text-decoration:=
+ none; line-height:1.3;" target=3D"_blank" title=3D""><u>Lire la suite</u><=
+/a></td></tr></td></tr><tr><td>
+<table><tr><td>Une personne a <a href=3D"http://cv.dupontauto.com/c/2zL/0p9=
+/NOQK4wIPLIXWn_W0ZnX5IQ/m/FRs3/F/e90c7/4biudhgc0ep6zlc0wzg/fae">r=C3=A9cemm=
+ent</a> essay=C3=A9 d'utiliser une application pour se connecter =C3=A0 vot=
+re compte<img src=3D"http://trunkaroo.com/?qs=3D84e79b767dedfe28c0a794eabc2=
+2393edc0dbf0fdc35880dee69563a80f56acdf7c079da219cf053f6da854f588d1b3a0f5cac=
+f4aef3d9d0"> <b>guillory@24.cerfrance.fr</b>.<br></td></tr></table>
+<table><tr><td>Nous avons emp=C3=AAch=C3=A9 cette tentative de connexion.</=
+td></tr></table>
+<table><tr><td>Veuillez consulter les d=C3=A9tails de la tentative de conne=
+xion:</td></tr></table>
+<br>
+Date: 19 February 2020 03:48:49<br>
+Adresse IP: [197.93.235.32]<br>
+Lieu: Nigeria<br>
+<br>
+<table><tr><td>Si vous ne reconnaissez pas cette tentative, une autre perso=
+nne tentera peut-<a href=3D"http://cv.dupontauto.com/c/2zL/0p9/NOQK4wIPLIXW=
+n_W0ZnX5IQ/m/FRs3/F/e90c7/4biudhgc0ep6zlc0wzg/fae">=C3=AAtre</a> d'acc=C3=
+=A9der =C3=A0 votre compte.</td></tr></table>
+<table><tr><td><b>Pour une assistance imm=C3=A9diate de la part de l'=C3=A9=
+quipe, veuillez contacter notre site Web d'assistance</b>:</td></tr></table=
+>
+<a href=3D"http://cv.dupontauto.com/c/2zL/0p9/NOQK4wIPLIXWn_W0ZnX5IQ/m/FRs3=
+/F/e90c7/4biudhgc0ep6zlc0wzg/fae">http://cv.dupontauto.com/c/2zL/0p9/NOQK4w=
+IPLIXWn_W0ZnX5IQ/m/FRs3/F/e90c7/4biudhgc0ep6zlc0wzg/fae</a><br>
+<br>
+<br>Note: Si non contact=C3=A9, votre email sera marqu=C3=A9 comme compromi=
+s et sera <a href=3D"http://cv.dupontauto.com/c/2zL/0p9/NOQK4wIPLIXWn_W0ZnX=
+5IQ/m/FRs3/F/e90c7/4biudhgc0ep6zlc0wzg/fae">supprim=C3=A9</a> dans les 3 pr=
+ochains jours.
+<br>
+Service de s=C3=A9curit=C3=A9 du courrier.<br>
+30 rue Antoine-Julien H=C3=A9nard, 75012 Paris, France.<br><br><br><br><br>
+<table><tr style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 1=
+00%;"><td class=3D"ifk_body_content" style=3D"-ms-text-size-adjust: 100%; -=
+webkit-text-size-adjust: 100%; mso-table-lspace: 0pt !important; mso-table-=
+rspace: 0pt !important; color: #505050; font-family: Arial; font-size: 14px=
+; line-height: 150%; padding: 0px; text-align: left; white-space: -moz-pre-=
+wrap; padding-top: 0px; padding-right: 11px; padding-bottom: 0px; padding-l=
+eft: 0px; background-color: #FFFFFF;"><a href=3D"http://cv.dupontauto.com/c=
+/2zL/0p9/NOQK4wIPLIXWn_W0ZnX5IQ/m/FRs3/F/e90c7/4biudhgc0ep6zlc0wzg/fae" tit=
+le=3D"" style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%=
+; font-weight: inherit; text-decoration: none; color: ;"><img src=3D"http:/=
+/trunkaroo.com/?qs=3D84e79b767dedfe28c0a794eabc22393edc0dbf0fdc35880dee6956=
+3a80f56acdf7c079da219cf053f6da854f588d1b3a0f5cacf4aef3d9d0" alt=3D"" style=
+=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-interpo=
+lation-mode: bicubic; height: auto !importan
+ t; max-width: 100%; vertical-align: bottom; width: 100%;" width=3D"410"/><=
+/a></td></tr></table></td></tr></table></td></tr></table>
+</body></html>=
+
+--_----------=_MCPart_8805010--
+
+--_----------=_15185869421056773
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+
+Yydlc3QgcGFzIG1vaSBxdWkgdmFpcyB0J2VuIGVtcMOqY2hlci4gw6dhIG5lIHNlcmEgcXUndW4gYXJ0aWNsZSBkZSBwbHVzIMOgIGxhIGdsb2lyZSBkdSBzYWludCBzYXV2ZXVyLCBwYXJtaSB0YW50IGQnYXV0cmVzDQpDZSBxdWkgbWUgZmFpdCB0aXF1ZXIsIGMnZXN0IGwnaXJvbmllIHNvdXMtamFjZW50ZSBkZSBsYSBwbGFuY2hlLg0KDQpPbiB2b2l0IGNsYWlyZW1lbnQgcXVlIGwnaW50ZW50aW9uIGRlIGwnYXV0ZXVyKGUpIGVzdCBkZSB0YWNsZXIgbGUgZmlsbSBwYXJjZSBxdWUgc2Vsb24gbHVpLCBjJ2VzdCBxdSd1biAiZmlsbSBkZSBjdWwiLg0KDQpKZSBtJ2F0dGVuZGFpcyDDoCB1biBwcm90byBkaWduZSBkZSBHdWFyZGlhbnMgb2YgdGhlIEdhbGF4eSBvdSBTdGFyIFdhcnMsIGF1IGxpZXUgZGUgw6dhIGNlIGZ1dHVyIG5vdXZlYXUgdHJhbScgbWUgc2VtYmxlIGJhbmFsLiBDJ2VzdCBtb2kgb3UgYmllbiA/DQo=
+
+--_----------=_15185869421056773--
+
+--d4b32f5d-b47d-452e-846d-c7b051096e1c--

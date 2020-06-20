@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id OLwoC1q3y13ESQAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Wed, 13 Nov 2019 10:57:14 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Wed, 13 Nov 2019 10:57:14 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1iUnWc-000500-57
+	for info@turathalanbiaa.com; Wed, 13 Nov 2019 10:57:14 +0300
+X-Failed-Recipients: Zaynab88@gamil.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1573631834-eximdsn-970196714
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iUnWc-000500-57@server-fr-sh-1111.alkafeel.info>
+Date: Wed, 13 Nov 2019 10:57:14 +0300
+
+--1573631834-eximdsn-970196714
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  Zaynab88@gamil.com
+    host mx9.webfaction.com [185.20.49.164]
+    SMTP error from remote mail server after RCPT TO:<Zaynab88@gamil.com>:
+    550 5.1.1 <Zaynab88@gamil.com>: Recipient address rejected:
+    User unknown in virtual alias table
+
+--1573631834-eximdsn-970196714
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;Zaynab88@gamil.com
+Status: 5.0.0
+Remote-MTA: dns; mx9.webfaction.com
+Diagnostic-Code: smtp; 550 5.1.1 <Zaynab88@gamil.com>: Recipient address rejected: User unknown in virtual alias table
+
+--1573631834-eximdsn-970196714
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1iUnWb-0004zn-1F
+	for Zaynab88@gamil.com; Wed, 13 Nov 2019 10:57:13 +0300
+To: Zaynab88@gamil.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 8.43.121.231
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Wed, 13 Nov 2019 07:57:13 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <bf5ba147b63eefd6c5f759f12e271490@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/5341/23377ec715d7513e2238f103c7a7f89c" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1573631834-eximdsn-970196714--

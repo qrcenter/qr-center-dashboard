@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id 0DNtOTsLol4X3gAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Fri, 24 Apr 2020 00:40:11 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Fri, 24 Apr 2020 00:40:11 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jRjZr-000EzT-UJ
+	for info@turathalanbiaa.com; Fri, 24 Apr 2020 00:40:11 +0300
+X-Failed-Recipients: ss63311685@gmiI.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1587678011-eximdsn-1584400200
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jRjZr-000EzT-UJ@server-fr-sh-1111.alkafeel.info>
+Date: Fri, 24 Apr 2020 00:40:11 +0300
+
+--1587678011-eximdsn-1584400200
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ss63311685@gmiI.com
+    host mx1.netsolmail.net [209.17.115.10]
+    SMTP error from remote mail server after RCPT TO:<ss63311685@gmiI.com>:
+    550 5.0.0 <ss63311685@gmiI.com>... User unknown
+
+--1587678011-eximdsn-1584400200
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;ss63311685@gmiI.com
+Status: 5.0.0
+Remote-MTA: dns; mx1.netsolmail.net
+Diagnostic-Code: smtp; 550 5.0.0 <ss63311685@gmiI.com>... User unknown
+
+--1587678011-eximdsn-1584400200
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jRjZm-000Exy-OK
+	for ss63311685@gmiI.com; Fri, 24 Apr 2020 00:40:06 +0300
+To: ss63311685@gmiI.com
+Subject: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 86.111.149.251
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Thu, 23 Apr 2020 21:40:06 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <c65981f32499af6b5c7e04f04350288e@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>مرحبا بك , لقد تم تسجيلك بنجاح</h1>
+<a href="http://www.turath.dev" style="text-decoration: none;font-size: 18px;">الذهاب الي الموقع</a>
+
+
+--1587678011-eximdsn-1584400200--

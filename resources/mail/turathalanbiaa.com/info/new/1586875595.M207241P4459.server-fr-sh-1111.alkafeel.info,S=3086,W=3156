@@ -1,0 +1,70 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id 6N5PDMvMlV5rEQAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Tue, 14 Apr 2020 17:46:35 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Tue, 14 Apr 2020 17:46:35 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jOMpf-00019q-5n
+	for info@turathalanbiaa.com; Tue, 14 Apr 2020 17:46:35 +0300
+X-Failed-Recipients: oh.fatima.zahra.2000@gmail.c
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1586875595-eximdsn-740031243
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jOMpf-00019q-5n@server-fr-sh-1111.alkafeel.info>
+Date: Tue, 14 Apr 2020 17:46:35 +0300
+
+--1586875595-eximdsn-740031243
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  oh.fatima.zahra.2000@gmail.c
+    The mail server could not deliver mail to oh.fatima.zahra.2000@gmail.c.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+--1586875595-eximdsn-740031243
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;oh.fatima.zahra.2000@gmail.c
+Status: 5.0.0
+
+--1586875595-eximdsn-740031243
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jOMpf-00019f-4I
+	for oh.fatima.zahra.2000@gmail.c; Tue, 14 Apr 2020 17:46:35 +0300
+To: oh.fatima.zahra.2000@gmail.c
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 149.255.222.43
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Tue, 14 Apr 2020 14:46:35 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <d48598b3de6bfa376e58f8e6acddd3f8@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/6187/jvHlZtEiCwcK9kCXzp2dhvJ7vbpJubiHziWGiGMLBH0aO8HlUm7wQiOmsXwWrCJw" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1586875595-eximdsn-740031243--

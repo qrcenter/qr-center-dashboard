@@ -1,0 +1,183 @@
+Return-Path: <etsuko-768@moit.mingrelian.monster>
+Delivered-To: turathal+spam@server-fr-sh-1111.alkafeel.info
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id z5QjCib/i13edwAAzyXPIA
+	(envelope-from <etsuko-768@moit.mingrelian.monster>)
+	for <turathal+spam@server-fr-sh-1111.alkafeel.info>; Thu, 26 Sep 2019 01:58:30 +0200
+Return-path: <etsuko-768@moit.mingrelian.monster>
+Envelope-to: webmaster@turathalanbiaa.com
+Delivery-date: Thu, 26 Sep 2019 01:58:30 +0200
+Received: from mx.moit.mingrelian.monster ([157.230.120.225]:43360)
+	by server-fr-sh-1111.alkafeel.info with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <etsuko-768@moit.mingrelian.monster>)
+	id 1iDHAy-0007uN-Pr
+	for webmaster@turathalanbiaa.com; Thu, 26 Sep 2019 01:58:30 +0200
+Received: from mx.moit.mingrelian.monster (mx.moit.mingrelian.monster [127.0.0.1])
+	by mx.moit.mingrelian.monster (Postfix) with ESMTP id 46dw3c0nvnz23Xl
+	for <webmaster@turathalanbiaa.com>; Wed, 25 Sep 2019 23:57:48 +0000 (UTC)
+Authentication-Results: mx.moit.mingrelian.monster (amavisd-new);
+	dkim=pass (1024-bit key) reason="pass (just generated, assumed good)"
+	header.d=moit.mingrelian.monster
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=
+	moit.mingrelian.monster; h=content-transfer-encoding
+	:content-type:content-type:mime-version:message-id:x-mailer
+	:user-agent:reply-to:list-unsubscribe:subject:subject:to:from
+	:from:date:date; s=dkim; t=1569455867; x=1572047868; bh=wBVDVZRZ
+	F3Qv/GAQnjw5FLR79G9+tSoRFhTjt4JHiIg=; b=Nh1/MDhfiTH7GdE4QnbCA1fm
+	TSdxJkkwiwqGw0NgxGJp9PbmMWsU88gSYut5AvvTN6n0fSjsP/aFn/l/QmdCLRmB
+	GMuX+27qq4Ncaql16+CBPkxbkvG8EvLfCIkeDXeq9Xw6F8RNiXrGXD4lWfQx4aVu
+	cDlbMytnH76uy1xtU5A=
+X-Virus-Scanned: Debian amavisd-new at mx.moit.mingrelian.monster
+Received: from mx.moit.mingrelian.monster ([127.0.0.1])
+	by mx.moit.mingrelian.monster (mx.moit.mingrelian.monster [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id E6dg9ilMjDrd for <webmaster@turathalanbiaa.com>;
+	Wed, 25 Sep 2019 23:57:47 +0000 (UTC)
+Received: from [127.0.0.1] (mx.moit.mingrelian.monster [127.0.0.1])
+	by mx.moit.mingrelian.monster (Postfix) with ESMTP id 46dvsx6ljsz243p
+	for <webmaster@turathalanbiaa.com>; Wed, 25 Sep 2019 23:49:25 +0000 (UTC)
+Date: Thu, 26 Sep 2019 00:49:25 +0100
+From: =?UTF-8?Q?A=C5=89onym0us=20H=CA=8Ccker?= <etsuko-768@moit.mingrelian.monster>
+To: webmaster@turathalanbiaa.com
+List-Unsubscribe: <http://moit.mingrelian.monster/unsub/Q3Y5U09EZjdzOEgzOE44eTFYTElZQ0gwazdjTWsyQlVWZ3ZMWUl1Z0Q1a09hdjVXNVI0TVU4Zmg0UUFRRDNDSWpnTnZrMStLRm1YMDJTSUs0VEpndFZNVHNXRkd6Mzhhb2VvMWJtKzhXQVAwTmk4MWh1NngvckpXQ3p0Z25wQm0=>
+Reply-To: <etsuko-768@moit.mingrelian.monster>
+User-Agent: CodeIgniter
+X-Sender: etsuko-768@moit.mingrelian.monster
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: <5d8bfd05bfa3a@moit.mingrelian.monster>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: Yes, score=6.3
+X-Spam-Score: 63
+X-Spam-Bar: ++++++
+X-Spam-Report: Spam detection software, running on the system "server-fr-sh-1111.alkafeel.info",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ATTN: webmaster@turathalanbiaa.com The last time you visited
+    a Ƿorn website with teenagers, you downloaded and installed the vίrus I
+    developed. My program has turned on your cam and recorded the act of your
+    ʍasturbation.. 
+ Content analysis details:   (6.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 TRACKER_ID             BODY: Incorporates a tracking ID number
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [157.230.120.225 listed in psbl.surriel.com]
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  3.6 RCVD_IN_SBL_CSS        RBL: Received via a relay in Spamhaus SBL-CSS
+                             [157.230.120.225 listed in zen.spamhaus.org]
+  0.0 URIBL_RED              Contains an URL listed in the URIBL redlist
+                             [URIs: mingrelian.monster]
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?Q?IMPORTANT!=20You=20h=CE=B1ve=20been=20recorded=20=CA=8Dasturba?= =?UTF-8?Q?ting!=20I=20h=CE=B1ve=20Webmaster.mp4!?=
+
+ATTN: webmaster@turathalanbiaa.com
+
+The last time you visited a Ƿorn website with teenagers,
+you downloaded and installed the vίrus I developed.
+
+My program has turned on your cam and recorded the act
+of your ʍasturbation..
+
+My software also downloaded all your email contact lίsts
+and a list of your friends on Facebook.
+
+I have the - Webmaster.mp4 - with you jerkίng
+off to teens, as well as a file with all your contacts
+on my computer.
+
+You are very Ƿerverted!
+
+
+If you want me to delete both files and keep the secret,
+you must send me the Bitcoin payment.
+I gıve you 72 houɼs onɭy to transƒer the funds.
+
+If you don't know how to pay with Bitcoin,
+visit Google and search - how to buy bitcoin.
+
+*********************************************
+Send 2,000 USD = 0.2409583 BTC
+to this Bitcoin address as soon as possible:
+
+3BsKe5qLg4eVyCS8itFVBUJWWEucN4L1m2
+
+(copy & pαste)
+*********************************************
+
+1 BTC = 8,425 USD right now, so send exactly 0.2409583 BTC
+to the address above.
+
+
+
+Do not try to cheat me!
+As soon as you open this Email I will know you opened it.
+I am tracking all actions on your device..
+
+This Bitcoin address is linked to you onɭy,
+so I will know when you send the correct amount.
+When you pay in full, I will remove both files and deactivate
+my program.
+
+If you choose to not send the btc...
+I will send your ʍasturbation vίdeo to
+ALL YOUR FRIENDS AND ASSOCIATES from your
+contact lists that I hacked.
+
+
+Here are the payment details again:
+
+Send 2,000 USD (0.2409583 BTC)
+to this Bitcoin address:
+
+*********************************************
+0.2409583 BTC
+
+to:
+
+3BsKe5qLg4eVyCS8itFVBUJWWEucN4L1m2
+
+(copy & pαste)
+*********************************************
+
+
+You саn visit police but nobody can help you.
+I know what I am doing.
+I don't live in your country and I know how
+to stay anonymous.
+
+Don't try to deceive me - I will know it
+immediately - my spy software is recording all the
+websites you visit and all your key presses.
+If you do - I will send this ugly vίd to eveɼyone you know,
+INCLUDING YOUR FAMILY MEMBERS.
+
+
+Don't cheat me! Don't forget the shame and if you ignore
+this message your life will be ruined.
+
+I am waiting for your Bitcoin payment.
+You have 72 houɼs ɭeft.
+
+
+Aŉonym0us Hʌcker
+
+
+P.S. If you need more time to buy and send BTC,
+open your notepad and write '48h more'.
+This way you can contact me.
+I will consider gıving you another 48 houɼs
+befoɼe I releɑse the vίd, but onɭy when I see that
+you are really struggling to buy bitcoin.
+I KNOW you can afford it - so don't play around...
+

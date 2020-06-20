@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id wIthNHGH2V1TdAAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Sat, 23 Nov 2019 22:24:33 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Sat, 23 Nov 2019 22:24:33 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1iYb1F-0007kO-RR
+	for info@turathalanbiaa.com; Sat, 23 Nov 2019 22:24:33 +0300
+X-Failed-Recipients: zuher19793@yahoo.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1574537073-eximdsn-694383521
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iYb1F-0007kO-RR@server-fr-sh-1111.alkafeel.info>
+Date: Sat, 23 Nov 2019 22:24:33 +0300
+
+--1574537073-eximdsn-694383521
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  zuher19793@yahoo.com
+    host mta6.am0.yahoodns.net [98.136.96.77]
+    SMTP error from remote mail server after end of data:
+    554 delivery error: dd This user doesn't have a yahoo.com account (zuher19793@yahoo.com) [-9] - mta4137.mail.ne1.yahoo.com
+
+--1574537073-eximdsn-694383521
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;zuher19793@yahoo.com
+Status: 5.0.0
+Remote-MTA: dns; mta6.am0.yahoodns.net
+Diagnostic-Code: smtp; 554 delivery error: dd This user doesn't have a yahoo.com account (zuher19793@yahoo.com) [-9] - mta4137.mail.ne1.yahoo.com
+
+--1574537073-eximdsn-694383521
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1iYb1D-0007jq-7P
+	for zuher19793@yahoo.com; Sat, 23 Nov 2019 22:24:31 +0300
+To: zuher19793@yahoo.com
+Subject: =?UTF-8?B?2KrYo9mD2YrYryDYp9mE2K3Ys9in2Kg=?=
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 82.199.209.34
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Sat, 23 Nov 2019 19:24:31 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <3a357b5ebdf1e0a050160b714dff86ae@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/images/icons/logo-circle.png"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<a href="http://www.edu.turathalanbiaa.com/active/5505/56f754ec21724432445bc18e81acc6c6" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغعيل الحساب</a>
+
+
+--1574537073-eximdsn-694383521--

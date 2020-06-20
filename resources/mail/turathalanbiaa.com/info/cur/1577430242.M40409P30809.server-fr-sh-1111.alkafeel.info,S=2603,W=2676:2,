@@ -1,0 +1,73 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id Sg9+AeKsBV5ZeAAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Fri, 27 Dec 2019 10:04:02 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Fri, 27 Dec 2019 10:04:02 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1ikjfF-00080p-W6
+	for info@turathalanbiaa.com; Fri, 27 Dec 2019 10:04:02 +0300
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1577430241-eximdsn-52762762
+MIME-Version: 1.0
+Subject: Warning: message 1ijtsg-0008TZ-Jl delayed 48 hours
+Message-Id: <E1ikjfF-00080p-W6@server-fr-sh-1111.alkafeel.info>
+Date: Fri, 27 Dec 2019 10:04:01 +0300
+
+--1577430241-eximdsn-52762762
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+A message that you sent has not yet been delivered to one or more of its
+recipients after more than 48 hours on the queue on server-fr-sh-1111.alkafeel.info.
+
+The message identifier is:     1ijtsg-0008TZ-Jl
+The date of the message is:    Wed, 25 Dec 2019 02:46:25 +0300
+The subject of the message is: no subject
+
+The address to which the message has not yet been delivered is:
+
+  aa@pp.com
+
+No action is required on your part. Delivery attempts will continue for
+some time, and this warning may be repeated at intervals if the message
+remains undelivered. Eventually the mail delivery software will give up,
+and when that happens, the message will be returned to you.
+
+--1577430241-eximdsn-52762762
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: delayed
+Final-Recipient: rfc822;aa@pp.com
+Status: 4.0.0
+
+--1577430241-eximdsn-52762762
+Content-type: text/rfc822-headers
+
+Return-path: <info@turathalanbiaa.com>
+Received: from [::1] (port=42716 helo=server-fr-sh-1111.alkafeel.info)
+	by server-fr-sh-1111.alkafeel.info with esmtpa (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1ijtsg-0008TZ-Jl
+	for aa@pp.com; Wed, 25 Dec 2019 02:46:26 +0300
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="=_d0973100ddf47ce66417e53dca51e28b"
+Date: Wed, 25 Dec 2019 02:46:25 +0300
+From: info@turathalanbiaa.com
+To: aa@pp.com
+Subject: no subject
+Message-ID: mid:1
+X-Sender: info@turathalanbiaa.com
+User-Agent: Roundcube Webmail/1.3.8
+
+
+--1577430241-eximdsn-52762762--

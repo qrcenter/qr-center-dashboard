@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: info@turathalanbiaa.com
+Received: from server-fr-sh-1111.alkafeel.info
+	by server-fr-sh-1111.alkafeel.info with LMTP
+	id OM+HDFQOol72EwAAzyXPIA
+	(envelope-from <>)
+	for <info@turathalanbiaa.com>; Fri, 24 Apr 2020 00:53:24 +0300
+Return-path: <>
+Envelope-to: info@turathalanbiaa.com
+Delivery-date: Fri, 24 Apr 2020 00:53:24 +0300
+Received: from mailnull by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	id 1jRjme-0001l6-61
+	for info@turathalanbiaa.com; Fri, 24 Apr 2020 00:53:24 +0300
+X-Failed-Recipients: ss63311685@gmiI.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server-fr-sh-1111.alkafeel.info>
+To: info@turathalanbiaa.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1587678804-eximdsn-1094095639
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1jRjme-0001l6-61@server-fr-sh-1111.alkafeel.info>
+Date: Fri, 24 Apr 2020 00:53:24 +0300
+
+--1587678804-eximdsn-1094095639
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  ss63311685@gmiI.com
+    host mx1.netsolmail.net [209.17.115.10]
+    SMTP error from remote mail server after RCPT TO:<ss63311685@gmiI.com>:
+    550 5.0.0 <ss63311685@gmiI.com>... User unknown
+
+--1587678804-eximdsn-1094095639
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server-fr-sh-1111.alkafeel.info
+
+Action: failed
+Final-Recipient: rfc822;ss63311685@gmiI.com
+Status: 5.0.0
+Remote-MTA: dns; mx1.netsolmail.net
+Diagnostic-Code: smtp; 550 5.0.0 <ss63311685@gmiI.com>... User unknown
+
+--1587678804-eximdsn-1094095639
+Content-type: message/rfc822
+
+Return-path: <info@turathalanbiaa.com>
+Received: from turathal by server-fr-sh-1111.alkafeel.info with local (Exim 4.92)
+	(envelope-from <info@turathalanbiaa.com>)
+	id 1jRjmc-0001kg-CK
+	for ss63311685@gmiI.com; Fri, 24 Apr 2020 00:53:22 +0300
+To: ss63311685@gmiI.com
+Subject: Reset Password
+X-PHP-Script: edu.turathalanbiaa.com/index.php for 86.111.149.251
+X-PHP-Originating-Script: 1096:class.phpmailer.php
+Date: Thu, 23 Apr 2020 21:53:22 +0000
+From: =?UTF-8?B?2YXYudmH2K8g2KrYsdin2Ksg2KfZhNin2YbYqNmK2KfYoQ==?= <info@turathalanbiaa.com>
+Reply-To: "info@turathalanbiaa.com" <no-replay@turathalanibaa.org>
+Message-ID: <94321e9cf15eee54cec2f82c0f3a0513@edu.turathalanbiaa.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<img height="128px" width="128px" src="http://www.edu.turathalanbiaa.com/assets/image"/>
+<h1>معهد تراث الانبياء للدراسات الحوزوية الالكترونية</h1>
+<h3>ss63311685@gmiI.com</h3>
+<a href="http://www.edu.turathalanbiaa.com/reset_password/DbSsud6jZrdzdTADzJC5Z2sqbC4Hkt3tQxUrQGHSTi5pzBAOGAjPOk3crGPuHjvyTL3h8RDwgXgOV8Ru3UahxUCawKTUPutSHA9pmYH9EO6v5SOnDMBtomticTrYzXZv" style="text-decoration: none;font-size: 18px;">اضغط هنا لتغير كلمة المرور</a>
+
+
+--1587678804-eximdsn-1094095639--
