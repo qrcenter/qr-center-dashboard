@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class VideoController extends Controller
 {
     public function index(){
-        $articles=Video::orderBy('id', 'DESC')->paginate(11);
+        $articles=Video::orderBy('id', 'DESC')->paginate(12);
         return VideoResource::collection($articles);
     }
 }
