@@ -50,6 +50,13 @@
                                 </a>
                             </li>
                         @endif
+                            @if(Auth::user()->hasAnyRole(['مدير','محرر','مستخدم']))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url('dashboard/video') }}">
+                                        الفديوات
+                                    </a>
+                                </li>
+                            @endif
                         @if(Auth::user()->hasRole('مدير'))
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url('dashboard/admin') }}">

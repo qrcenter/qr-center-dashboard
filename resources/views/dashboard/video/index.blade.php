@@ -9,13 +9,13 @@
                 </button>
             </div>
         @endif
-    <a class="btn  btn-sm btn-primary shadow mb-2" href="{{route('article.create')}}"> <i class="fa fa-file" aria-hidden="true"></i>  جديد  </a>
+    <a class="btn  btn-sm btn-primary shadow mb-2" href="{{route('video.create')}}"> <i class="fa fa-file" aria-hidden="true"></i>  جديد  </a>
     <table class="table table-bordered data-table table-image" >
         <thead>
         <tr id="">
             <th width="5%">التسلسل</th>
             <th width="20%">العنوان</th>
-            <th width="20%">النص</th>
+            <th width="20%">المعرف</th>
             <th width="20%">العمليات</th>
         </tr>
         </thead>
@@ -32,21 +32,17 @@
             language: {url: 'https://cdn.datatables.net/plug-ins/1.10.20/i18n/Arabic.json'},
             processing: true,
             serverSide: true,
-            ajax: "{{ route('article.index') }}",
+            ajax: "{{ route('video.index') }}",
             columns: [
                 {data: 'DT_RowIndex', name: 'DT_RowIndex'},
                 {data: 'title', name: 'title'},
-                { data: 'image_name', name: 'image_name',
-                    render: function( data, type, full, meta ) {
-                        return "<img src=\"/storage/assets/" + data + "\"  class=\"img-fluid img-thumbnail\"  alt=\"Sheep\"  //>";
-                    }
-                },
+                {data: 'video_id', name: 'video_id'},
                 {data: 'action', name: 'action', orderable: false, searchable: false},
 
             ]
         });
 
-        $('body').on('click', '#delete-article', function () {
+        $('body').on('click', '#delete-video', function () {
             var id = $(this).data("id");
             var token = $("meta[name='csrf-token']").attr("content");
             bootbox.confirm({
@@ -68,7 +64,7 @@
                     if(result===true){
                         $.ajax({
                             type: "DELETE",
-                            url: "article/"+id,
+                            url: "video/"+id,
                             data: {
                                 "id": id,
                                 "_token": token,

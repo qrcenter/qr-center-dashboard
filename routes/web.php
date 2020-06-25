@@ -23,3 +23,4 @@ Route::get('/showChangePasswordForm','Auth\ChangePasswordController@showChangePa
 Route::post('/changePassword','Auth\ChangePasswordController@changePassword')->name('changePassword');
 
 Route::resource('dashboard/article','Dashboard\Article\ArticleController');
+Route::resource('dashboard/video','Dashboard\Video\VideoController');
