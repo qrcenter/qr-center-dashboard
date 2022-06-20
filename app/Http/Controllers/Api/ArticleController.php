@@ -2,29 +2,45 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Article;
+use App\Models\Article;
 use App\Http\Controllers\Controller;
-use App\Http\Resources\Article as ArticleResource;
+use App\Http\Resources\ArticleResource;
 use Illuminate\Http\Request;
 
 class ArticleController extends Controller
 {
-    public function index(){
-        $articles=Article::orderBy('id', 'DESC')->paginate(11);
-        return ArticleResource::collection($articles);
+    use ApiResponseTrait;
+
+    public function index(Request $request)
+    {
+        $articles = null;
+        if ($request->tag) {
+            $articles = Article::where('tag_id', $request->tag)->paginate(11);
+      } else {
+            $articles = Article::latest()->paginate(11);
+        }
+
+        $current_page = $articles->currentPage();
+        $last_page = $articles->lastPage();
+        $total = $articles->total();
+        return $this->apiResponse(ArticleResource::collection($articles), $current_page, $last_page, $total);
     }
+
     public function show($id)
     {
         $article = Article::find($id);
-        return new ArticleResource($article);
+        if ($article) {
+            return   $this->apiResponse(new ArticleResource($article));
+        }
+        return   $this->apiResponse(null);
     }
-    public function search($query)
-    {
-        if($query){
-        $articles = Article::search($query)->paginate(11);
-        return ArticleResource::collection($articles);}
-            $articles=Article::orderBy('id', 'DESC')->paginate(11);
-            return ArticleResource::collection($articles);
 
+    public function search($search)
+    {
+        $articles = Article::search($search)->paginate(11);
+        $current_page = $articles->currentPage();
+        $last_page = $articles->lastPage();
+        $total = $articles->total();
+        return $this->apiResponse(ArticleResource::collection($articles), $current_page, $last_page, $total);
     }
 }

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,10 +17,23 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::group(['middleware' => 'cors'], function () {
-Route::get('/articles','ArticleController@index');
-Route::get('/article/{id}','ArticleController@show');
-Route::get('/search/{query}','ArticleController@search');
-Route::get('/video','VideoController@index');
 
-});
+
+
+
+Route::get('/articles','ArticleController@index');
+Route::get('/articles/{id}','ArticleController@show');
+Route::get('/articles/search/{search}','ArticleController@search');
+
+Route::get('/posts','PostController@index');
+Route::get('/posts/{id}','PostController@show');
+Route::get('/posts/search/{search}','PostController@search');
+
+Route::get('/videos','VideoController@index');
+Route::get('/videos/search/{search}','VideoController@search');
+
+Route::get('/tags/type/{type}','TagController@index');
+Route::get('/types','TagController@types');
+
+Route::post('subscribe','NewsletterController@store');
+

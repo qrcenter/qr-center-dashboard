@@ -5,6 +5,15 @@
     <form method="post" action="{{route('video.store')}}" enctype="multipart/form-data">
       @csrf
       <div class="form-group">
+        <label for="tag">الاشارة</label>
+        <select id="tag" name="tag" class="form-control" required>
+            <option selected disabled></option>
+            @foreach($tags as $tag)
+                <option value="{{$tag->id}}">{{$tag->name}}</option>
+                @endforeach
+        </select>
+    </div>
+      <div class="form-group">
         <label for="title">العنوان</label>
         <input type="text" class="form-control" id="title"  name="title" required>
       </div>

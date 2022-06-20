@@ -9,7 +9,10 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-
+        <div class="form-group">
+            <strong>الاشارة: </strong>
+          {{$article->tag->name}}
+          </div>
 
         <div class="form-group">
           <strong>العنوان: </strong>

@@ -6,6 +6,18 @@
         @csrf
         <input name="_method" type="hidden" value="PATCH">
 
+        <div class="form-group">
+            <label for="tag">الصنف</label>
+            <select id="tag" name="tag" class="form-control" required>
+                @foreach($tags as $tag)
+                    <option
+                    @if ($tag->id==$video->tag->id)
+                        selected
+                    @endif
+                     value="{{$tag->id}}">{{$tag->name}}</option>
+                    @endforeach
+            </select>
+        </div>
       <div class="form-group">
         <label for="title">العنوان</label>
         <input type="text" class="form-control" id="title" name="title" required  value="{{$video->title}}">

@@ -20,7 +20,18 @@
         <th>العمليات</th>
         </thead>
         <tbody>
-        <a class="btn  btn-sm btn-success m-2 px-4" href="{{route('admin.create')}}">جديد</a>
+            <div class="row ">
+                <div class="col-md-6">
+                    <h5>المستخدمين</h5>
+
+                </div>
+
+                <div class="col-md-6 text-right">
+                    <a class="btn  btn-sm btn-primary shadow mb-2" href="{{route('admin.create')}}"> <i class="fa fa-file" aria-hidden="true"></i>  أضافة جديد  </a>
+                </div>
+            </div>
+
+
         @foreach($users as $user)
             <tr>
                     <td>{{ $user->name }}</td>
@@ -30,12 +41,12 @@
                     <td><input type="checkbox" {{ $user->hasRole('مستخدم') ? 'checked' : '' }} name="role_user" onclick="return false;"></td>
 
                     <td class="d-flex">
-                        <a  href="{{ route('admin.edit',$user->id)}}" class="btn  btn-sm btn-primary mr-1">تعديل</a>
-                        <a href="{{ route('editPassword',$user->id)}}" class="btn  btn-sm btn-secondary">تغير كلمة المرور</a>
+                        <a  href="{{ route('admin.edit',$user->id)}}" class="btn  btn-sm btn-success mr-1">   <i class="fa fa-edit" aria-hidden="true"></i> تعديل</a>
+                        <a href="{{ route('editPassword',$user->id)}}" class="btn  btn-sm btn-secondary">  <i class="fa fa-cog" aria-hidden="true"></i> تغير كلمة المرور</a>
                         <form class="delFrm" action="{{route('admin.destroy',$user->id)}}" method="post">
                             @csrf
                             @method('DELETE')
-                            <button class="btn btn-sm btn-danger mx-1" type="submit">حذف</button>
+                            <button class="btn btn-sm btn-danger mx-1" type="submit"><i class="fa fa-trash-alt" aria-hidden="true"></i> حذف</button>
                         </form>
                     </td>
             </tr>

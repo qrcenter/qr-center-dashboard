@@ -20,6 +20,7 @@ class CreateArticlesTable extends Migration
             $table->date('date')->nullable();
             $table->string('image_url')->nullable();
             $table->string('image_name')->nullable();
+            $table->integer('tag_id')->unsigned();
             $table->timestamps();
         });
     }

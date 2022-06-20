@@ -9,14 +9,27 @@
                 </button>
             </div>
         @endif
-    <a class="btn  btn-sm btn-primary shadow mb-2" href="{{route('article.create')}}"> <i class="fa fa-file" aria-hidden="true"></i>  جديد  </a>
+        <div class="row ">
+            <div class="col-md-6">
+                <h5>المقالات</h5>
+
+            </div>
+
+            <div class="col-md-6 text-right">
+                <a class="btn  btn-sm btn-primary shadow mb-2" href="{{route('article.create')}}"> <i class="fa fa-file" aria-hidden="true"></i>  أضافة جديد  </a>
+            </div>
+        </div>
+
+
+
     <table class="table table-bordered data-table table-image" >
         <thead>
         <tr id="">
-            <th width="5%">التسلسل</th>
-            <th width="20%">العنوان</th>
-            <th width="20%">النص</th>
-            <th width="20%">العمليات</th>
+            <th >التسلسل</th>
+            <th >العنوان</th>
+            <th>الاشارة</th>
+            <th >الصورة</th>
+            <th>العمليات</th>
         </tr>
         </thead>
         <tbody>
@@ -36,9 +49,11 @@
             columns: [
                 {data: 'DT_RowIndex', name: 'DT_RowIndex'},
                 {data: 'title', name: 'title'},
+                {data: 'tag.name', name: 'tag.name'},
+
                 { data: 'image_name', name: 'image_name',
                     render: function( data, type, full, meta ) {
-                        return "<img src=\"/storage/assets/" + data + "\"  class=\"img-fluid img-thumbnail\"  alt=\"Sheep\"  //>";
+                        return "<img src=\"/storage/assets/" + data + "\"  class=\"img-fluid img-thumbnail\"  //>";
                     }
                 },
                 {data: 'action', name: 'action', orderable: false, searchable: false},

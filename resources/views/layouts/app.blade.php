@@ -11,7 +11,7 @@
     <title>مركز القمر</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/jquery-3.4.1.min.js') }}" ></script>
+    <script src="{{ asset('js/jquery-3.6.0.min.js') }}" ></script>
     <script src="{{ asset('js/app.js') }}" ></script>
     <script src="{{ asset('js/bootbox.all.min.js') }}" ></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
@@ -43,6 +43,13 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto">
                     @auth
+                    @if(Auth::user()->hasAnyRole(['مدير','محرر','مستخدم']))
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('dashboard/tag') }}">
+                            الاشارات
+                        </a>
+                    </li>
+                @endif
                         @if(Auth::user()->hasAnyRole(['مدير','محرر','مستخدم']))
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url('dashboard/article') }}">
@@ -50,10 +57,17 @@
                                 </a>
                             </li>
                         @endif
+                        @if(Auth::user()->hasAnyRole(['مدير','محرر','مستخدم']))
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('dashboard/post') }}">
+                                    المنشورات
+                                </a>
+                            </li>
+                        @endif
                             @if(Auth::user()->hasAnyRole(['مدير','محرر','مستخدم']))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ url('dashboard/video') }}">
-                                        الفديوات
+                                        الفديوهات
                                     </a>
                                 </li>
                             @endif
