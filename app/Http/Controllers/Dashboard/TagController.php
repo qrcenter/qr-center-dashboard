@@ -89,7 +89,7 @@ class TagController extends Controller
         }
         return Response::json(array(
             'status' => 'error',
-            'message'   =>  "الصنف مرتبط لا يمكن حذفه"
+            'message'   =>  "الاشارة مرتبطة لا يمكن حذفها"
         ), 403);
     }
 }

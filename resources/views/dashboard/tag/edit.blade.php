@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
   <div class="container">
-      <h4> تعديل الصنف</h4><br/>
+      <h4> تعديل الاشارة</h4><br/>
       <form method="post" action="{{route('tag.update', $tag->id)}}" enctype="multipart/form-data">
         @csrf
         <input name="_method" type="hidden" value="PATCH">

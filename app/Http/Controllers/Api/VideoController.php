@@ -14,7 +14,7 @@ class VideoController extends Controller
     {
         $videos = null;
         if ($request->tag && !$request->search) {
-            $videos = Video::where('tag_id', $request->tag)->paginate(12);
+            $videos = Video::where('tag_id', $request->tag)->orderBy('id', 'DESC')->paginate(12);
       }
 
       elseif ($request->search) {

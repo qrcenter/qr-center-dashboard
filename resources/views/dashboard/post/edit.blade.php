@@ -22,10 +22,10 @@
         <input type="text" class="form-control" id="title" name="title" required  value="{{$post->title}}">
       </div>
 
-      <div class="form-group">
+      {{-- <div class="form-group">
         <label for="text">النص</label>
         <textarea class="form-control" id="description" name="text" rows="15">{{$post->text}}</textarea>
-      </div>
+      </div> --}}
 
           <div class="form-group">
               <label for="date">التاريخ</label>

@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
   <div class="container">
-    <h4>أضافة صنف جديد</h4><br/>
+    <h4>أضافة اشارة جديده</h4><br/>
     <form method="post" action="{{route('tag.store')}}" enctype="multipart/form-data">
       @csrf
-     
+
         <div class="form-group">
             <label for="type">النوع</label>
             <select id="type" name="type" class="form-control" required>

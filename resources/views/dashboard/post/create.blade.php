@@ -19,10 +19,10 @@
         <input type="text" class="form-control" id="title"  name="title" required>
       </div>
 
-      <div class="form-group">
+      {{-- <div class="form-group">
         <label for="text">النص</label>
           <textarea class="form-control" id="text" name="text" rows="15"></textarea>
-      </div>
+      </div> --}}
         <div class="form-group">
             <label for="date">التاريخ</label>
             <input type="date" class="form-control" id="date" name="date" />

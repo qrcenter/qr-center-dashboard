@@ -15,7 +15,7 @@ class ArticleController extends Controller
     {
         $articles = null;
         if ($request->tag && !$request->search) {
-            $articles = Article::where('tag_id', $request->tag)->paginate(11);
+            $articles = Article::where('tag_id', $request->tag)->orderBy('id', 'DESC')->paginate(11);
         }
          elseif ($request->search) {
             $articles = Article::search($request->search)->paginate(11);
