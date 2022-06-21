@@ -23,14 +23,14 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/articles','ArticleController@index');
 Route::get('/articles/{id}','ArticleController@show');
-Route::get('/articles/search/{search}','ArticleController@search');
+//Route::get('/articles/search/{search}','ArticleController@search');
 
 Route::get('/posts','PostController@index');
 Route::get('/posts/{id}','PostController@show');
-Route::get('/posts/search/{search}','PostController@search');
+//Route::get('/posts/search/{search}','PostController@search');
 
 Route::get('/videos','VideoController@index');
-Route::get('/videos/search/{search}','VideoController@search');
+//Route::get('/videos/search/{search}','VideoController@search');
 
 Route::get('/tags/type/{type}','TagController@index');
 Route::get('/types','TagController@types');

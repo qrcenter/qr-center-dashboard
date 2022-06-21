@@ -14,9 +14,13 @@ class ArticleController extends Controller
     public function index(Request $request)
     {
         $articles = null;
-        if ($request->tag) {
+        if ($request->tag && !$request->search) {
             $articles = Article::where('tag_id', $request->tag)->paginate(11);
-      } else {
+        }
+         elseif ($request->search) {
+            $articles = Article::search($request->search)->paginate(11);
+        }
+        else {
             $articles = Article::latest()->paginate(11);
         }
 
@@ -35,12 +39,12 @@ class ArticleController extends Controller
         return   $this->apiResponse(null);
     }
 
-    public function search($search)
-    {
-        $articles = Article::search($search)->paginate(11);
-        $current_page = $articles->currentPage();
-        $last_page = $articles->lastPage();
-        $total = $articles->total();
-        return $this->apiResponse(ArticleResource::collection($articles), $current_page, $last_page, $total);
-    }
+    // public function search($search)
+    // {
+    //     $articles = Article::search($search)->paginate(11);
+    //     $current_page = $articles->currentPage();
+    //     $last_page = $articles->lastPage();
+    //     $total = $articles->total();
+    //     return $this->apiResponse(ArticleResource::collection($articles), $current_page, $last_page, $total);
+    // }
 }

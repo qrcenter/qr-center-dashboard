@@ -14,9 +14,15 @@ class PostController extends Controller
     public function index(Request $request)
     {
         $posts = null;
-        if ($request->tag) {
+        if ($request->tag && !$request->search) {
             $posts = Post::where('tag_id', $request->tag)->paginate(12);
-      } else {
+      }
+
+      elseif ($request->search) {
+        $posts = Post::search($request->search)->paginate(12);
+    }
+
+      else {
             $posts = Post::latest()->paginate(12);
         }
 
@@ -35,13 +41,13 @@ class PostController extends Controller
         return   $this->apiResponse(null);
     }
 
-    public function search($search)
-    {
-        $posts = Post::search($search)->paginate(12);
-        $current_page = $posts->currentPage();
-        $last_page = $posts->lastPage();
-        $total = $posts->total();
-        return $this->apiResponse(PostResource::collection($posts), $current_page, $last_page, $total);
-    }
+    // public function search($search)
+    // {
+    //     $posts = Post::search($search)->paginate(12);
+    //     $current_page = $posts->currentPage();
+    //     $last_page = $posts->lastPage();
+    //     $total = $posts->total();
+    //     return $this->apiResponse(PostResource::collection($posts), $current_page, $last_page, $total);
+    // }
 
 }

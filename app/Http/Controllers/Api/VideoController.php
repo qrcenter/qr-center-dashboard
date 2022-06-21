@@ -13,9 +13,14 @@ class VideoController extends Controller
     public function index(Request $request)
     {
         $videos = null;
-        if ($request->tag) {
+        if ($request->tag && !$request->search) {
             $videos = Video::where('tag_id', $request->tag)->paginate(12);
-      } else {
+      }
+
+      elseif ($request->search) {
+        $videos = Video::search($request->search)->paginate(12);
+    }
+       else {
             $videos = Video::latest()->paginate(12);
         }
 
