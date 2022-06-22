@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,8 @@ Route::resource('dashboard/article','Dashboard\ArticleController');
 Route::resource('dashboard/post','Dashboard\PostController');
 Route::resource('dashboard/video','Dashboard\VideoController');
 Route::resource('dashboard/tag','Dashboard\TagController');
+
+Route::get('/link', function () {
+    Artisan::call('storage:link');
+	  return "Storage linked successfuly";
+});
