@@ -15,15 +15,15 @@ class PostController extends Controller
     {
         $posts = null;
         if ($request->tag && !$request->search) {
-            $posts = Post::where('tag_id', $request->tag)->orderBy('id', 'DESC')->paginate(12);
+            $posts = Post::where('tag_id', $request->tag)->orderBy('id', 'DESC')->paginate(16);
       }
 
       elseif ($request->search) {
-        $posts = Post::search($request->search)->paginate(12);
+        $posts = Post::search($request->search)->paginate(16);
     }
 
       else {
-            $posts = Post::latest()->paginate(12);
+            $posts = Post::latest()->paginate(16);
         }
 
 
