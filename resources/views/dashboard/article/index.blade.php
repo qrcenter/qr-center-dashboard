@@ -50,7 +50,6 @@
                 {data: 'DT_RowIndex', name: 'DT_RowIndex'},
                 {data: 'title', name: 'title'},
                 {data: 'tag.name', name: 'tag.name'},
-
                 { data: 'image_name', name: 'image_name',
                     render: function( data, type, full, meta ) {
                         return "<img src=\"/storage/assets/" + data + "\"  class=\"img-fluid img-thumbnail\"  //>";
