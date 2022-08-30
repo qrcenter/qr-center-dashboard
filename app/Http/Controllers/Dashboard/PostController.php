@@ -23,7 +23,7 @@ class PostController extends Controller
     {
         if ($request->ajax()) {
 
-            return Datatables::of(Post::latest()->with('tag')->get())
+            return Datatables::of(Post::query()->with('tag')->get())->make(true)
                 ->addIndexColumn()
                 ->addColumn('action', 'dashboard.post.action')
                 ->rawColumns(['action'])
