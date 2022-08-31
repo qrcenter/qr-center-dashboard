@@ -23,7 +23,7 @@ class ArticleController extends Controller
     {
         if ($request->ajax()) {
 
-            return Datatables::of(Article::latest()->with('tag')->get())
+            return Datatables::of(Article::latest()->with('tag'))
                 ->addIndexColumn()
                 ->addColumn('action', 'dashboard.article.action')
                 ->rawColumns(['action'])

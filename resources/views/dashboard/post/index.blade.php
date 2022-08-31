@@ -47,7 +47,7 @@
             serverSide: true,
             ajax: "{{ route('post.index') }}",
             columns: [
-                {data: 'DT_RowIndex', name: 'DT_RowIndex'},
+                {data: 'DT_RowIndex', name: 'id'},
                 {data: 'title', name: 'title'},
                 {data: 'tag.name', name: 'tag.name'},
                 { data: 'image_name', name: 'image_name',

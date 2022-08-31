@@ -39,14 +39,13 @@
 @section('js')
 <script type="text/javascript">
     $(document).ready(function () {
-
         var table = $('.data-table').DataTable({
             language: {url: 'https://cdn.datatables.net/plug-ins/1.10.20/i18n/Arabic.json'},
             processing: true,
             serverSide: true,
             ajax: "{{ route('video.index') }}",
             columns: [
-                {data: 'DT_RowIndex', name: 'DT_RowIndex'},
+                {data: 'DT_RowIndex', name: 'id'},
                 {data: 'title', name: 'title'},
                 {data: 'tag.name', name: 'tag.name'},
                 {data: 'video_id', name: 'video_id'},

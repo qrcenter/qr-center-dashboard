@@ -23,7 +23,7 @@ class PostController extends Controller
     {
         if ($request->ajax()) {
 
-            return Datatables::of(Post::latest()->with('tag')->get())
+            return Datatables::of(Post::latest()->with('tag'))
                 ->addIndexColumn()
                 ->addColumn('action', 'dashboard.post.action')
                 ->rawColumns(['action'])
@@ -37,7 +37,7 @@ class PostController extends Controller
 
     public function create()
     {
-         $tags = Tag::where('type', TagTypeEnum::منشور->value)->get();
+        $tags = Tag::where('type', TagTypeEnum::منشور->value)->get();
         return view('dashboard.post.create', compact('tags'));
     }
 

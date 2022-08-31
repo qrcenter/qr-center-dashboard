@@ -22,7 +22,7 @@ class VideoController extends Controller
     {
         if ($request->ajax()) {
 
-            return Datatables::of(Video::latest()->with('Tag')->get())
+            return Datatables::of(Video::latest()->with('Tag'))
                 ->addIndexColumn()
                 ->addColumn('action', 'dashboard.video.action')
                 ->rawColumns(['action'])
