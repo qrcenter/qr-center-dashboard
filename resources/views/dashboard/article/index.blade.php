@@ -1,36 +1,36 @@
 @extends('layouts.app')
 @section('content')
-    <div class="container">
-        @if (Session::has('success'))
-            <div class="alert alert-success alert-dismissible fade show" role="alert">
-                <strong>{{ Session::get('success') }}</strong>
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-        @endif
-        <div class="row ">
-            <div class="col-md-6">
-                <h5>المقالات</h5>
+<div class="container">
+    @if (Session::has('success'))
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>{{ Session::get('success') }}</strong>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    @endif
+    <div class="row ">
+        <div class="col-md-6">
+            <h5>المقالات</h5>
 
-            </div>
-
-            <div class="col-md-6 text-right">
-                <a class="btn  btn-sm btn-primary shadow mb-2" href="{{route('article.create')}}"> <i class="fa fa-file" aria-hidden="true"></i>  أضافة جديد  </a>
-            </div>
         </div>
 
+        <div class="col-md-6 text-right">
+            <a class="btn  btn-sm btn-primary shadow mb-2" href="{{route('article.create')}}"> <i class="fa fa-file" aria-hidden="true"></i> أضافة جديد </a>
+        </div>
+    </div>
 
 
-    <table class="table table-bordered data-table table-image" >
+
+    <table class="table table-bordered data-table table-image">
         <thead>
-        <tr id="">
-            <th >التسلسل</th>
-            <th >العنوان</th>
-            <th>الاشارة</th>
-            <th >الصورة</th>
-            <th>العمليات</th>
-        </tr>
+            <tr id="">
+                <th>التسلسل</th>
+                <th>العنوان</th>
+                <th>الاشارة</th>
+                <th>الصورة</th>
+                <th>العمليات</th>
+            </tr>
         </thead>
         <tbody>
         </tbody>
@@ -39,32 +39,51 @@
 @endsection
 @section('js')
 <script type="text/javascript">
-    $(document).ready(function () {
+    $(document).ready(function() {
 
         var table = $('.data-table').DataTable({
-            language: {url: 'https://cdn.datatables.net/plug-ins/1.10.20/i18n/Arabic.json'},
+            language: {
+                url: 'https://cdn.datatables.net/plug-ins/1.10.20/i18n/Arabic.json'
+            },
             processing: true,
             serverSide: true,
             ajax: "{{ route('article.index') }}",
-            columns: [
-                {data: 'DT_RowIndex', name: 'id'},
-                {data: 'title', name: 'title'},
-                {data: 'tag.name', name: 'tag.name'},
-                { data: 'image_name', name: 'image_name',
-                    render: function( data, type, full, meta ) {
+            columns: [{
+                    data: 'DT_RowIndex',
+                    name: 'DT_RowIndex',
+                    orderable: false,
+                    searchable: false
+                },
+                {
+                    data: 'title',
+                    name: 'title'
+                },
+                {
+                    data: 'tag.name',
+                    name: 'tag.name'
+                },
+                {
+                    data: 'image_name',
+                    name: 'image_name',
+                    render: function(data, type, full, meta) {
                         return "<img src=\"/storage/assets/" + data + "\"  class=\"img-fluid img-thumbnail\"  //>";
                     }
                 },
-                {data: 'action', name: 'action', orderable: false, searchable: false},
+                {
+                    data: 'action',
+                    name: 'action',
+                    orderable: false,
+                    searchable: false
+                },
 
             ]
         });
 
-        $('body').on('click', '#delete-article', function () {
+        $('body').on('click', '#delete-article', function() {
             var id = $(this).data("id");
             var token = $("meta[name='csrf-token']").attr("content");
             bootbox.confirm({
-                locale:'ar',
+                locale: 'ar',
                 size: "small",
                 message: "هل انت متاكد؟",
                 buttons: {
@@ -78,16 +97,16 @@
                     }
                 },
 
-                callback: function (result) {
-                    if(result===true){
+                callback: function(result) {
+                    if (result === true) {
                         $.ajax({
                             type: "DELETE",
-                            url: "article/"+id,
+                            url: "article/" + id,
                             data: {
                                 "id": id,
                                 "_token": token,
                             },
-                            success: function (data) {
+                            success: function(data) {
                                 bootbox.alert({
                                     locale: 'ar',
                                     size: 'small',
@@ -97,7 +116,7 @@
 
                                 table.ajax.reload();
                             },
-                            error: function (data) {
+                            error: function(data) {
                                 console.log('Error:', data);
                             }
                         });
@@ -110,6 +129,5 @@
         });
 
     });
-
 </script>
 @endsection

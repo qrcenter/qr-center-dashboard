@@ -45,7 +45,7 @@
             serverSide: true,
             ajax: "{{ route('video.index') }}",
             columns: [
-                {data: 'DT_RowIndex', name: 'id'},
+                {data: 'DT_RowIndex', name: 'DT_RowIndex',orderable: false, searchable: false},
                 {data: 'title', name: 'title'},
                 {data: 'tag.name', name: 'tag.name'},
                 {data: 'video_id', name: 'video_id'},
