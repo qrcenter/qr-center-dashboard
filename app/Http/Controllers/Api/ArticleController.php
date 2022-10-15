@@ -15,13 +15,13 @@ class ArticleController extends Controller
     {
         $articles = null;
         if ($request->tag && !$request->search) {
-            $articles = Article::where('tag_id', $request->tag)->orderBy('id', 'DESC')->paginate(12);
+            $articles = Article::where('tag_id', $request->tag)->orderBy('id', 'DESC')->paginate(10);
         }
          elseif ($request->search) {
-            $articles = Article::search($request->search)->paginate(12);
+            $articles = Article::search($request->search)->paginate(10);
         }
         else {
-            $articles = Article::latest()->paginate(12);
+            $articles = Article::latest()->paginate(10);
         }
 
         $current_page = $articles->currentPage();
@@ -41,7 +41,7 @@ class ArticleController extends Controller
 
     // public function search($search)
     // {
-    //     $articles = Article::search($search)->paginate(12);
+    //     $articles = Article::search($search)->paginate(10);
     //     $current_page = $articles->currentPage();
     //     $last_page = $articles->lastPage();
     //     $total = $articles->total();
