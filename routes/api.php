@@ -30,6 +30,7 @@ Route::get('/posts/{id}','PostController@show');
 //Route::get('/posts/search/{search}','PostController@search');
 
 Route::get('/videos','VideoController@index');
+Route::get('/videos/{id}','VideoController@show');
 //Route::get('/videos/search/{search}','VideoController@search');
 
 Route::get('/tags/type/{type}','TagController@index');

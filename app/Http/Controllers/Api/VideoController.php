@@ -30,6 +30,14 @@ class VideoController extends Controller
         return $this->apiResponse(VideoResource::collection($videos), $current_page, $last_page, $total);
         return $this->apiResponse( VideoResource::collection($videos), $current_page, $last_page, $total);
     }
+    public function show($id)
+    {
+        $video = Video::find($id);
+        if ($video) {
+            return   $this->apiResponse(new VideoResource($video));
+        }
+        return   $this->apiResponse(null);
+    }
     public function search($search)
     {
         $videos = Video::search($search)->paginate(12);
@@ -38,4 +46,5 @@ class VideoController extends Controller
         $total = $videos->total();
         return $this->apiResponse(VideoResource::collection($videos), $current_page, $last_page, $total);
     }
+    
 }
