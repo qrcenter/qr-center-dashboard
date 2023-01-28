@@ -57,7 +57,7 @@ class PostController extends Controller
 
 
         $post->save();
-        return redirect()->route('post.index')->with(['success' => 'تمت الاضافة بنجاح']);
+        return redirect()->route('post.create')->with(['success' => 'تمت الاضافة المنشور بنجاح']);
     }
     public function show($id)
     {

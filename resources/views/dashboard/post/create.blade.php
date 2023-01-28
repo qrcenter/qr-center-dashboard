@@ -1,6 +1,14 @@
 @extends('layouts.app')
 @section('content')
   <div class="container">
+  @if (Session::has('success'))
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>{{ Session::get('success') }}</strong>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        @endif
     <h4>أضافة منشور جديد</h4><br/>
     <form method="post" action="{{route('post.store')}}" enctype="multipart/form-data">
       @csrf
@@ -59,6 +67,16 @@
             reader.readAsDataURL(this.files[0]);
 
            });
+           var now = new Date();
+        var month = (now.getMonth() + 1);
+        var day = now.getDate();
+        if (month < 10)
+            month = "0" + month;
+        if (day < 10)
+            day = "0" + day;
+        var today = now.getFullYear() + '-' + month + '-' + day;
+
+        $('#date').val(today);
         });
     </script>
 @endsection

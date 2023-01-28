@@ -46,7 +46,7 @@ class VideoController extends Controller
         $video->video_id = $request->get('video_id');
         $video->tag_id = $request->get('tag');
         $video->save();
-        return redirect()->route('video.index')->with(['success' => 'تمت الاضافة بنجاح']);
+        return redirect()->route('video.create')->with(['success' => 'تمت الاضافة الفديو بنجاح']);
     }
 
     public function edit($id)
