@@ -33,6 +33,7 @@
               <label for="date">التاريخ</label>
               <input type="date" class="form-control" id="date" name="date" value="{{$article->date}}" required/>
           </div>
+          
               <div class="form-group">
               <img id="preview-image" src="{{Storage::url($article->image_url)}}" class="img-fluid img-thumbnail w-25">
               </div>

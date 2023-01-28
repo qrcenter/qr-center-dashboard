@@ -51,7 +51,7 @@ class PostController extends Controller
             $post->image_name = basename($storagePath);
         }
         $post->title = $request->get('title');
-        // $post->text = $request->get('text');
+        $post->text = $request->get('text');
         $post->date = $request->get('date');
         $post->tag_id = $request->get('tag');
 
@@ -87,7 +87,7 @@ class PostController extends Controller
         }
 
         $post->title = $request->get('title');
-        // $post->text = $request->get('text');
+        $post->text = $request->get('text');
         $post->date = $request->get('date');
         $post->tag_id = $request->get('tag');
 

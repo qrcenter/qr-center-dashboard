@@ -17,10 +17,10 @@
           <strong>العنوان: </strong>
         {{$post->title}}
         </div>
-        {{-- <div class="form-group">
+     <div class="form-group">
           <strong>النص: </strong>
           {!!$post->text!!}
-        </div> --}}
+        </div>
         <div class="form-group">
           <strong>التأريخ: </strong>
           {!!$post->date!!}
