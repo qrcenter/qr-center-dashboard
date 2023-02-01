@@ -57,7 +57,7 @@ class PostController extends Controller
 
 
         $post->save();
-        return redirect()->route('post.create')->with(['success' => 'تمت الاضافة المنشور بنجاح']);
+        return redirect()->route('post.create')->with(['success' => 'تمت اضافة المنشور بنجاح']);
     }
     public function show($id)
     {
@@ -92,7 +92,7 @@ class PostController extends Controller
         $post->tag_id = $request->get('tag');
 
         $post->save();
-        return redirect()->route('post.index')->with('success', 'تم التعديل بنجاح');
+        return redirect()->route('post.index')->with('success', 'تم التعديل المنشور بنجاح');
     }
 
 

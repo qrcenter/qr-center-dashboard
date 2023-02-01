@@ -9,7 +9,7 @@
         </button>
     </div>
     @endif
-    <h4>أضافة مقالة جديده</h4><br />
+    <h4>أضافة مقال جديده</h4><br />
     <form method="post" action="{{ route('article.store') }}" enctype="multipart/form-data">
         @csrf
         <div class="form-group">

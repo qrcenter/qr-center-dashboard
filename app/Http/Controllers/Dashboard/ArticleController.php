@@ -53,7 +53,7 @@ class ArticleController extends Controller
         $article->tag_id = $request->get('tag');
 
         $article->save();
-        return redirect()->route('article.create')->with(['success' => 'تمت الاضافة المقال بنجاح']);
+        return redirect()->route('article.create')->with(['success' => 'تمت اضافة المقال بنجاح']);
     }
     public function show($id)
     {
@@ -87,7 +87,7 @@ class ArticleController extends Controller
         $article->tag_id = $request->get('tag');
 
         $article->save();
-        return redirect()->route('article.index')->with('success', 'تم التعديل بنجاح');
+        return redirect()->route('article.index')->with('success', 'تم التعديل المقال بنجاح');
     }
 
 
