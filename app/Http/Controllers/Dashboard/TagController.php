@@ -7,6 +7,8 @@ use App\Enums\TagTypeEnum;
 use App\Http\Controllers\Controller;
 use App\Models\Tag;
 use App\Models\Article;
+use App\Models\Post;
+use App\Models\Video;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
 use Yajra\DataTables\Facades\DataTables;
@@ -80,7 +82,9 @@ class TagController extends Controller
     {
         $tag = Tag::find($id);
         $articles = Article::where('tag_id', $tag->id)->get();
-        if ($articles->isEmpty()) {
+        $posts = Post::where('tag_id', $tag->id)->get();
+        $videos = Video::where('tag_id', $tag->id)->get();
+        if ($articles->isEmpty() && $posts->isEmpty() && $videos->isEmpty()) {
             $tag->delete();
             return Response::json(array(
                 'status' => 'success',

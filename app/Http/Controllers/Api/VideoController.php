@@ -10,41 +10,41 @@ use Illuminate\Http\Request;
 class VideoController extends Controller
 {
     use ApiResponseTrait;
+    
     public function index(Request $request)
     {
-        $videos = null;
-        if ($request->tag && !$request->search) {
-            $videos = Video::where('tag_id', $request->tag)->orderBy('id', 'DESC')->paginate(12);
-      }
-
-      elseif ($request->search) {
-        $videos = Video::search($request->search)->paginate(12);
-    }
-       else {
-            $videos = Video::latest()->paginate(12);
-        }
-
-        $current_page = $videos->currentPage();
-        $last_page = $videos->lastPage();
+        $videos = $this->getVideos($request);
+        $currentPage = $videos->currentPage();
+        $lastPage = $videos->lastPage();
         $total = $videos->total();
-        return $this->apiResponse(VideoResource::collection($videos), $current_page, $last_page, $total);
-        return $this->apiResponse( VideoResource::collection($videos), $current_page, $last_page, $total);
+        
+        return $this->apiResponse(VideoResource::collection($videos), $currentPage, $lastPage, $total);
     }
+
     public function show($id)
     {
         $video = Video::find($id);
+        
         if ($video) {
-            return   $this->apiResponse(new VideoResource($video));
+            return $this->apiResponse(new VideoResource($video));
         }
-        return   $this->apiResponse(null);
-    }
-    public function search($search)
-    {
-        $videos = Video::search($search)->paginate(12);
-        $current_page = $videos->currentPage();
-        $last_page = $videos->lastPage();
-        $total = $videos->total();
-        return $this->apiResponse(VideoResource::collection($videos), $current_page, $last_page, $total);
+        
+        return $this->apiResponse(null);
     }
     
+    private function getVideos(Request $request)
+    {
+        if ($request->search) {
+            return Video::search($request->search)->paginate(12);
+        }
+        if ($request->tag) {
+            return Video::where('tag_id', $request->tag)->orderBy('id', 'DESC')->paginate(12);
+        }
+        if ($request->exceptTag) {
+            return Video::where('tag_id', '!=', $request->exceptTag)->orderBy('id', 'DESC')->paginate(12);
+        }
+        
+        return Video::latest()->paginate(12); 
+    }
 }
+
